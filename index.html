@@ -98,6 +98,14 @@
     padding: 6px 10px; border-radius: 2px; color: var(--foam-dim);
   }
   .chip b { color: var(--brass); font-weight: 600; }
+  .cta {
+    display: inline-flex; align-items: center; gap: 10px; width: fit-content; margin-top: 10px;
+    font-family: var(--mono); font-size: 13px; letter-spacing: .1em; text-transform: uppercase; text-decoration: none;
+    color: var(--bg); background: var(--brass); padding: 12px 18px; border-radius: 2px; font-weight: 600;
+    box-shadow: 0 8px 30px rgba(217,164,65,.25);
+  }
+  .cta:hover { background: var(--foam); color: var(--bg); }
+  .cta svg { width: 16px; height: 16px; fill: var(--ember-deep); }
 
   /* ---------- page column ---------- */
   .wrap {
@@ -215,6 +223,7 @@
       <span class="chip"><b>Heals</b> fast, ugly, good enough</span>
       <span class="chip"><b>Eyebrows lost</b> 11</span>
     </div>
+    <a class="cta" href="profile.html"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-7-4.6-9.3-8.6C1 9.2 2.7 5.5 6.3 5.1c2-.2 3.7.8 4.7 2.3 1-1.5 2.7-2.5 4.7-2.3 3.6.4 5.3 4.1 3.6 7.3C19 16.4 12 21 12 21z"/></svg>View his Azeroth Dating Profile</a>
   </div>
 </header>
 
@@ -315,7 +324,7 @@
 
   <footer>
     <span>Dagnar Barleigh · WoW Forever</span>
-    <span>Fix your gun · Heal your wound · Drink your ale</span>
+    <span><a href="profile.html" style="color:var(--brass);text-decoration:none">Azeroth Dating Profile</a> · Fix your gun · Heal your wound · Drink your ale</span>
   </footer>
 </main>
 

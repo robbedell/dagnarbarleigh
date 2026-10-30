@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Dagnar Barleigh · Azeroth Dating Profile</title>
+<meta name="description" content="Dagnar, 47. Shaman, engineer, looking for someone who stays. Updated after every adventure.">
+<meta property="og:title" content="Dagnar, 47 · Azeroth Dating Profile">
+<meta property="og:description" content="My most irrational fear: a quiet room.">
+<meta property="og:image" content="https://dagnarbarleigh.org/portrait.jpg">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;1,9..144,500&family=Figtree:wght@400;500;600;700&display=swap">
+<style>
+  :root {
+    --ground: #fbf7f2; --card: #ffffff; --line: #ebe3d9; --ink: #1f1a16; --ink-2: #6b5e54;
+    --accent: #b8431a; --accent-dark: #8f3211;
+    --wood: #130d0a; --leather: #2a1d16; --brass: #d9a441; --foam: #f6ead8; --foam-dim: #c9b596;
+    --display: "Fraunces", Georgia, serif; --body: "Figtree", system-ui, -apple-system, sans-serif;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; background: var(--wood); color: var(--ink); }
+  body { font-family: var(--body); line-height: 1.45; -webkit-font-smoothing: antialiased; }
+  img { max-width: 100%; display: block; }
+  a { color: var(--accent); }
+  :focus-visible { outline: 2px solid var(--brass); outline-offset: 3px; }
+
+  .back {
+    position: fixed; top: max(12px, env(safe-area-inset-top, 0px)); left: max(16px, env(safe-area-inset-left, 0px));
+    z-index: 5; font-size: 13px; font-weight: 600; letter-spacing: .04em; text-transform: uppercase;
+    color: var(--foam); text-decoration: none; background: rgba(19,13,10,.75); padding: 8px 12px; border-radius: 999px;
+    border: 1px solid #5a3d22;
+  }
+  .back:hover { color: var(--brass); }
+
+  .stage {
+    min-height: 100%;
+    padding-left: max(16px, env(safe-area-inset-left, 0px));
+    padding-right: max(16px, env(safe-area-inset-right, 0px));
+    padding-block: 64px 48px;
+    display: flex; justify-content: center;
+  }
+  .phone {
+    width: 100%; max-width: 420px; background: var(--ground); border-radius: 28px;
+    box-shadow: 0 30px 80px rgba(0,0,0,.6), 0 0 0 1px #5a3d22;
+    padding: 24px 16px 100px; position: relative; display: flex; flex-direction: column; gap: 16px;
+  }
+  @media (max-width: 480px) {
+    .stage { padding-left: 0; padding-right: 0; padding-block: 0; }
+    .phone { max-width: none; border-radius: 0; box-shadow: none; padding-top: 64px;
+      padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+  }
+
+  .head { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; }
+  .head h1 { margin: 0; font-family: var(--display); font-size: 34px; font-weight: 600; letter-spacing: -.01em; }
+  .head h1 span { font-weight: 500; color: var(--ink-2); }
+  .status { font-size: 13px; font-weight: 600; color: var(--accent); letter-spacing: .04em; white-space: nowrap; }
+
+  .photo { position: relative; border-radius: 18px; overflow: hidden; background: var(--leather); max-width: 100%; }
+  .photo img { width: 100%; height: 100%; object-fit: cover; }
+  .photo.tall { aspect-ratio: 4 / 5; }
+  .photo.square { aspect-ratio: 1 / 1; }
+  .photo.wide { aspect-ratio: 4 / 3; }
+  .photo .tag {
+    position: absolute; left: 12px; bottom: 12px; font-size: 12px; font-weight: 600; padding: 6px 10px;
+    border-radius: 999px; background: rgba(251,247,242,.92); color: var(--ink);
+  }
+  .like {
+    position: absolute; right: 12px; bottom: 12px; width: 48px; height: 48px; border-radius: 24px; border: 0;
+    background: var(--ground); display: flex; align-items: center; justify-content: center;
+    box-shadow: 0 4px 14px rgba(0,0,0,.25); cursor: pointer;
+  }
+  .like svg { width: 22px; height: 22px; stroke: var(--accent); fill: none; stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; }
+  .like.on svg { fill: var(--accent); }
+  .caption { font-size: 13px; color: var(--ink-2); padding: 0 4px; margin: -8px 0 0; }
+
+  .vitals {
+    display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px 14px; padding: 14px 16px;
+    background: var(--card); border: 1px solid var(--line); border-radius: 16px; font-size: 14px;
+  }
+  .vitals div { display: flex; flex-direction: column; gap: 2px; min-width: 0; }
+  .vitals span:first-child { font-size: 11px; font-weight: 600; letter-spacing: .06em; color: var(--ink-2); }
+
+  .prompt {
+    display: flex; flex-direction: column; gap: 10px; padding: 18px 18px 16px; background: var(--card);
+    border: 1px solid var(--line); border-radius: 18px; position: relative;
+  }
+  .prompt .q { font-size: 12px; font-weight: 600; color: var(--ink-2); }
+  .prompt p { margin: 0; font-family: var(--display); font-size: 24px; font-weight: 500; line-height: 1.22; padding-right: 44px; }
+  .prompt .like { width: 44px; height: 44px; border: 1px solid var(--line); box-shadow: none; }
+  .prompt .like svg { width: 20px; height: 20px; }
+  .prompt .note { font-size: 12px; color: var(--accent); font-weight: 600; }
+
+  .road {
+    display: flex; flex-direction: column; gap: 12px; padding: 18px 18px 16px;
+    background: var(--leather); color: var(--foam); border-radius: 18px; border: 2px solid var(--brass);
+  }
+  .road .row { display: flex; align-items: center; justify-content: space-between; gap: 10px; }
+  .road .label { font-size: 12px; font-weight: 600; color: var(--brass); letter-spacing: .06em; }
+  .road .date { font-size: 12px; color: var(--foam-dim); }
+  .road p { margin: 0; }
+  .road .lead { font-family: var(--display); font-size: 19px; font-weight: 500; line-height: 1.3; }
+  .road .more { font-size: 14px; line-height: 1.45; color: #e6d6bc; }
+  .pills { display: flex; gap: 8px; flex-wrap: wrap; }
+  .pill { font-size: 12px; font-weight: 600; padding: 6px 10px; border-radius: 999px; background: #3d2a20; color: var(--brass); font-variant-numeric: tabular-nums; }
+
+  .actions {
+    position: sticky; bottom: 0; margin: 8px -16px -100px; padding: 14px 16px calc(24px + env(safe-area-inset-bottom, 0px));
+    background: linear-gradient(180deg, rgba(251,247,242,0) 0%, var(--ground) 35%);
+    display: flex; justify-content: space-between; align-items: center;
+  }
+  .actions button { width: 56px; height: 56px; border-radius: 28px; display: flex; align-items: center; justify-content: center; cursor: pointer; }
+  .actions .pass { border: 1px solid #e2d8cc; background: var(--card); }
+  .actions .pass svg { width: 22px; height: 22px; stroke: var(--ink-2); fill: none; stroke-width: 2.4; stroke-linecap: round; }
+  .actions .heart { border: 0; background: var(--accent); }
+  .actions .heart svg { width: 24px; height: 24px; fill: #fff; }
+  .actions .hint { font-size: 13px; font-weight: 600; color: var(--ink-2); }
+  .toast {
+    position: fixed; left: 50%; bottom: calc(24px + env(safe-area-inset-bottom, 0px)); transform: translate(-50%, 20px);
+    background: var(--leather); color: var(--foam); border: 1px solid var(--brass); padding: 10px 16px; border-radius: 999px;
+    font-size: 14px; opacity: 0; transition: opacity .25s, transform .25s; pointer-events: none; z-index: 6; max-width: 90vw; text-align: center;
+  }
+  .toast.show { opacity: 1; transform: translate(-50%, 0); }
+  @media (prefers-reduced-motion: reduce) { .toast { transition: none; } }
+</style>
+</head>
+<body>
+<a class="back" href="index.html">&larr; Back to Dagnar</a>
+
+<div class="stage">
+  <main class="phone">
+    <div class="head">
+      <h1>Dagnar <span>47</span></h1>
+      <span class="status">NEW HERE</span>
+    </div>
+
+    <div class="photo tall">
+      <img src="portrait.jpg" alt="Dagnar raising a tankard in a crowded tavern" style="object-position: 50% 20%">
+      <button class="like" type="button" aria-label="Like this photo" data-like="his tankard"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-7-4.6-9.3-8.6C1 9.2 2.7 5.5 6.3 5.1c2-.2 3.7.8 4.7 2.3 1-1.5 2.7-2.5 4.7-2.3 3.6.4 5.3 4.1 3.6 7.3C19 16.4 12 21 12 21z"/></svg></button>
+    </div>
+
+    <div class="vitals">
+      <div><span>HEIGHT</span><span>4&#39; 2&quot;</span></div>
+      <div><span>FROM</span><span>Shadowforge, by way of Aerie Peak</span></div>
+      <div><span>WORK</span><span>Shaman. Engineer. Says he&#39;s the second one.</span></div>
+      <div><span>LOOKING FOR</span><span>Someone who stays</span></div>
+      <div><span>DRINKS</span><span>Yes</span></div>
+      <div><span>SMOKES</span><span>Only when something goes off</span></div>
+    </div>
+
+    <div class="prompt">
+      <span class="q">My most irrational fear</span>
+      <p>A quiet room.</p>
+      <button class="like" type="button" aria-label="Like this answer" data-like="that answer"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-7-4.6-9.3-8.6C1 9.2 2.7 5.5 6.3 5.1c2-.2 3.7.8 4.7 2.3 1-1.5 2.7-2.5 4.7-2.3 3.6.4 5.3 4.1 3.6 7.3C19 16.4 12 21 12 21z"/></svg></button>
+    </div>
+
+    <!-- ROAD: this card is rewritten after every session -->
+    <section class="road" aria-label="Latest from the road">
+      <div class="row"><span class="label">LATEST FROM THE ROAD</span><span class="date">Oct 30</span></div>
+      <p class="lead">Just got into town. Nothing&#39;s exploded yet. Give it a week.</p>
+      <p class="more">Ironforge. Day one. Already asked three people where they&#39;re from.</p>
+      <div class="pills">
+        <span class="pill">Eyebrows: 11</span>
+        <span class="pill">Pints: 3</span>
+        <span class="pill">Ironforge</span>
+      </div>
+    </section>
+    <!-- /ROAD -->
+
+    <div class="photo square">
+      <img src="face.jpg" alt="Close-up of Dagnar grinning, eyes glowing">
+      <button class="like" type="button" aria-label="Like this photo" data-like="the eyebrows, while they last"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-7-4.6-9.3-8.6C1 9.2 2.7 5.5 6.3 5.1c2-.2 3.7.8 4.7 2.3 1-1.5 2.7-2.5 4.7-2.3 3.6.4 5.3 4.1 3.6 7.3C19 16.4 12 21 12 21z"/></svg></button>
+    </div>
+
+    <div class="prompt">
+      <span class="q">Two truths and a lie</span>
+      <p>I&#39;ve lost my eyebrows eleven times. I negotiate better drunk. It&#39;s a brewery.</p>
+    </div>
+
+    <div class="prompt">
+      <span class="q">I&#39;ll fall for you if</span>
+      <p>You ask where I&#39;m from and don&#39;t need the long version. Yet.</p>
+    </div>
+
+    <div class="photo wide">
+      <img src="elemental.jpg" alt="A small fire elemental dancing on a tavern table">
+    </div>
+    <p class="caption">Not a pet. A coworker. Doesn&#39;t do mornings either.</p>
+
+    <div class="prompt">
+      <span class="q">The way to win me over is</span>
+      <p>Hand me the wrench anyway.</p>
+    </div>
+
+    <div class="photo wide">
+      <img src="goblins.jpg" alt="Two goblins laughing over drinks at the next table">
+      <span class="tag">His kind of crowd</span>
+    </div>
+
+    <div class="prompt">
+      <span class="q">Dating me is like</span>
+      <p>A loud room and a long road. You pick the order.</p>
+    </div>
+
+    <div class="actions">
+      <button class="pass" type="button" aria-label="Pass" data-toast="He&#39;ll understand. He&#39;ll also tell everyone at the bar."><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button>
+      <span class="hint">Updated after every adventure</span>
+      <button class="heart" type="button" aria-label="Like" data-toast="He&#39;s buying the next round. Don&#39;t let him fix anything."><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-7-4.6-9.3-8.6C1 9.2 2.7 5.5 6.3 5.1c2-.2 3.7.8 4.7 2.3 1-1.5 2.7-2.5 4.7-2.3 3.6.4 5.3 4.1 3.6 7.3C19 16.4 12 21 12 21z"/></svg></button>
+    </div>
+  </main>
+</div>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script>
+(function () {
+  var toast = document.getElementById('toast'), t;
+  function say(msg) {
+    toast.textContent = msg; toast.classList.add('show');
+    clearTimeout(t); t = setTimeout(function () { toast.classList.remove('show'); }, 2600);
+  }
+  document.querySelectorAll('.like').forEach(function (b) {
+    b.addEventListener('click', function () {
+      b.classList.toggle('on');
+      if (b.classList.contains('on')) say('You liked ' + b.dataset.like + '.');
+    });
+  });
+  document.querySelectorAll('[data-toast]').forEach(function (b) {
+    b.addEventListener('click', function () { say(b.dataset.toast); });
+  });
+})();
+</script>
+</body>
+</html>
