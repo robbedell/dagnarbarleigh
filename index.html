@@ -1,0 +1,382 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Dagnar Barleigh</title>
+<meta name="description" content="Dagnar Barleigh: Dark Iron sapper turned shaman, engineer, and the best negotiator in the room after four pints. WoW Forever RP character page.">
+<meta property="og:title" content="Dagnar Barleigh">
+<meta property="og:description" content="Negotiates better drunk. Builds worse drunk.">
+<meta property="og:image" content="https://dagnarbarleigh.org/hero.jpg">
+<meta property="og:type" content="website">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<style>html,body{margin:0}img{max-width:100%}[hidden]{display:none!important}</style>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Metamorphous&family=Alegreya:ital,wght@0,400;0,500;0,700;1,400&family=IBM+Plex+Mono:wght@400;600&display=swap">
+<style>
+  /* Layout: a tavern at night. Full-bleed hero, then a single reading column
+     with brass-ruled "work order" panels. Single dark theme by choice. */
+  :root {
+    --bg: #130d0a;          /* charred timber */
+    --bg-2: #1e1410;        /* tavern wall */
+    --panel: #241812;       /* leather */
+    --line: #5a3d22;        /* oxidized brass rule */
+    --brass: #d9a441;       /* polished brass */
+    --ember: #ff7a1f;       /* fire totem */
+    --ember-deep: #c2410c;
+    --foam: #f3e7cf;        /* ale foam, body text */
+    --foam-dim: #c9b596;    /* secondary text */
+    --mute: #8a7257;
+    --arc: #7fd4ff;         /* elemental blue, used once */
+    --display: "Metamorphous", "Georgia", serif;
+    --body: "Alegreya", "Georgia", "Times New Roman", serif;
+    --mono: "IBM Plex Mono", "SFMono-Regular", Menlo, monospace;
+    --gutter-l: max(16px, env(safe-area-inset-left, 0px));
+    --gutter-r: max(16px, env(safe-area-inset-right, 0px));
+    color-scheme: dark;
+  }
+  * { box-sizing: border-box; }
+  html, body { background: var(--bg); color: var(--foam); }
+  body {
+    font-family: var(--body);
+    font-size: 18px;
+    line-height: 1.55;
+    -webkit-font-smoothing: antialiased;
+  }
+  body::before {
+    content: ""; position: fixed; inset: 0 0 auto;
+    height: env(safe-area-inset-top, 0px); z-index: 10; background: var(--bg);
+  }
+  a { color: var(--brass); }
+  :focus-visible { outline: 2px solid var(--ember); outline-offset: 3px; }
+
+  /* ---------- hero ---------- */
+  .hero {
+    position: relative;
+    isolation: isolate;
+    overflow: hidden;
+    background: var(--bg-2);
+    min-height: 520px;
+  }
+  .hero picture, .hero img {
+    display: block; width: 100%; height: 100%;
+    position: absolute; inset: 0; object-fit: cover; object-position: 62% 30%;
+    z-index: -2;
+  }
+  .hero::after {
+    content: ""; position: absolute; inset: 0; z-index: -1;
+    background:
+      linear-gradient(180deg, rgba(19,13,10,.25) 0%, rgba(19,13,10,0) 30%, rgba(19,13,10,.55) 65%, var(--bg) 100%),
+      linear-gradient(90deg, rgba(19,13,10,.7) 0%, rgba(19,13,10,0) 55%);
+  }
+  .hero-inner {
+    position: relative;
+    padding-left: var(--gutter-l); padding-right: var(--gutter-r);
+    padding-block: clamp(140px, 28vw, 300px) 36px;
+    max-width: 1120px; margin: 0 auto;
+    display: grid; gap: 14px;
+  }
+  .eyebrow {
+    font-family: var(--mono); font-size: 12px; letter-spacing: .18em;
+    text-transform: uppercase; color: var(--brass);
+  }
+  .hero h1 {
+    font-family: var(--display); font-weight: 400;
+    font-size: clamp(42px, 9vw, 104px); line-height: .95; margin: 0;
+    text-wrap: balance; letter-spacing: -.01em;
+    text-shadow: 0 2px 0 rgba(0,0,0,.6), 0 12px 40px rgba(0,0,0,.6);
+  }
+  .hero h1 span { display: block; color: var(--brass); }
+  .hero .tag {
+    font-size: clamp(18px, 2.4vw, 23px); font-style: italic; color: var(--foam);
+    max-width: 34ch; text-shadow: 0 1px 12px rgba(0,0,0,.8); margin: 0;
+  }
+  .chips { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 6px; }
+  .chip {
+    font-family: var(--mono); font-size: 12px; letter-spacing: .06em;
+    border: 1px solid var(--line); background: rgba(19,13,10,.7);
+    padding: 6px 10px; border-radius: 2px; color: var(--foam-dim);
+  }
+  .chip b { color: var(--brass); font-weight: 600; }
+
+  /* ---------- page column ---------- */
+  .wrap {
+    padding-left: var(--gutter-l); padding-right: var(--gutter-r);
+    padding-block: 24px 80px;
+    max-width: 1120px; margin: 0 auto;
+    display: grid; gap: 64px;
+  }
+  section { display: grid; gap: 18px; min-width: 0; }
+  h2 {
+    font-family: var(--display); font-weight: 400; font-size: clamp(26px, 3.6vw, 38px);
+    margin: 0; line-height: 1.1; text-wrap: balance; color: var(--foam);
+  }
+  .rule { display: flex; align-items: center; gap: 14px; }
+  .rule::after { content: ""; flex: 1; height: 1px; background: linear-gradient(90deg, var(--line), transparent); }
+  .lede { max-width: 66ch; color: var(--foam-dim); margin: 0; }
+  p { margin: 0; max-width: 66ch; }
+  .prose { display: grid; gap: 16px; }
+
+  /* ---------- pint gauge ---------- */
+  .gauge {
+    border: 1px solid var(--line); background: var(--panel);
+    padding: 22px; border-radius: 3px; display: grid; gap: 20px;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,.04), 0 20px 50px rgba(0,0,0,.35);
+  }
+  .gauge-head { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 10px; align-items: baseline; }
+  .gauge-head .count { font-family: var(--mono); font-size: 14px; color: var(--brass); font-variant-numeric: tabular-nums; }
+  .pints { display: flex; gap: 6px; flex-wrap: wrap; }
+  .pint {
+    width: 34px; height: 44px; border: 1px solid var(--line); border-radius: 2px 2px 4px 4px;
+    background: linear-gradient(180deg, var(--bg-2) 0 100%); position: relative; cursor: pointer;
+    transition: background .25s;
+  }
+  .pint.full {
+    background: linear-gradient(180deg, var(--foam) 0 22%, var(--brass) 22% 100%);
+    border-color: var(--brass);
+  }
+  .pint.full::after { content: ""; position: absolute; left: 6px; right: 6px; top: 4px; height: 4px; background: #fff; opacity: .7; border-radius: 2px; }
+  input[type=range] { width: 100%; accent-color: var(--ember); }
+  .stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 14px; }
+  .stat { display: grid; gap: 6px; }
+  .stat label { font-family: var(--mono); font-size: 11px; letter-spacing: .14em; text-transform: uppercase; color: var(--mute); display: flex; justify-content: space-between; }
+  .stat label output { color: var(--foam); font-variant-numeric: tabular-nums; }
+  .bar { height: 10px; background: var(--bg); border: 1px solid var(--line); border-radius: 2px; overflow: hidden; }
+  .bar i { display: block; height: 100%; width: 0; transition: width .35s ease, background .35s; }
+  .bar.neg i { background: linear-gradient(90deg, var(--ember-deep), var(--brass)); }
+  .bar.eng i { background: linear-gradient(90deg, var(--arc), #3b8bb0); }
+  .bar.vol i { background: linear-gradient(90deg, var(--mute), var(--foam-dim)); }
+  .readout {
+    font-family: var(--mono); font-size: 14px; color: var(--foam);
+    border-left: 3px solid var(--ember); padding: 8px 12px; background: rgba(0,0,0,.25);
+    min-height: 3.2em; line-height: 1.5;
+  }
+  .readout.boom { border-color: var(--ember); animation: flash .5s ease; }
+  @keyframes flash { 0% { background: rgba(255,122,31,.45) } 100% { background: rgba(0,0,0,.25) } }
+  @media (prefers-reduced-motion: reduce) { .readout.boom { animation: none } .bar i { transition: none } }
+
+  /* ---------- traits ---------- */
+  .traits { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1px; background: var(--line); border: 1px solid var(--line); }
+  .trait { background: var(--bg-2); padding: 20px; display: grid; gap: 8px; min-width: 0; }
+  .trait h3 { margin: 0; font-family: var(--display); font-weight: 400; font-size: 19px; color: var(--brass); line-height: 1.2; }
+  .trait p { font-size: 16.5px; color: var(--foam-dim); max-width: none; }
+  .trait q { font-style: italic; color: var(--foam); }
+
+  /* ---------- story toggle ---------- */
+  .story { display: grid; grid-template-columns: minmax(0, 1fr) 300px; gap: 36px; align-items: start; }
+  @media (max-width: 820px) { .story { grid-template-columns: 1fr; } }
+  .portrait { border: 1px solid var(--line); padding: 6px; background: var(--panel); }
+  .portrait img { display: block; width: 100%; height: auto; }
+  .portrait figcaption { font-family: var(--mono); font-size: 11px; letter-spacing: .1em; color: var(--mute); padding: 10px 4px 4px; text-transform: uppercase; }
+  .toggle { display: inline-flex; border: 1px solid var(--line); border-radius: 3px; overflow: hidden; width: fit-content; }
+  .toggle button {
+    font-family: var(--mono); font-size: 12px; letter-spacing: .08em; text-transform: uppercase;
+    background: var(--bg-2); color: var(--foam-dim); border: 0; padding: 10px 14px; cursor: pointer;
+  }
+  .toggle button[aria-pressed=true] { background: var(--brass); color: var(--bg); font-weight: 600; }
+  .drop { color: var(--ember); font-family: var(--display); font-size: 3.1em; float: left; line-height: .8; padding: 6px 8px 0 0; }
+  .note { font-family: var(--mono); font-size: 13px; color: var(--mute); }
+
+  /* ---------- ledger ---------- */
+  .ledger { overflow-x: auto; border: 1px solid var(--line); }
+  table { border-collapse: collapse; width: 100%; min-width: 560px; font-size: 16px; }
+  th, td { text-align: left; padding: 12px 14px; border-bottom: 1px solid var(--line); vertical-align: top; }
+  th { font-family: var(--mono); font-size: 11px; letter-spacing: .14em; text-transform: uppercase; color: var(--mute); background: var(--bg-2); font-weight: 600; }
+  tr:last-child td { border-bottom: 0; }
+  td:first-child { color: var(--brass); }
+
+  /* ---------- hooks ---------- */
+  .hooks { list-style: none; padding: 0; margin: 0; display: grid; gap: 10px; max-width: 70ch; }
+  .hooks li { display: grid; grid-template-columns: 22px 1fr; gap: 12px; align-items: start; color: var(--foam-dim); }
+  .hooks li::before { content: ""; width: 10px; height: 10px; margin-top: 9px; background: var(--ember); transform: rotate(45deg); box-shadow: 0 0 10px var(--ember); }
+
+  /* ---------- counter ---------- */
+  .counter { display: grid; grid-template-columns: auto 1fr; gap: 22px; align-items: center; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); padding: 22px 0; }
+  .counter .n { font-family: var(--display); font-size: clamp(64px, 12vw, 128px); line-height: .85; color: var(--ember); text-shadow: 0 0 30px rgba(255,122,31,.35); font-variant-numeric: tabular-nums; }
+  .counter p { color: var(--foam-dim); }
+  @media (max-width: 520px) { .counter { grid-template-columns: 1fr; } }
+
+  footer { font-family: var(--mono); font-size: 12px; color: var(--mute); letter-spacing: .08em; text-transform: uppercase; display: flex; flex-wrap: wrap; justify-content: space-between; gap: 10px; border-top: 1px solid var(--line); padding-top: 18px; }
+</style>
+</head>
+<body>
+<header class="hero">
+  <picture>
+    <source media="(max-width: 700px)" srcset="portrait.jpg">
+    <img src="hero.jpg" alt="Dagnar Barleigh, a black-bearded dwarf shaman, raising a tankard in a crowded tavern while a small fire elemental dances on the table in front of him.">
+  </picture>
+  <div class="hero-inner">
+    <div class="eyebrow">Dwarf · Shaman · Engineer · WoW Forever</div>
+    <h1>Dagnar <span>Barleigh</span></h1>
+    <p class="tag">Negotiates better drunk. Builds worse drunk. Would rather be in a loud room with strangers than a quiet one with himself.</p>
+    <div class="chips">
+      <span class="chip"><b>Origin</b> Dark Iron, Shadowforge</span>
+      <span class="chip"><b>Taught by</b> the Wildhammer, Aerie Peak</span>
+      <span class="chip"><b>Heals</b> fast, ugly, good enough</span>
+      <span class="chip"><b>Eyebrows lost</b> 11</span>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <section aria-labelledby="gauge-h">
+    <div class="rule"><h2 id="gauge-h">The Pint Gauge</h2></div>
+    <p class="lede">Dagnar runs on a curve. Pour him a few and watch what happens to his mouth and his hands.</p>
+    <div class="gauge">
+      <div class="gauge-head">
+        <span class="eyebrow">Pints poured</span>
+        <span class="count"><output id="pintCount">3</output> / 8</span>
+      </div>
+      <div class="pints" id="pints" aria-hidden="true"></div>
+      <label for="pintRange" class="eyebrow" style="font-size:11px;color:var(--mute)">Drag to pour</label>
+      <input type="range" id="pintRange" min="0" max="8" value="3" step="1" aria-label="Pints poured">
+      <div class="stats">
+        <div class="stat"><label>Negotiation <output id="negOut">70</output></label><div class="bar neg"><i id="negBar"></i></div></div>
+        <div class="stat"><label>Engineering <output id="engOut">85</output></label><div class="bar eng"><i id="engBar"></i></div></div>
+        <div class="stat"><label>Volume <output id="volOut">40</output></label><div class="bar vol"><i id="volBar"></i></div></div>
+      </div>
+      <div class="readout" id="readout" aria-live="polite"></div>
+    </div>
+  </section>
+
+  <section aria-labelledby="traits-h">
+    <div class="rule"><h2 id="traits-h">Field Notes</h2></div>
+    <div class="traits">
+      <div class="trait"><h3>Passive, not harmless</h3><p>Doesn't start fights, doesn't take the bait, buys the round, sings the wrong words on purpose. He's seen what happens when he decides a problem needs solving.</p></div>
+      <div class="trait"><h3>Parties are where he sleeps</h3><p>Can't sit in a quiet room. A crowded tavern, a bad song, a dozen strangers shouting is the only place his head goes quiet. Adventure is a party that moves.</p></div>
+      <div class="trait"><h3>Asks everyone where they're from</h3><p>Dwarves of both kinds gave him a casualty list and a fight. Everyone else is new. He's not collecting; he's looking.</p></div>
+      <div class="trait"><h3>Looking for his person</h3><p>Says he wants a business partner for a brewery. It's not a brewery. He's half-sure it won't be a dwarf. He isn't picky about the rest.</p></div>
+      <div class="trait"><h3>Better negotiator drunk</h3><p><q>The drink takes away everything I'm afraid of losing, and you can't bargain with a dwarf who's got nothing on the table.</q></p></div>
+      <div class="trait"><h3>Worse engineer drunk</h3><p>Past the fourth pint, things explode. He calls it quality control. When he's uncomfortable he takes something apart and puts it back together better. Mostly.</p></div>
+    </div>
+  </section>
+
+  <section aria-labelledby="story-h">
+    <div class="rule"><h2 id="story-h">The Story</h2></div>
+    <div class="toggle" role="group" aria-label="Which version of the story">
+      <button type="button" id="btnShort" aria-pressed="true">What he'll tell you</button>
+      <button type="button" id="btnLong" aria-pressed="false">Four pints in</button>
+    </div>
+    <div class="story">
+      <div class="prose" id="storyShort">
+        <p><span class="drop">D</span>agnar was a demolitions engineer for the Dark Irons until a job in Loch Modan went bad and he walked away from it, and from them. He doesn't talk about it. He drifted to the Wildhammer in the Hinterlands, where an old shaman noticed the fire in him and taught him to hold it instead of letting it hold him. He took the name Barleigh because he liked the sound of it and because nobody would come looking for a dwarf called Barleigh.</p>
+        <p>He's not the reverent type. He deals with the spirits the way he deals with everyone: over a drink. Sober, the fire's too loud in his head. A few pints in, he's the best negotiator in the room. The one thing the drink doesn't help is his hands. Past the fourth pint his engineering tends to explode.</p>
+        <p>He's easy company. He'd rather be in a loud tavern or on the road with a group than anywhere quiet, and he'll follow just about anyone just about anywhere if there's a good time at the end of it. He's curious about everyone who isn't a dwarf. Somewhere in all that he's looking for the one person who'll stick around.</p>
+      </div>
+      <div class="prose" id="storyLong" hidden>
+        <p><span class="drop">B</span>arleigh isn't the name he was born with. The name he was born with is on a Dark Iron casualty list in Shadowforge City, and he put it there himself.</p>
+        <p>He was a sapper for the Thaurissan line, the kind of engineer who gets sent in first because he's cheaper than the door. When the officers wanted a tunnel under a Bronzebeard outpost in Loch Modan and didn't care who was above it, they sent Dagnar. He set the charges. He counted the families on the way in. Then he cut the fuse, walked out the far side, and kept walking until the mountains changed shape.</p>
+        <p>The Wildhammer in the Hinterlands ask Dark Irons one question, and the answer is a fight. He won his, barely. The shaman who'd been watching offered to teach him to hold the fire. He asked what it would cost. She said everything he was still pretending to be. That was the last fight he started.</p>
+        <p>His totems are cased in blackened Dark Iron plate with a screw-cap at the base; he says it's for drainage. It isn't. His still is a reworked demolition rig that makes something closer to solvent than whiskey; he sells it in Booty Bay. He ran the back room at the Grim Guzzler for a Thorium Brotherhood foreman for four months. There's a reason he isn't welcome in Blackrock Depths anymore, a reason the back room has a new ceiling, and a reason the Brotherhood still buys his spirits at the price he set.</p>
+        <p>He doesn't want redemption. He thinks it's a Light-worshipper's word for forgetting. If you ask him about Loch Modan, he'll tell you exactly how many families there were. He's never once gotten the number wrong.</p>
+      </div>
+      <figure class="portrait">
+        <img src="portrait.jpg" alt="Close crop of Dagnar grinning, tankard raised, fire totem glowing on the table.">
+        <figcaption>Grim Guzzler, back room. Before the ceiling.</figcaption>
+      </figure>
+    </div>
+    <p class="note">"Another time" is a complete answer.</p>
+  </section>
+
+  <section aria-labelledby="ledger-h">
+    <div class="rule"><h2 id="ledger-h">Known Associates</h2></div>
+    <div class="ledger">
+      <table>
+        <thead><tr><th>Who</th><th>Where</th><th>Standing</th></tr></thead>
+        <tbody>
+          <tr><td>The old Wildhammer shaman</td><td>Aerie Peak, the Hinterlands</td><td>Taught him to hold the fire. He owes her. She can call it in.</td></tr>
+          <tr><td>Thorium Brotherhood foreman</td><td>Grim Guzzler, Blackrock Depths</td><td>Former employer. Still buys his spirits. Not friendly.</td></tr>
+          <tr><td>The Booty Bay buyers</td><td>Booty Bay, Stranglethorn</td><td>Don't ask what the solvent-whiskey is made from. Ongoing trade.</td></tr>
+          <tr><td>Whoever hears the number and stays</td><td>Unknown</td><td>Vacancy.</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section aria-labelledby="hooks-h">
+    <div class="rule"><h2 id="hooks-h">Loose Fuses</h2></div>
+    <p class="lede">Things other characters can pull on.</p>
+    <ul class="hooks">
+      <li>A Dark Iron who recognizes him has leverage.</li>
+      <li>A Bronzebeard from Loch Modan has a grudge.</li>
+      <li>The shaman writes, or sends for him.</li>
+      <li>Someone wants to actually fund the brewery.</li>
+      <li>He offers to fix your gun. Check how many pints he's had first.</li>
+    </ul>
+  </section>
+
+  <section aria-label="Eyebrow count">
+    <div class="counter">
+      <div class="n">11</div>
+      <p>Times he has lost his eyebrows to his own engineering. He calls it quality control. The number goes up; it does not go down. Ask him about any one of them and you'll get a different story each time, all of them true.</p>
+    </div>
+  </section>
+
+  <footer>
+    <span>Dagnar Barleigh · WoW Forever</span>
+    <span>Fix your gun · Heal your wound · Drink your ale</span>
+  </footer>
+</main>
+
+<script>
+(function () {
+  var range = document.getElementById('pintRange');
+  var pintsEl = document.getElementById('pints');
+  var readout = document.getElementById('readout');
+  var lines = [
+    "Sober. Quiet. The fire's too loud. He's taking your watch apart to have something to do with his hands.",
+    "One pint. Asking where you're from and whether the spirits sound different there.",
+    "Two pints. Already talked the barkeep into a cheaper round for the table.",
+    "Three pints. This is where the deals get made. Don't sign anything, but do listen.",
+    "Four pints. Best negotiator in the room. Fuse looks about the right length. Looks.",
+    "Five pints. Talked an earth spirit into holding the ceiling. Took the lamp apart. Put it back. There's a piece left over.",
+    "Six pints. BANG. There goes the gnome's goggles. He's apologizing and still haggling.",
+    "Seven pints. Singing the chorus wrong on purpose. Totem is smoking in a way it shouldn't.",
+    "Eight pints. Eyebrows: gone. Quality control. He got you a better rate on the room, though."
+  ];
+  var neg = [25, 42, 58, 70, 88, 94, 90, 84, 78];
+  var eng = [92, 90, 88, 85, 60, 35, 12, 6, 2];
+  var vol = [10, 22, 33, 40, 58, 70, 82, 92, 100];
+
+  for (var i = 0; i < 8; i++) {
+    var p = document.createElement('div');
+    p.className = 'pint';
+    p.dataset.n = i + 1;
+    p.addEventListener('click', function (e) { range.value = e.currentTarget.dataset.n; render(true); });
+    pintsEl.appendChild(p);
+  }
+  function setBar(id, outId, v) {
+    document.getElementById(id).style.width = v + '%';
+    document.getElementById(outId).value = v;
+  }
+  var last = -1;
+  function render(animate) {
+    var n = parseInt(range.value, 10);
+    document.getElementById('pintCount').value = n;
+    var ps = pintsEl.children;
+    for (var k = 0; k < ps.length; k++) ps[k].classList.toggle('full', k < n);
+    setBar('negBar', 'negOut', neg[n]);
+    setBar('engBar', 'engOut', eng[n]);
+    setBar('volBar', 'volOut', vol[n]);
+    readout.textContent = lines[n];
+    readout.classList.remove('boom');
+    if (animate && n >= 6 && n > last) { void readout.offsetWidth; readout.classList.add('boom'); }
+    last = n;
+  }
+  range.addEventListener('input', function () { render(true); });
+  render(false);
+
+  var bs = document.getElementById('btnShort'), bl = document.getElementById('btnLong');
+  var ss = document.getElementById('storyShort'), sl = document.getElementById('storyLong');
+  function show(long) {
+    ss.hidden = long; sl.hidden = !long;
+    bs.setAttribute('aria-pressed', String(!long));
+    bl.setAttribute('aria-pressed', String(long));
+  }
+  bs.addEventListener('click', function () { show(false); });
+  bl.addEventListener('click', function () { show(true); });
+})();
+</script>
+</body>
+</html>
