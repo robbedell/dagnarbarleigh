@@ -91,6 +91,14 @@
   .prompt .like svg { width: 20px; height: 20px; }
   .prompt .note { font-size: 12px; color: var(--accent); font-weight: 600; }
 
+  .numbers {
+    display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1px; background: var(--line);
+    border: 1px solid var(--line); border-radius: 16px; overflow: hidden;
+  }
+  .numbers div { background: var(--card); padding: 12px 10px; display: flex; flex-direction: column; gap: 2px; align-items: center; text-align: center; min-width: 0; }
+  .numbers b { font-family: var(--display); font-size: 26px; font-weight: 600; line-height: 1; color: var(--accent); font-variant-numeric: tabular-nums; }
+  .numbers span { font-size: 11px; font-weight: 600; letter-spacing: .06em; color: var(--ink-2); text-transform: uppercase; }
+  .numbers-note { font-size: 12px; color: var(--ink-2); padding: 0 4px; margin: -8px 0 0; }
   .road {
     display: flex; flex-direction: column; gap: 12px; padding: 18px 18px 16px;
     background: var(--leather); color: var(--foam); border-radius: 18px; border: 2px solid var(--brass);
@@ -167,6 +175,16 @@
     </section>
     <!-- /ROAD -->
 
+    <div class="numbers" id="numbers" aria-label="By the numbers">
+      <div><b id="nDrinks">0</b><span>Drinks</span></div>
+      <div><b id="nSmashed">0</b><span>Times smashed</span></div>
+      <div><b id="nPeople">0</b><span>People met</span></div>
+      <div><b id="nDances">0</b><span>Dances</span></div>
+      <div><b id="nBangs">0</b><span>Things blown up</span></div>
+      <div><b id="nDeaths">0</b><span>Deaths</span></div>
+    </div>
+    <p class="numbers-note" id="numbersNote">Counted by the game itself. Nothing on the record yet.</p>
+
     <div class="photo square">
       <img src="face.jpg" alt="Close-up of Dagnar grinning, eyes glowing">
       <button class="like" type="button" aria-label="Like this photo" data-like="the eyebrows, while they last"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-7-4.6-9.3-8.6C1 9.2 2.7 5.5 6.3 5.1c2-.2 3.7.8 4.7 2.3 1-1.5 2.7-2.5 4.7-2.3 3.6.4 5.3 4.1 3.6 7.3C19 16.4 12 21 12 21z"/></svg></button>
@@ -241,6 +259,17 @@
     if (x.pints != null) pills.push('Pints: ' + x.pints);
     if (x.zone) pills.push(x.zone);
     document.getElementById('roadPills').innerHTML = pills.map(function (t) { return '<span class="pill">' + esc(t) + '</span>'; }).join('');
+    var st = c.stats || {};
+    function put(id, v) { document.getElementById(id).textContent = v || 0; }
+    put('nDrinks', st.drinks); put('nSmashed', st.smashed); put('nPeople', st.people);
+    put('nDances', st.dances); put('nBangs', st.bangs); put('nDeaths', st.deaths);
+    var bits = [];
+    if (st.races && st.races.length) bits.push('Has talked to ' + st.races.length + ' of the races of Azeroth: ' + st.races.join(', ') + '.');
+    if (st.zones) bits.push(st.zones + ' zones visited.');
+    if (st.restHours) bits.push(Math.round(st.restHours) + ' hours in taverns.');
+    if (st.peak && st.peak !== 'sober') bits.push('Furthest gone: ' + st.peak + '.');
+    if (st.duelsWon || st.duelsLost) bits.push('Duels ' + (st.duelsWon||0) + '-' + (st.duelsLost||0) + '.');
+    document.getElementById('numbersNote').textContent = bits.length ? 'Counted by the game itself. ' + bits.join(' ') : 'Counted by the game itself. Nothing on the record yet.';
   }).catch(function () {});
 })();
 </script>

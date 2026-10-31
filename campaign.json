@@ -11,5 +11,24 @@
       "pints": 3,
       "people": []
     }
-  ]
+  ],
+  "stats": {
+    "drinks": 0,
+    "smashed": 0,
+    "deaths": 0,
+    "dances": 0,
+    "toasts": 0,
+    "bangs": 0,
+    "crafted": 0,
+    "fish": 0,
+    "hearths": 0,
+    "duelsWon": 0,
+    "duelsLost": 0,
+    "people": 0,
+    "races": [],
+    "zones": 0,
+    "restHours": 0,
+    "peak": "sober",
+    "asOf": null
+  }
 }
