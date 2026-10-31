@@ -7,7 +7,7 @@
 <meta name="description" content="Dagnar, 47. Shaman, engineer, looking for someone who stays. Updated after every adventure.">
 <meta property="og:title" content="Dagnar, 47 · Azeroth Dating Profile">
 <meta property="og:description" content="My most irrational fear: a quiet room.">
-<meta property="og:image" content="https://dagnarbarleigh.org/portrait.jpg">
+<meta property="og:image" content="https://dagnarbarleigh.org/tavern.jpg">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;1,9..144,500&family=Figtree:wght@400;500;600;700&display=swap">
@@ -97,7 +97,7 @@
   .photo.tall { aspect-ratio: 4 / 5; }
   .photo.square { aspect-ratio: 1 / 1; }
   .photo.wide { aspect-ratio: 4 / 3; }
-  @media (min-width: 760px) { .feed .photo { aspect-ratio: auto; height: 100%; min-height: 240px; } }
+  @media (min-width: 760px) { .feed .photo { aspect-ratio: auto; height: 100%; min-height: 240px; } .feed .photo.tall { height: auto; aspect-ratio: 3 / 4; } .feed .photo.tall img { object-position: 50% 30%; } }
   .photo .tag, .photo .cap {
     position: absolute; left: 12px; bottom: 12px; font-size: 12px; font-weight: 600; padding: 6px 10px;
     border-radius: 999px; background: var(--tag-bg); color: var(--ink); max-width: calc(100% - 80px);
@@ -249,6 +249,11 @@
       <button class="like" type="button" aria-label="Like this photo" data-like="the eyebrows, while they last"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-7-4.6-9.3-8.6C1 9.2 2.7 5.5 6.3 5.1c2-.2 3.7.8 4.7 2.3 1-1.5 2.7-2.5 4.7-2.3 3.6.4 5.3 4.1 3.6 7.3C19 16.4 12 21 12 21z"/></svg></button>
     </div>
 
+    <div class="photo tall">
+      <img src="workbench.jpg" alt="Dagnar at a field workbench, a steam engine sparking beside a full tankard, a gryphon and dwarves behind him">
+      <span class="cap">Field repairs. The engine was fine. The engine was mostly fine.</span>
+      <button class="like" type="button" aria-label="Like this photo" data-like="the engine, before"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-7-4.6-9.3-8.6C1 9.2 2.7 5.5 6.3 5.1c2-.2 3.7.8 4.7 2.3 1-1.5 2.7-2.5 4.7-2.3 3.6.4 5.3 4.1 3.6 7.3C19 16.4 12 21 12 21z"/></svg></button>
+    </div>
     <div class="prompt">
       <span class="q">Two truths and a lie</span>
       <p>I&#39;ve lost my eyebrows eleven times. I negotiate better drunk. It&#39;s a brewery.</p>
@@ -259,11 +264,16 @@
       <p>You ask where I&#39;m from and don&#39;t need the long version. Yet.</p>
     </div>
 
-    <div class="photo wide span2">
+    <div class="photo wide">
       <img src="elemental.jpg" alt="A small fire elemental dancing on a tavern table">
       <span class="cap">Not a pet. A coworker. Doesn&#39;t do mornings either.</span>
     </div>
 
+    <div class="photo tall">
+      <img src="snow.jpg" alt="Dagnar laughing in the snow with a tankard while his engine explodes behind him and his earth totem covers its face">
+      <span class="cap">Same engine. Dun Morogh. Eyebrows: see counter.</span>
+      <button class="like" type="button" aria-label="Like this photo" data-like="the engine, after"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-7-4.6-9.3-8.6C1 9.2 2.7 5.5 6.3 5.1c2-.2 3.7.8 4.7 2.3 1-1.5 2.7-2.5 4.7-2.3 3.6.4 5.3 4.1 3.6 7.3C19 16.4 12 21 12 21z"/></svg></button>
+    </div>
     <div class="prompt">
       <span class="q">The way to win me over is</span>
       <p>Hand me the wrench anyway.</p>
@@ -274,7 +284,17 @@
       <span class="tag">His kind of crowd</span>
     </div>
 
-    <div class="prompt span2">
+    <div class="photo tall">
+      <img src="camp.jpg" alt="Dagnar sitting by a camp at night, holding his fire elemental like a drink, totem glowing, friends watching from the tents">
+      <span class="cap">Nights out. The camp didn’t vote on the entertainment.</span>
+      <button class="like" type="button" aria-label="Like this photo" data-like="his idea of a quiet night"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-7-4.6-9.3-8.6C1 9.2 2.7 5.5 6.3 5.1c2-.2 3.7.8 4.7 2.3 1-1.5 2.7-2.5 4.7-2.3 3.6.4 5.3 4.1 3.6 7.3C19 16.4 12 21 12 21z"/></svg></button>
+    </div>
+    <div class="photo tall">
+      <img src="tavern.jpg" alt="Dagnar in a crowded tavern leaning over a map with a fire elemental on the table, goblins and elves laughing around him">
+      <span class="cap">Planning session. The map survived. The table didn’t.</span>
+      <button class="like" type="button" aria-label="Like this photo" data-like="his planning process"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-7-4.6-9.3-8.6C1 9.2 2.7 5.5 6.3 5.1c2-.2 3.7.8 4.7 2.3 1-1.5 2.7-2.5 4.7-2.3 3.6.4 5.3 4.1 3.6 7.3C19 16.4 12 21 12 21z"/></svg></button>
+    </div>
+    <div class="prompt">
       <span class="q">Dating me is like</span>
       <p>A loud room and a long road. You pick the order.</p>
     </div>
