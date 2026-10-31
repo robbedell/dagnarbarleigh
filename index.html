@@ -362,6 +362,12 @@
     <button class="more" id="moreBtn" type="button" hidden>Older dispatches</button>
   </section>
 
+  <section aria-labelledby="story-so-far-h" id="storySection" hidden>
+    <div class="rule"><h2 id="story-so-far-h">The Story So Far</h2></div>
+    <p class="lede">Rewritten every Sunday. If you only read one thing.</p>
+    <p id="storyText" style="max-width:70ch;color:var(--foam)"></p>
+  </section>
+
   <section aria-labelledby="people-h" id="peopleSection" hidden>
     <div class="rule"><h2 id="people-h">People He Keeps Running Into</h2></div>
     <p class="lede">Standings change as the nights go by.</p>
@@ -450,7 +456,7 @@
     var h = d.getHours(), ap = h >= 12 ? 'pm' : 'am'; h = h % 12 || 12;
     return M[d.getMonth()] + ' ' + d.getDate() + ' · ' + h + ':' + String(d.getMinutes()).padStart(2, '0') + ap;
   }
-  var TYPES = { dispatch: 'Dispatch', toast: 'Toast', boom: 'Boom report', met: 'Met someone', letter: 'Letter to Aerie Peak', shot: 'Field photo', death: 'Casualty report', milestone: 'Milestone', reply: 'Mailbag' };
+  var TYPES = { dispatch: 'Dispatch', toast: 'Toast', boom: 'Boom report', met: 'Met someone', letter: 'Letter to Aerie Peak', shot: 'Field photo', death: 'Casualty report', milestone: 'Milestone', reply: 'Mailbag', note: 'Field note', thread: 'Loose end' };
   var STAND = { stranger: 'Stranger', regular: 'Regular', friend: 'Friend', flame: 'Mentions too much', rival: 'Rival', partner: 'The one' };
   var shown = 0, posts = [];
   function render(n) {
@@ -478,6 +484,7 @@
     posts = (c.posts || []).slice().sort(function (a, b) { return new Date(b.time) - new Date(a.time); });
     if (!posts.length) { feed.innerHTML = '<p class="log-empty">Nothing on the record yet.</p>'; } else { render(8); }
     if (c.arc && c.arc.mood) document.getElementById('arcLine').textContent = c.arc.mood + ' Posted from the road, in his own words.';
+    if (c.arc && c.arc.storySoFar) { document.getElementById('storySection').hidden = false; document.getElementById('storyText').textContent = c.arc.storySoFar; }
     var brows = (c.eyebrows_base != null ? c.eyebrows_base : 11) + ((c.stats && c.stats.bangs) || 0);
     if (c.eyebrows_lost != null && c.eyebrows_lost > brows) brows = c.eyebrows_lost;
     document.getElementById('eyebrows').textContent = brows;
