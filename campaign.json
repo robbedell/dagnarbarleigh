@@ -1,17 +1,7 @@
 {
   "character": "Dagnar Barleigh",
+  "eyebrows_base": 11,
   "eyebrows_lost": 11,
-  "entries": [
-    {
-      "date": "2026-11-04",
-      "zone": "Ironforge",
-      "title": "Launch day",
-      "body": "Doors open. Just got into town. Nothing's exploded yet. Give it a week.",
-      "detail": "Already asked three people where they're from.",
-      "pints": 3,
-      "people": []
-    }
-  ],
   "stats": {
     "drinks": 0,
     "smashed": 0,
@@ -30,5 +20,16 @@
     "restHours": 0,
     "peak": "sober",
     "asOf": null
-  }
+  },
+  "entries": [
+    {
+      "date": "2026-11-04",
+      "zone": "Ironforge",
+      "title": "Launch day",
+      "body": "Doors open. Just got into town. Nothing's exploded yet. Give it a week.",
+      "detail": "Already asked three people where they're from.",
+      "pints": 3,
+      "people": []
+    }
+  ]
 }

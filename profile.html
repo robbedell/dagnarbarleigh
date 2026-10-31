@@ -256,7 +256,7 @@
     </div>
     <div class="prompt">
       <span class="q">Two truths and a lie</span>
-      <p>I&#39;ve lost my eyebrows eleven times. I negotiate better drunk. It&#39;s a brewery.</p>
+      <p>I&#39;ve lost my eyebrows <span id="browWord">eleven</span> times. I negotiate better drunk. It&#39;s a brewery.</p>
     </div>
 
     <div class="prompt">
@@ -335,7 +335,11 @@
     document.getElementById('roadDate').textContent = m[+p[1]-1] + ' ' + (+p[2]);
     document.getElementById('roadLead').textContent = x.body;
     document.getElementById('roadMore').textContent = (x.zone ? x.zone + '. ' : '') + (x.detail || '');
-    var pills = ['Eyebrows: ' + (c.eyebrows_lost != null ? c.eyebrows_lost : 11)];
+    var brows = (c.eyebrows_base != null ? c.eyebrows_base : 11) + ((c.stats && c.stats.bangs) || 0);
+    if (c.eyebrows_lost != null && c.eyebrows_lost > brows) brows = c.eyebrows_lost;
+    var words = ["zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten", "eleven", "twelve", "thirteen", "fourteen", "fifteen", "sixteen", "seventeen", "eighteen", "nineteen", "twenty"];
+    document.getElementById('browWord').textContent = brows < words.length ? words[brows] : String(brows);
+    var pills = ['Eyebrows: ' + brows];
     if (x.pints != null) pills.push('Pints: ' + x.pints);
     if (x.zone) pills.push(x.zone);
     document.getElementById('roadPills').innerHTML = pills.map(function (t) { return '<span class="pill">' + esc(t) + '</span>'; }).join('');

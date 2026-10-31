@@ -422,10 +422,10 @@
         '<h3>' + esc(x.body) + '</h3>' + (x.detail ? '<p>' + esc(x.detail) + '</p>' : '') +
         (meta.length ? '<div class="meta">' + meta.join(' \u00b7 ') + '</div>' : '') + '</div></article>';
     }).join('');
-    if (c.eyebrows_lost != null) {
-      document.getElementById('eyebrows').textContent = c.eyebrows_lost;
-      document.getElementById('eyebrowsChip').textContent = c.eyebrows_lost;
-    }
+    var brows = (c.eyebrows_base != null ? c.eyebrows_base : 11) + ((c.stats && c.stats.bangs) || 0);
+    if (c.eyebrows_lost != null && c.eyebrows_lost > brows) brows = c.eyebrows_lost;
+    document.getElementById('eyebrows').textContent = brows;
+    document.getElementById('eyebrowsChip').textContent = brows;
   }).catch(function () { log.innerHTML = '<p class="log-empty">The ledger is in another tavern. Try again later.</p>'; });
 })();
 </script>
