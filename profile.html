@@ -17,53 +17,60 @@
     --accent: #b8431a; --accent-dark: #8f3211;
     --wood: #130d0a; --leather: #2a1d16; --brass: #d9a441; --foam: #f6ead8; --foam-dim: #c9b596;
     --display: "Fraunces", Georgia, serif; --body: "Figtree", system-ui, -apple-system, sans-serif;
+    --gl: max(16px, env(safe-area-inset-left, 0px)); --gr: max(16px, env(safe-area-inset-right, 0px));
   }
   * { box-sizing: border-box; }
-  html, body { margin: 0; background: var(--wood); color: var(--ink); }
+  html, body { margin: 0; background: var(--ground); color: var(--ink); }
   body { font-family: var(--body); line-height: 1.45; -webkit-font-smoothing: antialiased; }
   img { max-width: 100%; display: block; }
   a { color: var(--accent); }
-  :focus-visible { outline: 2px solid var(--brass); outline-offset: 3px; }
+  :focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
 
-  .back {
-    position: fixed; top: max(12px, env(safe-area-inset-top, 0px)); left: max(16px, env(safe-area-inset-left, 0px));
-    z-index: 5; font-size: 13px; font-weight: 600; letter-spacing: .04em; text-transform: uppercase;
-    color: var(--foam); text-decoration: none; background: rgba(19,13,10,.75); padding: 8px 12px; border-radius: 999px;
-    border: 1px solid #5a3d22;
+  /* top bar */
+  .bar {
+    position: sticky; top: 0; z-index: 5; background: var(--wood); color: var(--foam);
+    padding-left: var(--gl); padding-right: var(--gr); padding-block: calc(10px + env(safe-area-inset-top, 0px)) 10px;
+    display: flex; align-items: center; justify-content: space-between; gap: 12px;
   }
-  .back:hover { color: var(--brass); }
+  .bar a { color: var(--foam); text-decoration: none; font-size: 13px; font-weight: 600; letter-spacing: .04em; text-transform: uppercase; }
+  .bar a:hover { color: var(--brass); }
+  .bar .brand { font-family: var(--display); font-size: 15px; color: var(--brass); letter-spacing: .02em; }
 
-  .stage {
-    min-height: 100%;
-    padding-left: max(16px, env(safe-area-inset-left, 0px));
-    padding-right: max(16px, env(safe-area-inset-right, 0px));
-    padding-block: 64px 48px;
-    display: flex; justify-content: center;
+  /* layout: one feed on phones; sticky identity column + card grid on wider screens */
+  .layout {
+    max-width: 1280px; margin: 0 auto;
+    padding-left: var(--gl); padding-right: var(--gr); padding-block: 16px 110px;
+    display: grid; grid-template-columns: 1fr; gap: 16px;
   }
-  .phone {
-    width: 100%; max-width: 420px; background: var(--ground); border-radius: 28px;
-    box-shadow: 0 30px 80px rgba(0,0,0,.6), 0 0 0 1px #5a3d22;
-    padding: 24px 16px 100px; position: relative; display: flex; flex-direction: column; gap: 16px;
+  .side { display: grid; gap: 16px; min-width: 0; }
+  .feed { display: grid; grid-template-columns: 1fr; gap: 16px; min-width: 0; align-content: start; }
+  @media (min-width: 760px) {
+    .layout { grid-template-columns: minmax(300px, 380px) minmax(0, 1fr); gap: 28px; padding-block: 28px 40px; align-items: start; }
+    .side { position: sticky; top: calc(58px + env(safe-area-inset-top, 0px)); }
+    .feed { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; }
+    .span2 { grid-column: 1 / -1; }
   }
-  @media (max-width: 480px) {
-    .stage { padding-left: 0; padding-right: 0; padding-block: 0; }
-    .phone { max-width: none; border-radius: 0; box-shadow: none; padding-top: 64px;
-      padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+  @media (min-width: 1140px) {
+    .layout { grid-template-columns: minmax(340px, 420px) minmax(0, 1fr); gap: 36px; }
+    .feed { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+    .span2 { grid-column: span 2; }
+    .span3 { grid-column: 1 / -1; }
   }
 
   .head { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; }
-  .head h1 { margin: 0; font-family: var(--display); font-size: 34px; font-weight: 600; letter-spacing: -.01em; }
+  .head h1 { margin: 0; font-family: var(--display); font-size: clamp(32px, 4vw, 44px); font-weight: 600; letter-spacing: -.01em; }
   .head h1 span { font-weight: 500; color: var(--ink-2); }
   .status { font-size: 13px; font-weight: 600; color: var(--accent); letter-spacing: .04em; white-space: nowrap; }
 
-  .photo { position: relative; border-radius: 18px; overflow: hidden; background: var(--leather); max-width: 100%; }
+  .photo { position: relative; border-radius: 18px; overflow: hidden; background: var(--leather); max-width: 100%; min-height: 160px; }
   .photo img { width: 100%; height: 100%; object-fit: cover; }
   .photo.tall { aspect-ratio: 4 / 5; }
   .photo.square { aspect-ratio: 1 / 1; }
   .photo.wide { aspect-ratio: 4 / 3; }
-  .photo .tag {
+  @media (min-width: 760px) { .feed .photo { aspect-ratio: auto; height: 100%; min-height: 240px; } }
+  .photo .tag, .photo .cap {
     position: absolute; left: 12px; bottom: 12px; font-size: 12px; font-weight: 600; padding: 6px 10px;
-    border-radius: 999px; background: rgba(251,247,242,.92); color: var(--ink);
+    border-radius: 999px; background: rgba(251,247,242,.92); color: var(--ink); max-width: calc(100% - 80px);
   }
   .like {
     position: absolute; right: 12px; bottom: 12px; width: 48px; height: 48px; border-radius: 24px; border: 0;
@@ -72,10 +79,9 @@
   }
   .like svg { width: 22px; height: 22px; stroke: var(--accent); fill: none; stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; }
   .like.on svg { fill: var(--accent); }
-  .caption { font-size: 13px; color: var(--ink-2); padding: 0 4px; margin: -8px 0 0; }
 
   .vitals {
-    display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px 14px; padding: 14px 16px;
+    display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px 14px; padding: 16px;
     background: var(--card); border: 1px solid var(--line); border-radius: 16px; font-size: 14px;
   }
   .vitals div { display: flex; flex-direction: column; gap: 2px; min-width: 0; }
@@ -83,60 +89,69 @@
 
   .prompt {
     display: flex; flex-direction: column; gap: 10px; padding: 18px 18px 16px; background: var(--card);
-    border: 1px solid var(--line); border-radius: 18px; position: relative;
+    border: 1px solid var(--line); border-radius: 18px; position: relative; min-width: 0;
   }
   .prompt .q { font-size: 12px; font-weight: 600; color: var(--ink-2); }
-  .prompt p { margin: 0; font-family: var(--display); font-size: 24px; font-weight: 500; line-height: 1.22; padding-right: 44px; }
+  .prompt p { margin: 0; font-family: var(--display); font-size: clamp(22px, 2vw, 26px); font-weight: 500; line-height: 1.22; padding-right: 44px; text-wrap: balance; }
   .prompt .like { width: 44px; height: 44px; border: 1px solid var(--line); box-shadow: none; }
   .prompt .like svg { width: 20px; height: 20px; }
-  .prompt .note { font-size: 12px; color: var(--accent); font-weight: 600; }
 
   .numbers {
     display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1px; background: var(--line);
     border: 1px solid var(--line); border-radius: 16px; overflow: hidden;
   }
-  .numbers div { background: var(--card); padding: 12px 10px; display: flex; flex-direction: column; gap: 2px; align-items: center; text-align: center; min-width: 0; }
-  .numbers b { font-family: var(--display); font-size: 26px; font-weight: 600; line-height: 1; color: var(--accent); font-variant-numeric: tabular-nums; }
+  @media (min-width: 760px) { .numbers { grid-template-columns: repeat(6, minmax(0, 1fr)); } }
+  .numbers div { background: var(--card); padding: 14px 10px; display: flex; flex-direction: column; gap: 2px; align-items: center; text-align: center; min-width: 0; }
+  .numbers b { font-family: var(--display); font-size: 28px; font-weight: 600; line-height: 1; color: var(--accent); font-variant-numeric: tabular-nums; }
   .numbers span { font-size: 11px; font-weight: 600; letter-spacing: .06em; color: var(--ink-2); text-transform: uppercase; }
   .numbers-note { font-size: 12px; color: var(--ink-2); padding: 0 4px; margin: -8px 0 0; }
+
   .road {
-    display: flex; flex-direction: column; gap: 12px; padding: 18px 18px 16px;
-    background: var(--leather); color: var(--foam); border-radius: 18px; border: 2px solid var(--brass);
+    display: flex; flex-direction: column; gap: 12px; padding: 20px 20px 18px;
+    background: var(--leather); color: var(--foam); border-radius: 18px; border: 2px solid var(--brass); min-width: 0;
   }
   .road .row { display: flex; align-items: center; justify-content: space-between; gap: 10px; }
   .road .label { font-size: 12px; font-weight: 600; color: var(--brass); letter-spacing: .06em; }
   .road .date { font-size: 12px; color: var(--foam-dim); }
-  .road p { margin: 0; }
-  .road .lead { font-family: var(--display); font-size: 19px; font-weight: 500; line-height: 1.3; }
+  .road p { margin: 0; max-width: 70ch; }
+  .road .lead { font-family: var(--display); font-size: clamp(19px, 2vw, 24px); font-weight: 500; line-height: 1.3; }
   .road .more { font-size: 14px; line-height: 1.45; color: #e6d6bc; }
   .pills { display: flex; gap: 8px; flex-wrap: wrap; }
   .pill { font-size: 12px; font-weight: 600; padding: 6px 10px; border-radius: 999px; background: #3d2a20; color: var(--brass); font-variant-numeric: tabular-nums; }
 
+  /* actions: fixed bar on phones, a row in the side column on wider screens */
   .actions {
-    position: sticky; bottom: 0; margin: 8px -16px -100px; padding: 14px 16px calc(24px + env(safe-area-inset-bottom, 0px));
-    background: linear-gradient(180deg, rgba(251,247,242,0) 0%, var(--ground) 35%);
-    display: flex; justify-content: space-between; align-items: center;
+    position: fixed; left: 0; right: 0; bottom: 0; z-index: 4;
+    padding: 14px var(--gr) calc(18px + env(safe-area-inset-bottom, 0px)) var(--gl);
+    background: linear-gradient(180deg, rgba(251,247,242,0) 0%, var(--ground) 40%);
+    display: flex; justify-content: space-between; align-items: center; gap: 12px;
   }
-  .actions button { width: 56px; height: 56px; border-radius: 28px; display: flex; align-items: center; justify-content: center; cursor: pointer; }
+  @media (min-width: 760px) { .actions { position: static; padding: 0; background: none; } }
+  .actions button { width: 56px; height: 56px; border-radius: 28px; display: flex; align-items: center; justify-content: center; cursor: pointer; flex: none; }
   .actions .pass { border: 1px solid #e2d8cc; background: var(--card); }
   .actions .pass svg { width: 22px; height: 22px; stroke: var(--ink-2); fill: none; stroke-width: 2.4; stroke-linecap: round; }
   .actions .heart { border: 0; background: var(--accent); }
   .actions .heart svg { width: 24px; height: 24px; fill: #fff; }
-  .actions .hint { font-size: 13px; font-weight: 600; color: var(--ink-2); }
+  .actions .hint { font-size: 13px; font-weight: 600; color: var(--ink-2); text-align: center; }
+
   .toast {
-    position: fixed; left: 50%; bottom: calc(24px + env(safe-area-inset-bottom, 0px)); transform: translate(-50%, 20px);
+    position: fixed; left: 50%; bottom: calc(96px + env(safe-area-inset-bottom, 0px)); transform: translate(-50%, 20px);
     background: var(--leather); color: var(--foam); border: 1px solid var(--brass); padding: 10px 16px; border-radius: 999px;
     font-size: 14px; opacity: 0; transition: opacity .25s, transform .25s; pointer-events: none; z-index: 6; max-width: 90vw; text-align: center;
   }
+  @media (min-width: 760px) { .toast { bottom: 28px; } }
   .toast.show { opacity: 1; transform: translate(-50%, 0); }
   @media (prefers-reduced-motion: reduce) { .toast { transition: none; } }
 </style>
 </head>
 <body>
-<a class="back" href="index.html">&larr; Back to Dagnar</a>
+<nav class="bar">
+  <a href="index.html">&larr; Back to Dagnar</a>
+  <span class="brand">Azeroth Dating Profile</span>
+</nav>
 
-<div class="stage">
-  <main class="phone">
+<main class="layout">
+  <aside class="side">
     <div class="head">
       <h1>Dagnar <span>47</span></h1>
       <span class="status">NEW HERE</span>
@@ -156,14 +171,16 @@
       <div><span>SMOKES</span><span>Only when something goes off</span></div>
     </div>
 
-    <div class="prompt">
-      <span class="q">My most irrational fear</span>
-      <p>A quiet room.</p>
-      <button class="like" type="button" aria-label="Like this answer" data-like="that answer"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-7-4.6-9.3-8.6C1 9.2 2.7 5.5 6.3 5.1c2-.2 3.7.8 4.7 2.3 1-1.5 2.7-2.5 4.7-2.3 3.6.4 5.3 4.1 3.6 7.3C19 16.4 12 21 12 21z"/></svg></button>
+    <div class="actions">
+      <button class="pass" type="button" aria-label="Pass" data-toast="He&#39;ll understand. He&#39;ll also tell everyone at the bar."><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button>
+      <span class="hint">Updated after every adventure</span>
+      <button class="heart" type="button" aria-label="Like" data-toast="He&#39;s buying the next round. Don&#39;t let him fix anything."><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-7-4.6-9.3-8.6C1 9.2 2.7 5.5 6.3 5.1c2-.2 3.7.8 4.7 2.3 1-1.5 2.7-2.5 4.7-2.3 3.6.4 5.3 4.1 3.6 7.3C19 16.4 12 21 12 21z"/></svg></button>
     </div>
+  </aside>
 
-    <!-- ROAD: this card is rewritten after every session -->
-    <section class="road" aria-label="Latest from the road">
+  <section class="feed" aria-label="Profile">
+    <!-- ROAD: rewritten after every session from campaign.json -->
+    <section class="road span3 span2" aria-label="Latest from the road">
       <div class="row"><span class="label">LATEST FROM THE ROAD</span><span class="date" id="roadDate">Oct 30</span></div>
       <p class="lead" id="roadLead">Just got into town. Nothing&#39;s exploded yet. Give it a week.</p>
       <p class="more" id="roadMore">Ironforge. Day one. Already asked three people where they&#39;re from.</p>
@@ -173,9 +190,8 @@
         <span class="pill">Ironforge</span>
       </div>
     </section>
-    <!-- /ROAD -->
 
-    <div class="numbers" id="numbers" aria-label="By the numbers">
+    <div class="numbers span3 span2" id="numbers" aria-label="By the numbers">
       <div><b id="nDrinks">0</b><span>Drinks</span></div>
       <div><b id="nSmashed">0</b><span>Times smashed</span></div>
       <div><b id="nPeople">0</b><span>People met</span></div>
@@ -183,7 +199,13 @@
       <div><b id="nBangs">0</b><span>Things blown up</span></div>
       <div><b id="nDeaths">0</b><span>Deaths</span></div>
     </div>
-    <p class="numbers-note" id="numbersNote">Counted by the game itself. Nothing on the record yet.</p>
+    <p class="numbers-note span3 span2" id="numbersNote">Counted by the game itself. Nothing on the record yet.</p>
+
+    <div class="prompt">
+      <span class="q">My most irrational fear</span>
+      <p>A quiet room.</p>
+      <button class="like" type="button" aria-label="Like this answer" data-like="that answer"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-7-4.6-9.3-8.6C1 9.2 2.7 5.5 6.3 5.1c2-.2 3.7.8 4.7 2.3 1-1.5 2.7-2.5 4.7-2.3 3.6.4 5.3 4.1 3.6 7.3C19 16.4 12 21 12 21z"/></svg></button>
+    </div>
 
     <div class="photo square">
       <img src="face.jpg" alt="Close-up of Dagnar grinning, eyes glowing">
@@ -200,10 +222,10 @@
       <p>You ask where I&#39;m from and don&#39;t need the long version. Yet.</p>
     </div>
 
-    <div class="photo wide">
+    <div class="photo wide span2">
       <img src="elemental.jpg" alt="A small fire elemental dancing on a tavern table">
+      <span class="cap">Not a pet. A coworker. Doesn&#39;t do mornings either.</span>
     </div>
-    <p class="caption">Not a pet. A coworker. Doesn&#39;t do mornings either.</p>
 
     <div class="prompt">
       <span class="q">The way to win me over is</span>
@@ -215,18 +237,12 @@
       <span class="tag">His kind of crowd</span>
     </div>
 
-    <div class="prompt">
+    <div class="prompt span2">
       <span class="q">Dating me is like</span>
       <p>A loud room and a long road. You pick the order.</p>
     </div>
-
-    <div class="actions">
-      <button class="pass" type="button" aria-label="Pass" data-toast="He&#39;ll understand. He&#39;ll also tell everyone at the bar."><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button>
-      <span class="hint">Updated after every adventure</span>
-      <button class="heart" type="button" aria-label="Like" data-toast="He&#39;s buying the next round. Don&#39;t let him fix anything."><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-7-4.6-9.3-8.6C1 9.2 2.7 5.5 6.3 5.1c2-.2 3.7.8 4.7 2.3 1-1.5 2.7-2.5 4.7-2.3 3.6.4 5.3 4.1 3.6 7.3C19 16.4 12 21 12 21z"/></svg></button>
-    </div>
-  </main>
-</div>
+  </section>
+</main>
 
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
 
@@ -259,6 +275,7 @@
     if (x.pints != null) pills.push('Pints: ' + x.pints);
     if (x.zone) pills.push(x.zone);
     document.getElementById('roadPills').innerHTML = pills.map(function (t) { return '<span class="pill">' + esc(t) + '</span>'; }).join('');
+    if (c.entries.length > 1) document.querySelector('.status').textContent = 'ACTIVE ' + m[+p[1]-1].toUpperCase() + ' ' + (+p[2]);
     var st = c.stats || {};
     function put(id, v) { document.getElementById(id).textContent = v || 0; }
     put('nDrinks', st.drinks); put('nSmashed', st.smashed); put('nPeople', st.people);
