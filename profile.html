@@ -156,10 +156,10 @@
 
     <!-- ROAD: this card is rewritten after every session -->
     <section class="road" aria-label="Latest from the road">
-      <div class="row"><span class="label">LATEST FROM THE ROAD</span><span class="date">Oct 30</span></div>
-      <p class="lead">Just got into town. Nothing&#39;s exploded yet. Give it a week.</p>
-      <p class="more">Ironforge. Day one. Already asked three people where they&#39;re from.</p>
-      <div class="pills">
+      <div class="row"><span class="label">LATEST FROM THE ROAD</span><span class="date" id="roadDate">Oct 30</span></div>
+      <p class="lead" id="roadLead">Just got into town. Nothing&#39;s exploded yet. Give it a week.</p>
+      <p class="more" id="roadMore">Ironforge. Day one. Already asked three people where they&#39;re from.</p>
+      <div class="pills" id="roadPills">
         <span class="pill">Eyebrows: 11</span>
         <span class="pill">Pints: 3</span>
         <span class="pill">Ironforge</span>
@@ -228,6 +228,20 @@
   document.querySelectorAll('[data-toast]').forEach(function (b) {
     b.addEventListener('click', function () { say(b.dataset.toast); });
   });
+})();
+(function () {
+  function esc(t) { return String(t).replace(/[&<>"]/g, function (c) { return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]; }); }
+  fetch('campaign.json', { cache: 'no-store' }).then(function (r) { return r.json(); }).then(function (c) {
+    var x = c.entries[c.entries.length - 1]; if (!x) return;
+    var p = x.date.split('-'); var m = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+    document.getElementById('roadDate').textContent = m[+p[1]-1] + ' ' + (+p[2]);
+    document.getElementById('roadLead').textContent = x.body;
+    document.getElementById('roadMore').textContent = (x.zone ? x.zone + '. ' : '') + (x.detail || '');
+    var pills = ['Eyebrows: ' + (c.eyebrows_lost != null ? c.eyebrows_lost : 11)];
+    if (x.pints != null) pills.push('Pints: ' + x.pints);
+    if (x.zone) pills.push(x.zone);
+    document.getElementById('roadPills').innerHTML = pills.map(function (t) { return '<span class="pill">' + esc(t) + '</span>'; }).join('');
+  }).catch(function () {});
 })();
 </script>
 </body>
