@@ -126,6 +126,12 @@
   .prompt .like { width: 44px; height: 44px; border: 1px solid var(--line); box-shadow: none; }
   .prompt .like svg { width: 20px; height: 20px; }
 
+  .plist { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; }
+  .plist li { display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 10px; font-size: 15px; }
+  .plist b { font-family: var(--display); font-weight: 600; font-size: 18px; }
+  .plist .st { font-size: 11px; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; color: var(--accent); }
+  .plist .rc { font-size: 12px; color: var(--ink-2); }
+  .plist .nt { flex-basis: 100%; font-size: 14px; color: var(--ink-2); }
   .numbers {
     display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1px; background: var(--line);
     border: 1px solid var(--line); border-radius: 16px; overflow: hidden;
@@ -203,7 +209,7 @@
       <div><span>HEIGHT</span><span>4&#39; 2&quot;</span></div>
       <div><span>FROM</span><span>Shadowforge, by way of Aerie Peak</span></div>
       <div><span>WORK</span><span>Shaman. Engineer. Says he&#39;s the second one.</span></div>
-      <div><span>LOOKING FOR</span><span>Someone who stays</span></div>
+      <div><span>LOOKING FOR</span><span id="lookingFor">Someone who stays</span></div>
       <div><span>DRINKS</span><span>Yes</span></div>
       <div><span>SMOKES</span><span>Only when something goes off</span></div>
     </div>
@@ -237,6 +243,12 @@
       <div><b id="nDeaths">0</b><span>Deaths</span></div>
     </div>
     <p class="numbers-note span3 span2" id="numbersNote">Counted by the game itself. Nothing on the record yet.</p>
+
+    <div class="prompt span2" id="peopleCard" hidden>
+      <span class="q">People he keeps running into</span>
+      <ul class="plist" id="peopleList"></ul>
+      <span class="q" id="frontRunner"></span>
+    </div>
 
     <div class="prompt">
       <span class="q">My most irrational fear</span>
@@ -330,10 +342,12 @@
 (function () {
   function esc(t) { return String(t).replace(/[&<>"]/g, function (c) { return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]; }); }
   fetch('campaign.json', { cache: 'no-store' }).then(function (r) { return r.json(); }).then(function (c) {
-    var x = c.entries[c.entries.length - 1]; if (!x) return;
-    var p = x.date.split('-'); var m = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
-    document.getElementById('roadDate').textContent = m[+p[1]-1] + ' ' + (+p[2]);
-    document.getElementById('roadLead').textContent = x.body;
+    var posts = (c.posts || []).slice().sort(function (a, b) { return new Date(b.time) - new Date(a.time); });
+    var x = posts[0]; if (!x) return;
+    var d = new Date(x.time); var m = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+    var p = [d.getFullYear(), d.getMonth() + 1, d.getDate()];
+    document.getElementById('roadDate').textContent = m[d.getMonth()] + ' ' + d.getDate();
+    document.getElementById('roadLead').textContent = x.text;
     document.getElementById('roadMore').textContent = (x.zone ? x.zone + '. ' : '') + (x.detail || '');
     var brows = (c.eyebrows_base != null ? c.eyebrows_base : 11) + ((c.stats && c.stats.bangs) || 0);
     if (c.eyebrows_lost != null && c.eyebrows_lost > brows) brows = c.eyebrows_lost;
@@ -343,7 +357,19 @@
     if (x.pints != null) pills.push('Pints: ' + x.pints);
     if (x.zone) pills.push(x.zone);
     document.getElementById('roadPills').innerHTML = pills.map(function (t) { return '<span class="pill">' + esc(t) + '</span>'; }).join('');
-    if (c.entries.length > 1) document.querySelector('.status').textContent = 'ACTIVE ' + m[+p[1]-1].toUpperCase() + ' ' + (+p[2]);
+    if (posts.length > 1) document.querySelector('.status').textContent = 'ACTIVE ' + m[d.getMonth()].toUpperCase() + ' ' + d.getDate();
+    if (c.arc && c.arc.lookingFor) document.getElementById('lookingFor').textContent = c.arc.lookingFor.split('.')[0];
+    var STAND = { regular: 'Regular', friend: 'Friend', flame: 'Mentions too much', rival: 'Rival', partner: 'The one' };
+    var ppl = Object.keys(c.people || {}).map(function (k) { var q = c.people[k]; q.name = k; return q; })
+      .filter(function (q) { return q.standing && q.standing !== 'stranger'; })
+      .sort(function (a, b) { return (b.warmth || 0) - (a.warmth || 0); }).slice(0, 6);
+    if (ppl.length) {
+      document.getElementById('peopleCard').hidden = false;
+      document.getElementById('peopleList').innerHTML = ppl.map(function (q) {
+        return '<li><b>' + esc(q.name) + '</b> <span class="st s-' + esc(q.standing) + '">' + esc(STAND[q.standing] || q.standing) + '</span>' + (q.race ? ' <span class="rc">' + esc(q.race) + '</span>' : '') + (q.note ? '<span class="nt">' + esc(q.note) + '</span>' : '') + '</li>';
+      }).join('');
+      if (c.arc && c.arc.frontRunner) document.getElementById('frontRunner').textContent = 'Front-runner: ' + c.arc.frontRunner;
+    }
     var st = c.stats || {};
     function put(id, v) { document.getElementById(id).textContent = v || 0; }
     put('nDrinks', st.drinks); put('nSmashed', st.smashed); put('nPeople', st.people);

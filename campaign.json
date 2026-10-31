@@ -2,6 +2,18 @@
   "character": "Dagnar Barleigh",
   "eyebrows_base": 11,
   "eyebrows_lost": 11,
+  "arc": {
+    "mood": "Fresh off the road. Loud on purpose.",
+    "lookingFor": "Someone who stays. Says it's a business partner for a brewery. It isn't.",
+    "runningBits": [
+      "Quality control (the eyebrows)",
+      "It's a brewery",
+      "Another time (Loch Modan)"
+    ],
+    "frontRunner": null,
+    "updated": "2026-10-30"
+  },
+  "people": {},
   "stats": {
     "drinks": 0,
     "smashed": 0,
@@ -21,15 +33,19 @@
     "peak": "sober",
     "asOf": null
   },
-  "entries": [
+  "posts": [
     {
-      "date": "2026-11-04",
+      "id": "2026-11-04-launch",
+      "time": "2026-11-04T18:00:00-05:00",
+      "type": "dispatch",
       "zone": "Ironforge",
       "title": "Launch day",
-      "body": "Doors open. Just got into town. Nothing's exploded yet. Give it a week.",
+      "text": "Doors open. Just got into town. Nothing's exploded yet. Give it a week.",
       "detail": "Already asked three people where they're from.",
-      "pints": 3,
-      "people": []
+      "pints": 0,
+      "bangs": 0,
+      "people": [],
+      "image": null
     }
   ]
 }

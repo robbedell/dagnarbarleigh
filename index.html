@@ -198,17 +198,39 @@
   .hooks li { display: grid; grid-template-columns: 22px 1fr; gap: 12px; align-items: start; color: var(--foam-dim); }
   .hooks li::before { content: ""; width: 10px; height: 10px; margin-top: 9px; background: var(--ember); transform: rotate(45deg); box-shadow: 0 0 10px var(--ember); }
 
-  /* ---------- campaign log ---------- */
-  .log { display: grid; gap: 0; border-left: 2px solid var(--line); }
-  .entry { display: grid; grid-template-columns: 110px minmax(0, 1fr); gap: 14px; padding: 14px 0 18px 18px; position: relative; }
-  .entry::before { content: ""; position: absolute; left: -7px; top: 22px; width: 10px; height: 10px; background: var(--ember); transform: rotate(45deg); box-shadow: 0 0 10px var(--ember); }
-  .entry .when { font-family: var(--mono); font-size: 12px; color: var(--mute); letter-spacing: .06em; line-height: 1.6; }
-  .entry .when b { display: block; color: var(--brass); font-weight: 600; }
-  .entry h3 { margin: 0 0 4px; font-family: var(--display); font-weight: 400; font-size: 20px; color: var(--foam); }
-  .entry p { color: var(--foam-dim); max-width: 64ch; }
-  .entry .meta { font-family: var(--mono); font-size: 12px; color: var(--mute); margin-top: 8px; }
-  @media (max-width: 560px) { .entry { grid-template-columns: 1fr; gap: 6px; } }
+  /* ---------- dispatches (the feed) ---------- */
+  .feed { display: grid; gap: 14px; }
+  .post { display: grid; grid-template-columns: minmax(0, 1fr); gap: 0; border: 1px solid var(--line); background: var(--bg-2); border-radius: 3px; overflow: hidden; min-width: 0; }
+  .post.has-img { grid-template-columns: minmax(0, 1fr) 280px; }
+  @media (max-width: 700px) { .post.has-img { grid-template-columns: 1fr; } .post.has-img .pimg { order: -1; aspect-ratio: 16 / 9; } }
+  .post .pbody { padding: 18px 20px 16px; display: grid; gap: 8px; min-width: 0; align-content: start; }
+  .post .pimg { background: var(--bg); min-height: 180px; max-height: 280px; }
+  .post .pimg img { width: 100%; height: 100%; object-fit: cover; display: block; }
+  .post .ptop { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 12px; font-family: var(--mono); font-size: 11px; letter-spacing: .12em; text-transform: uppercase; color: var(--mute); }
+  .post .ptype { color: var(--brass); font-weight: 600; }
+  .post .ptype::before { content: ""; display: inline-block; width: 8px; height: 8px; background: var(--ember); transform: rotate(45deg); margin-right: 8px; box-shadow: 0 0 8px var(--ember); vertical-align: 1px; }
+  .post.t-toast .ptype::before { background: var(--brass); box-shadow: 0 0 8px var(--brass); }
+  .post.t-boom .ptype::before { background: #ff3b1f; box-shadow: 0 0 10px #ff3b1f; }
+  .post.t-met .ptype::before { background: var(--arc); box-shadow: 0 0 8px var(--arc); }
+  .post.t-letter .ptype::before { background: var(--foam); box-shadow: none; }
+  .post h3 { margin: 0; font-family: var(--display); font-weight: 400; font-size: clamp(19px, 2.2vw, 23px); color: var(--foam); line-height: 1.25; text-wrap: balance; }
+  .post.t-letter h3, .post.t-letter p { font-style: italic; }
+  .post p { color: var(--foam-dim); max-width: 64ch; }
+  .post .pmeta { font-family: var(--mono); font-size: 12px; color: var(--mute); margin-top: 4px; display: flex; flex-wrap: wrap; gap: 6px 14px; }
+  .post .pmeta b { color: var(--brass); font-weight: 600; }
   .log-empty { font-family: var(--mono); font-size: 13px; color: var(--mute); }
+  .more { justify-self: start; font-family: var(--mono); font-size: 12px; letter-spacing: .1em; text-transform: uppercase; color: var(--brass); background: none; border: 1px solid var(--line); padding: 10px 14px; border-radius: 2px; cursor: pointer; }
+  .more:hover { border-color: var(--brass); }
+
+  /* ---------- people ---------- */
+  .people { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 12px; }
+  .person { border: 1px solid var(--line); background: var(--bg-2); padding: 14px 16px; display: grid; gap: 4px; min-width: 0; }
+  .person b { font-family: var(--display); font-weight: 400; font-size: 18px; color: var(--foam); }
+  .person .race { font-family: var(--mono); font-size: 11px; letter-spacing: .1em; text-transform: uppercase; color: var(--mute); }
+  .person .standing { font-family: var(--mono); font-size: 11px; letter-spacing: .08em; color: var(--brass); }
+  .person .standing.s-friend { color: var(--arc); }
+  .person .standing.s-flame { color: var(--ember); }
+  .person p { font-size: 15px; color: var(--foam-dim); margin-top: 4px; }
 
   /* ---------- counter ---------- */
   .counter { display: grid; grid-template-columns: auto 1fr; gap: 22px; align-items: center; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); padding: 22px 0; }
@@ -328,9 +350,16 @@
   </section>
 
   <section aria-labelledby="log-h">
-    <div class="rule"><h2 id="log-h">Campaign Log</h2></div>
-    <p class="lede">Updated after every session. Newest first.</p>
-    <div class="log" id="log"><p class="log-empty">Loading the ledger&hellip;</p></div>
+    <div class="rule"><h2 id="log-h">Dispatches</h2></div>
+    <p class="lede" id="arcLine">Posted from the road, in his own words, as it happens. Newest first.</p>
+    <div class="feed" id="feed"><p class="log-empty">Loading the ledger&hellip;</p></div>
+    <button class="more" id="moreBtn" type="button" hidden>Older dispatches</button>
+  </section>
+
+  <section aria-labelledby="people-h" id="peopleSection" hidden>
+    <div class="rule"><h2 id="people-h">People He Keeps Running Into</h2></div>
+    <p class="lede">Standings change as the nights go by.</p>
+    <div class="people" id="people"></div>
   </section>
 
   <section aria-label="Eyebrow count">
@@ -407,26 +436,57 @@
 </script>
 <script>
 (function () {
-  var log = document.getElementById('log');
-  function esc(t) { return String(t).replace(/[&<>"]/g, function (c) { return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]; }); }
-  function fmt(d) { var p = d.split('-'); var m = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec']; return m[+p[1]-1] + ' ' + (+p[2]) + '<br>' + p[0]; }
-  fetch('campaign.json', { cache: 'no-store' }).then(function (r) { return r.json(); }).then(function (c) {
-    var e = c.entries.slice().reverse();
-    if (!e.length) { log.innerHTML = '<p class="log-empty">Nothing on the record yet.</p>'; return; }
-    log.innerHTML = e.map(function (x) {
+  var feed = document.getElementById('feed'), moreBtn = document.getElementById('moreBtn');
+  function esc(t) { return String(t == null ? '' : t).replace(/[&<>"]/g, function (c) { return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]; }); }
+  var M = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+  function when(iso) {
+    var d = new Date(iso); if (isNaN(d)) return esc(iso);
+    var h = d.getHours(), ap = h >= 12 ? 'pm' : 'am'; h = h % 12 || 12;
+    return M[d.getMonth()] + ' ' + d.getDate() + ' · ' + h + ':' + String(d.getMinutes()).padStart(2, '0') + ap;
+  }
+  var TYPES = { dispatch: 'Dispatch', toast: 'Toast', boom: 'Boom report', met: 'Met someone', letter: 'Letter to Aerie Peak', shot: 'Field photo', death: 'Casualty report', milestone: 'Milestone' };
+  var STAND = { stranger: 'Stranger', regular: 'Regular', friend: 'Friend', flame: 'Mentions too much', rival: 'Rival', partner: 'The one' };
+  var shown = 0, posts = [];
+  function render(n) {
+    var slice = posts.slice(shown, shown + n); shown += slice.length;
+    if (shown === slice.length) feed.innerHTML = '';
+    slice.forEach(function (x) {
+      var el = document.createElement('article');
+      el.className = 'post t-' + esc(x.type || 'dispatch') + (x.image ? ' has-img' : '');
       var meta = [];
       if (x.zone) meta.push(esc(x.zone));
-      if (x.pints != null) meta.push(x.pints + ' pints');
+      if (x.pints) meta.push('<b>' + x.pints + '</b> pints');
+      if (x.bangs) meta.push('<b>' + x.bangs + '</b> ' + (x.bangs === 1 ? 'blast' : 'blasts'));
       if (x.people && x.people.length) meta.push('with ' + esc(x.people.join(', ')));
-      return '<article class="entry"><div class="when"><b>' + esc(x.title || '') + '</b>' + fmt(x.date) + '</div><div>' +
-        '<h3>' + esc(x.body) + '</h3>' + (x.detail ? '<p>' + esc(x.detail) + '</p>' : '') +
-        (meta.length ? '<div class="meta">' + meta.join(' \u00b7 ') + '</div>' : '') + '</div></article>';
-    }).join('');
+      el.innerHTML = '<div class="pbody"><div class="ptop"><span class="ptype">' + esc(TYPES[x.type] || x.type || 'Dispatch') + '</span><span>' + when(x.time) + '</span></div>' +
+        '<h3>' + esc(x.text) + '</h3>' + (x.detail ? '<p>' + esc(x.detail) + '</p>' : '') +
+        (meta.length ? '<div class="pmeta">' + meta.join('<span>·</span>') + '</div>' : '') + '</div>' +
+        (x.image ? '<div class="pimg"><img src="' + esc(x.image) + '" alt="' + esc(x.alt || x.text) + '" loading="lazy"></div>' : '');
+      feed.appendChild(el);
+    });
+    moreBtn.hidden = shown >= posts.length;
+  }
+  moreBtn.addEventListener('click', function () { render(8); });
+  fetch('campaign.json', { cache: 'no-store' }).then(function (r) { return r.json(); }).then(function (c) {
+    posts = (c.posts || []).slice().sort(function (a, b) { return new Date(b.time) - new Date(a.time); });
+    if (!posts.length) { feed.innerHTML = '<p class="log-empty">Nothing on the record yet.</p>'; } else { render(8); }
+    if (c.arc && c.arc.mood) document.getElementById('arcLine').textContent = c.arc.mood + ' Posted from the road, in his own words.';
     var brows = (c.eyebrows_base != null ? c.eyebrows_base : 11) + ((c.stats && c.stats.bangs) || 0);
     if (c.eyebrows_lost != null && c.eyebrows_lost > brows) brows = c.eyebrows_lost;
     document.getElementById('eyebrows').textContent = brows;
     document.getElementById('eyebrowsChip').textContent = brows;
-  }).catch(function () { log.innerHTML = '<p class="log-empty">The ledger is in another tavern. Try again later.</p>'; });
+    var ppl = Object.keys(c.people || {}).map(function (k) { var p = c.people[k]; p.name = k; return p; })
+      .filter(function (p) { return p.standing && p.standing !== 'stranger'; })
+      .sort(function (a, b) { return (b.warmth || 0) - (a.warmth || 0); });
+    if (ppl.length) {
+      document.getElementById('peopleSection').hidden = false;
+      document.getElementById('people').innerHTML = ppl.slice(0, 12).map(function (p) {
+        return '<div class="person"><b>' + esc(p.name) + '</b><span class="race">' + esc(p.race || '') + '</span>' +
+          '<span class="standing s-' + esc(p.standing) + '">' + esc(STAND[p.standing] || p.standing) + '</span>' +
+          (p.note ? '<p>' + esc(p.note) + '</p>' : '') + '</div>';
+      }).join('');
+    }
+  }).catch(function () { feed.innerHTML = '<p class="log-empty">The ledger is in another tavern. Try again later.</p>'; });
 })();
 </script>
 </body>

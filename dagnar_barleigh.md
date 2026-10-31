@@ -90,6 +90,17 @@ He doesn't want redemption. He thinks it's a Light-worshipper's word for forgett
 
 ---
 
+## Where his head is at (the updater rewrites this after each day)
+
+- **Mood:** Fresh off the road. Loud on purpose.
+- **Looking for:** Someone who stays. Says it's a business partner for a brewery. It isn't.
+- **Running bits:** quality control (the eyebrows); "it's a brewery"; "another time" (Loch Modan).
+- **Front-runner:** nobody yet.
+- **Grudges:** none worth the breath.
+- **Voice right now:** short sentences, dry, warm underneath. Asks questions more than he answers them.
+
+---
+
 ## Session log
 
 _Add a line per session: who you met, what Dagnar said that stuck, anything you decided on the fly that's now canon._
