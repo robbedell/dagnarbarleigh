@@ -94,7 +94,8 @@ He doesn't want redemption. He thinks it's a Light-worshipper's word for forgett
 
 _Add a line per session: who you met, what Dagnar said that stuck, anything you decided on the fly that's now canon._
 
-- 2026-10-30 — Character created. Name, traits, and backstory finalized. First RP session: not yet.
+- 2026-10-30 — Character created. Name, traits, and backstory finalized.
+- 2026-11-04 — Launch day: WoW: Forever opens. Day one of the record.
 
 ---
 
