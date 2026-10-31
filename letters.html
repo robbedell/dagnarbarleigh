@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Letters to Aerie Peak</title>
+<meta name="description" content="The notes Dagnar Barleigh writes to the shaman who trained him. He never says he writes them.">
+<meta property="og:title" content="Letters to Aerie Peak">
+<meta property="og:description" content="The honest version of the story, one quiet night at a time.">
+<meta property="og:image" content="https://dagnarbarleigh.org/camp.jpg">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Metamorphous&family=Alegreya:ital,wght@0,400;0,500;0,700;1,400;1,500&family=IBM+Plex+Mono:wght@400;600&display=swap">
+<style>
+  :root {
+    --bg: #130d0a; --bg-2: #1e1410; --panel: #241812; --paper: #efe3c8; --paper-2: #e4d5b3; --ink: #2a1d16; --ink-2: #5a4632;
+    --line: #5a3d22; --brass: #d9a441; --ember: #ff7a1f; --foam: #f3e7cf; --foam-dim: #c9b596; --mute: #8a7257;
+    --display: "Metamorphous", Georgia, serif; --body: "Alegreya", Georgia, serif; --mono: "IBM Plex Mono", Menlo, monospace;
+    --gl: max(16px, env(safe-area-inset-left, 0px)); --gr: max(16px, env(safe-area-inset-right, 0px));
+    color-scheme: dark;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; background: var(--bg); color: var(--foam); }
+  body { font-family: var(--body); font-size: 18px; line-height: 1.55; -webkit-font-smoothing: antialiased; }
+  a { color: var(--brass); }
+  :focus-visible { outline: 2px solid var(--ember); outline-offset: 3px; }
+  .bar { position: sticky; top: 0; z-index: 5; background: var(--bg); border-bottom: 1px solid var(--line); padding-left: var(--gl); padding-right: var(--gr); padding-block: calc(10px + env(safe-area-inset-top, 0px)) 10px; display: flex; justify-content: space-between; align-items: center; gap: 12px; }
+  .bar a { font-family: var(--mono); font-size: 12px; letter-spacing: .12em; text-transform: uppercase; text-decoration: none; color: var(--foam); }
+  .bar a:hover { color: var(--brass); }
+  .wrap { max-width: 760px; margin: 0 auto; padding-left: var(--gl); padding-right: var(--gr); padding-block: 40px 80px; display: grid; gap: 28px; }
+  h1 { font-family: var(--display); font-weight: 400; font-size: clamp(32px, 6vw, 54px); margin: 0; line-height: 1; text-wrap: balance; }
+  .lede { color: var(--foam-dim); margin: 0; max-width: 60ch; }
+  .letter { background: var(--paper); color: var(--ink); padding: 34px 36px 30px; border-radius: 2px; position: relative; box-shadow: 0 20px 50px rgba(0,0,0,.45), inset 0 0 0 1px rgba(90,61,34,.25); transform: rotate(-.3deg); }
+  .letter:nth-child(even) { transform: rotate(.35deg); background: var(--paper-2); }
+  .letter .date { font-family: var(--mono); font-size: 12px; letter-spacing: .1em; color: var(--ink-2); text-transform: uppercase; display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
+  .letter p { margin: 14px 0 0; font-size: 19px; line-height: 1.6; max-width: 60ch; }
+  .letter .salute { font-style: italic; }
+  .letter .sign { margin-top: 18px; font-family: var(--display); font-size: 16px; color: var(--ink-2); }
+  .letter .burn { position: absolute; right: 18px; top: 14px; width: 22px; height: 22px; border-radius: 50%; background: radial-gradient(circle, #6b3a1a 0 30%, rgba(107,58,26,.35) 60%, transparent 72%); opacity: .8; }
+  @media (max-width: 520px) { .letter { padding: 24px 20px 22px; transform: none; } .letter:nth-child(even) { transform: none; } }
+  .empty { font-family: var(--mono); font-size: 13px; color: var(--mute); border: 1px dashed var(--line); padding: 20px; border-radius: 2px; }
+  footer { font-family: var(--mono); font-size: 12px; color: var(--mute); letter-spacing: .08em; text-transform: uppercase; border-top: 1px solid var(--line); padding-top: 18px; display: flex; flex-wrap: wrap; gap: 10px 20px; }
+  footer a { text-decoration: none; }
+</style>
+</head>
+<body>
+<nav class="bar">
+  <a href="index.html">&larr; Back to Dagnar</a>
+  <a href="profile.html">Dating profile</a>
+</nav>
+<main class="wrap">
+  <h1>Letters to Aerie Peak</h1>
+  <p class="lede">He writes to Hulda Thunderbraid, the Wildhammer shaman who taught him to hold the fire. He has never once said so out loud. These are the quiet nights, in order.</p>
+  <div id="letters"><p class="empty">Nothing in the post yet. Quiet nights come.</p></div>
+  <footer>
+    <span>Dagnar Barleigh · WoW Forever</span>
+    <a href="index.html">Dispatches</a>
+    <a href="profile.html">Azeroth Dating Profile</a>
+  </footer>
+</main>
+<script>
+(function () {
+  var box = document.getElementById('letters');
+  function esc(t) { return String(t == null ? '' : t).replace(/[&<>"]/g, function (c) { return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]; }); }
+  var M = ['January','February','March','April','May','June','July','August','September','October','November','December'];
+  fetch('campaign.json', { cache: 'no-store' }).then(function (r) { return r.json(); }).then(function (c) {
+    var ls = (c.posts || []).filter(function (p) { return p.type === 'letter'; })
+      .sort(function (a, b) { return new Date(b.time) - new Date(a.time); });
+    if (!ls.length) return;
+    box.innerHTML = ls.map(function (p) {
+      var d = new Date(p.time);
+      var when = isNaN(d) ? esc(p.time) : M[d.getMonth()] + ' ' + d.getDate() + ', ' + d.getFullYear();
+      var body = esc(p.text) + (p.detail ? ' ' + esc(p.detail) : '');
+      return '<article class="letter"><span class="burn" aria-hidden="true"></span><div class="date"><span>' + when + '</span><span>' + esc(p.zone || '') + '</span></div>' +
+        '<p class="salute">Hulda,</p><p>' + body + '</p><p class="sign">— D.</p></article>';
+    }).join('');
+  }).catch(function () {});
+})();
+</script>
+</body>
+</html>

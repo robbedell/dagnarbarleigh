@@ -1,0 +1,24 @@
+name: Leave Dagnar a note
+description: Say something to the dwarf. He answers in his own time, usually after a drink.
+title: "Note for Dagnar"
+labels: ["note"]
+body:
+  - type: input
+    id: from
+    attributes:
+      label: Who's it from?
+      description: A character name, a nickname, or nothing at all.
+      placeholder: "A gnome with opinions"
+    validations:
+      required: false
+  - type: textarea
+    id: note
+    attributes:
+      label: The note
+      description: Keep it in character if you like. He'll read it either way.
+      placeholder: "Heard you fix guns. Heard what happens after."
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: "He answers on the website, not here. Anything rude or out of bounds gets fed to the fire elemental."

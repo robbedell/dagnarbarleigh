@@ -213,6 +213,8 @@
   .post.t-boom .ptype::before { background: #ff3b1f; box-shadow: 0 0 10px #ff3b1f; }
   .post.t-met .ptype::before { background: var(--arc); box-shadow: 0 0 8px var(--arc); }
   .post.t-letter .ptype::before { background: var(--foam); box-shadow: none; }
+  .post.t-reply .ptype::before { background: var(--brass); box-shadow: none; border-radius: 50%; transform: none; }
+  .post.t-reply .from { font-family: var(--mono); font-size: 12px; color: var(--mute); }
   .post h3 { margin: 0; font-family: var(--display); font-weight: 400; font-size: clamp(19px, 2.2vw, 23px); color: var(--foam); line-height: 1.25; text-wrap: balance; }
   .post.t-letter h3, .post.t-letter p { font-style: italic; }
   .post p { color: var(--foam-dim); max-width: 64ch; }
@@ -256,6 +258,10 @@
       <span class="chip"><b>Taught by</b> the Wildhammer, Aerie Peak</span>
       <span class="chip"><b>Heals</b> fast, ugly, good enough</span>
       <span class="chip"><b>Eyebrows lost</b> <span id="eyebrowsChip">11</span></span>
+    </div>
+    <div class="chips" style="margin-top:4px">
+      <a class="chip" href="letters.html" style="text-decoration:none">Letters to Aerie Peak</a>
+      <a class="chip" href="https://github.com/robbedell/dagnarbarleigh/issues/new?template=note.yml" style="text-decoration:none">Leave him a note</a>
     </div>
     <a class="cta" href="profile.html"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-7-4.6-9.3-8.6C1 9.2 2.7 5.5 6.3 5.1c2-.2 3.7.8 4.7 2.3 1-1.5 2.7-2.5 4.7-2.3 3.6.4 5.3 4.1 3.6 7.3C19 16.4 12 21 12 21z"/></svg>View his Azeroth Dating Profile</a>
   </div>
@@ -371,7 +377,7 @@
 
   <footer>
     <span>Dagnar Barleigh · WoW Forever</span>
-    <span><a href="profile.html" style="color:var(--brass);text-decoration:none">Azeroth Dating Profile</a> · Fix your gun · Heal your wound · Drink your ale</span>
+    <span><a href="profile.html" style="color:var(--brass);text-decoration:none">Azeroth Dating Profile</a> · <a href="letters.html" style="color:var(--brass);text-decoration:none">Letters</a> · <a href="https://github.com/robbedell/dagnarbarleigh/issues/new?template=note.yml" style="color:var(--brass);text-decoration:none">Leave a note</a></span>
   </footer>
 </main>
 
@@ -444,7 +450,7 @@
     var h = d.getHours(), ap = h >= 12 ? 'pm' : 'am'; h = h % 12 || 12;
     return M[d.getMonth()] + ' ' + d.getDate() + ' · ' + h + ':' + String(d.getMinutes()).padStart(2, '0') + ap;
   }
-  var TYPES = { dispatch: 'Dispatch', toast: 'Toast', boom: 'Boom report', met: 'Met someone', letter: 'Letter to Aerie Peak', shot: 'Field photo', death: 'Casualty report', milestone: 'Milestone' };
+  var TYPES = { dispatch: 'Dispatch', toast: 'Toast', boom: 'Boom report', met: 'Met someone', letter: 'Letter to Aerie Peak', shot: 'Field photo', death: 'Casualty report', milestone: 'Milestone', reply: 'Mailbag' };
   var STAND = { stranger: 'Stranger', regular: 'Regular', friend: 'Friend', flame: 'Mentions too much', rival: 'Rival', partner: 'The one' };
   var shown = 0, posts = [];
   function render(n) {
@@ -459,6 +465,7 @@
       if (x.bangs) meta.push('<b>' + x.bangs + '</b> ' + (x.bangs === 1 ? 'blast' : 'blasts'));
       if (x.people && x.people.length) meta.push('with ' + esc(x.people.join(', ')));
       el.innerHTML = '<div class="pbody"><div class="ptop"><span class="ptype">' + esc(TYPES[x.type] || x.type || 'Dispatch') + '</span><span>' + when(x.time) + '</span></div>' +
+        (x.type === 'reply' && x.from ? '<div class="from">A note from ' + esc(x.from) + (x.gist ? ', who says ' + esc(x.gist) : '') + '</div>' : '') +
         '<h3>' + esc(x.text) + '</h3>' + (x.detail ? '<p>' + esc(x.detail) + '</p>' : '') +
         (meta.length ? '<div class="pmeta">' + meta.join('<span>·</span>') + '</div>' : '') + '</div>' +
         (x.image ? '<div class="pimg"><img src="' + esc(x.image) + '" alt="' + esc(x.alt || x.text) + '" loading="lazy"></div>' : '');
