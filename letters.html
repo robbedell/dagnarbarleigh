@@ -38,6 +38,9 @@
   .letter .sign { margin-top: 18px; font-family: var(--display); font-size: 16px; color: var(--ink-2); }
   .letter .burn { position: absolute; right: 18px; top: 14px; width: 22px; height: 22px; border-radius: 50%; background: radial-gradient(circle, #6b3a1a 0 30%, rgba(107,58,26,.35) 60%, transparent 72%); opacity: .8; }
   @media (max-width: 520px) { .letter { padding: 24px 20px 22px; transform: none; } .letter:nth-child(even) { transform: none; } }
+  .postcard { border: 1px solid var(--brass); background: var(--bg-2); padding: 18px 20px; border-radius: 2px; display: grid; gap: 8px; }
+  .postcard .k { font-family: var(--mono); font-size: 11px; letter-spacing: .12em; text-transform: uppercase; color: var(--brass); }
+  .postcard p { margin: 0; font-style: italic; color: var(--foam); }
   .empty { font-family: var(--mono); font-size: 13px; color: var(--mute); border: 1px dashed var(--line); padding: 20px; border-radius: 2px; }
   footer { font-family: var(--mono); font-size: 12px; color: var(--mute); letter-spacing: .08em; text-transform: uppercase; border-top: 1px solid var(--line); padding-top: 18px; display: flex; flex-wrap: wrap; gap: 10px 20px; }
   footer a { text-decoration: none; }
@@ -51,6 +54,12 @@
 <main class="wrap">
   <h1>Letters to Aerie Peak</h1>
   <p class="lede">He writes to Hulda Thunderbraid, the Wildhammer shaman who taught him to hold the fire. He has never once said so out loud. These are the quiet nights, in order.</p>
+  <div class="postcard" id="postcard" hidden>
+    <span class="k">This week&#39;s audio postcard</span>
+    <p id="pcText"></p>
+    <audio id="pcAudio" controls preload="none" style="width:100%;margin-top:8px"></audio>
+    <span class="k" id="pcWhen"></span>
+  </div>
   <div id="letters"><p class="empty">Nothing in the post yet. Quiet nights come.</p></div>
   <footer>
     <span>Dagnar Barleigh · WoW Forever</span>
@@ -64,6 +73,13 @@
   function esc(t) { return String(t == null ? '' : t).replace(/[&<>"]/g, function (c) { return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]; }); }
   var M = ['January','February','March','April','May','June','July','August','September','October','November','December'];
   fetch('campaign.json', { cache: 'no-store' }).then(function (r) { return r.json(); }).then(function (c) {
+    var au = c.arc && c.arc.audio;
+    if (au && au.src) {
+      document.getElementById('postcard').hidden = false;
+      document.getElementById('pcText').textContent = au.text || '';
+      document.getElementById('pcAudio').src = au.src;
+      document.getElementById('pcWhen').textContent = au.date ? 'Read aloud ' + au.date : '';
+    }
     var ls = (c.posts || []).filter(function (p) { return p.type === 'letter'; })
       .sort(function (a, b) { return new Date(b.time) - new Date(a.time); });
     if (!ls.length) return;

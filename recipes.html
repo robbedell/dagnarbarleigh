@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>The Recipe Book</title>
+<meta name="description" content="Everything Dagnar Barleigh has built, brewed, or blown up, kept like a brewery journal.">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Metamorphous&family=Alegreya:ital,wght@0,400;0,500;0,700;1,400;1,500&family=IBM+Plex+Mono:wght@400;600&display=swap">
+<style>
+  :root {
+    --bg: #130d0a; --bg-2: #1e1410; --panel: #241812; --paper: #efe3c8; --paper-2: #e4d5b3; --ink: #2a1d16; --ink-2: #5a4632;
+    --line: #5a3d22; --brass: #d9a441; --ember: #ff7a1f; --arc: #7fd4ff; --foam: #f3e7cf; --foam-dim: #c9b596; --mute: #8a7257;
+    --display: "Metamorphous", Georgia, serif; --body: "Alegreya", Georgia, serif; --mono: "IBM Plex Mono", Menlo, monospace;
+    --gl: max(16px, env(safe-area-inset-left, 0px)); --gr: max(16px, env(safe-area-inset-right, 0px));
+    color-scheme: dark;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; background: var(--bg); color: var(--foam); }
+  body { font-family: var(--body); font-size: 18px; line-height: 1.55; -webkit-font-smoothing: antialiased; }
+  a { color: var(--brass); }
+  :focus-visible { outline: 2px solid var(--ember); outline-offset: 3px; }
+  .bar { position: sticky; top: 0; z-index: 5; background: var(--bg); border-bottom: 1px solid var(--line); padding-left: var(--gl); padding-right: var(--gr); padding-block: calc(10px + env(safe-area-inset-top, 0px)) 10px; display: flex; justify-content: space-between; align-items: center; gap: 12px; flex-wrap: wrap; }
+  .bar a { font-family: var(--mono); font-size: 12px; letter-spacing: .12em; text-transform: uppercase; text-decoration: none; color: var(--foam); }
+  .bar a:hover { color: var(--brass); }
+  .wrap { max-width: 820px; margin: 0 auto; padding-left: var(--gl); padding-right: var(--gr); padding-block: 40px 80px; display: grid; gap: 28px; }
+  h1 { font-family: var(--display); font-weight: 400; font-size: clamp(32px, 6vw, 54px); margin: 0; line-height: 1; text-wrap: balance; }
+  h2 { font-family: var(--display); font-weight: 400; font-size: 22px; margin: 0; color: var(--brass); }
+  .lede { color: var(--foam-dim); margin: 0; max-width: 62ch; }
+  p { margin: 0; max-width: 66ch; }
+  .empty { font-family: var(--mono); font-size: 13px; color: var(--mute); border: 1px dashed var(--line); padding: 20px; border-radius: 2px; }
+  .k { font-family: var(--mono); font-size: 11px; letter-spacing: .12em; text-transform: uppercase; color: var(--mute); }
+  footer { font-family: var(--mono); font-size: 12px; color: var(--mute); letter-spacing: .08em; text-transform: uppercase; border-top: 1px solid var(--line); padding-top: 18px; display: flex; flex-wrap: wrap; gap: 10px 20px; }
+  footer a { text-decoration: none; }
+
+  .book { background: var(--paper); color: var(--ink); padding: 28px 30px; border-radius: 2px; box-shadow: 0 20px 50px rgba(0,0,0,.45); display: grid; gap: 0; }
+  .entry { display: grid; grid-template-columns: 90px 1fr auto; gap: 12px; align-items: baseline; padding: 12px 0; border-bottom: 1px dashed rgba(90,70,50,.4); }
+  .entry:last-child { border-bottom: 0; }
+  .entry .d { font-family: var(--mono); font-size: 12px; color: var(--ink-2); }
+  .entry .n { font-family: var(--display); font-size: 19px; }
+  .entry .c { font-family: var(--mono); font-size: 12px; color: var(--ink-2); white-space: nowrap; }
+  .entry .note { grid-column: 2 / -1; font-style: italic; color: var(--ink-2); font-size: 16px; }
+  .entry.boom .n::after { content: " ✶"; color: #b8431a; }
+  .entry.boom .n { text-decoration: line-through; text-decoration-color: rgba(184,67,26,.6); }
+  @media (max-width: 520px) { .entry { grid-template-columns: 1fr auto; } .entry .d { grid-column: 1 / -1; } }
+  .tally { font-family: var(--mono); font-size: 12px; color: var(--mute); display: flex; gap: 18px; flex-wrap: wrap; }
+  .tally b { color: var(--brass); font-weight: 600; }
+</style>
+</head>
+<body>
+<nav class="bar">
+  <a href="index.html">&larr; Back to Dagnar</a>
+  <a href="profile.html">Dating profile</a>
+</nav>
+<main class="wrap">
+  <h1>The Recipe Book</h1>
+  <p class="lede">A brewery keeps a journal. This is his, minus the brewery. Everything he has built, brewed or fixed, in order. The struck-through ones went off. He calls that quality control.</p>
+  <div class="tally" id="tally"></div>
+  <div class="book" id="book"><p class="empty" style="background:transparent;border-color:rgba(90,70,50,.4);color:var(--ink-2)">Nothing built yet. Give him a workbench and a pint.</p></div>
+  <footer>
+    <span>Dagnar Barleigh · WoW Forever</span>
+    <a href="index.html">Dispatches</a>
+    <a href="letters.html">Letters</a>
+    <a href="recipes.html">Recipes</a>
+    <a href="review.html">Year in Review</a>
+  </footer>
+</main>
+<script>
+(function () {
+  function esc(t) { return String(t == null ? '' : t).replace(/[&<>"]/g, function (c) { return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]; }); }
+  var M = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+  fetch('campaign.json', { cache: 'no-store' }).then(function (r) { return r.json(); }).then(function (c) {
+    var rs = (c.recipes || []).slice().sort(function (a, b) { return String(b.date).localeCompare(String(a.date)); });
+    var book = document.getElementById('book'); if (!rs.length) return;
+    book.innerHTML = rs.map(function (r) {
+      var p = String(r.date).split('-'); var d = p.length === 3 ? M[+p[1]-1] + ' ' + (+p[2]) : esc(r.date);
+      return '<div class="entry' + (r.exploded ? ' boom' : '') + '"><span class="d">' + d + '</span><span class="n">' + esc(r.item) + '</span><span class="c">' + (r.count > 1 ? '×' + r.count : '') + '</span>' + (r.note ? '<span class="note">' + esc(r.note) + '</span>' : '') + '</div>';
+    }).join('');
+    var made = rs.reduce(function (a, r) { return a + (r.count || 1); }, 0), boom = rs.filter(function (r) { return r.exploded; }).length;
+    document.getElementById('tally').innerHTML = '<span><b>' + made + '</b> made</span><span><b>' + boom + '</b> went off</span><span><b>' + (made ? Math.round(100 * (1 - boom / rs.length)) : 0) + '%</b> survival rate</span>';
+  }).catch(function () {});
+})();
+</script>
+</body>
+</html>

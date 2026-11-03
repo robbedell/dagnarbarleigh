@@ -16,7 +16,8 @@
     "replies": 0,
     "beat": "Two days to the doors. Nothing owed, nobody met. Decide what he takes apart when a room goes quiet; something that fits a pocket. Then find the loudest table in Ironforge and ask who is furthest from home.",
     "storySoFar": null,
-    "beatDate": "2026-11-02"
+    "beatDate": "2026-11-02",
+    "audio": null
   },
   "people": {},
   "stats": {
@@ -53,5 +54,12 @@
       "image": null
     }
   ],
-  "threads": []
+  "threads": [],
+  "launch": "2026-11-04T23:00:00-05:00",
+  "ledger": [],
+  "recipes": [],
+  "warmth": {},
+  "zonesVisited": {},
+  "review": null,
+  "alts": []
 }
