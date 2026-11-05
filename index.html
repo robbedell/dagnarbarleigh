@@ -532,13 +532,15 @@
     if (c.eyebrows_lost != null && c.eyebrows_lost > brows) brows = c.eyebrows_lost;
     document.getElementById('eyebrows').textContent = brows;
     document.getElementById('eyebrowsChip').textContent = brows;
-    // countdown to launch
+    // countdown to launch: shows only before the doors open and before he has played a single session
     (function () {
       var L = c.launch ? new Date(c.launch) : null; if (!L || isNaN(L)) return;
+      var played = (c.stats && c.stats.sessions > 0) || posts.length > 1;
       var sec = document.getElementById('countSection'), big = document.getElementById('countBig'), line = document.getElementById('countLine');
+      if (played) { sec.hidden = true; return; }
       function tick() {
         var ms = L - Date.now();
-        if (ms <= 0) { if (posts.length <= 1) { sec.hidden = false; big.textContent = 'Open.'; line.textContent = 'The doors are open. First dispatch when he finds a loud room.'; } else { sec.hidden = true; } return; }
+        if (ms <= 0) { sec.hidden = false; big.textContent = 'Open.'; line.textContent = 'The doors are open. First dispatch when he finds a loud room.'; return; }
         sec.hidden = false;
         var d = Math.floor(ms / 864e5), h = Math.floor(ms % 864e5 / 36e5), m = Math.floor(ms % 36e5 / 6e4);
         big.textContent = (d ? d + 'd ' : '') + h + 'h ' + String(m).padStart(2, '0') + 'm';
