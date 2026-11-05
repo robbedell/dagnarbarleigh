@@ -3,41 +3,178 @@
   "eyebrows_base": 11,
   "eyebrows_lost": 11,
   "arc": {
-    "mood": "Fresh off the road. Loud on purpose.",
+    "mood": "First night done. Said nothing, heard everything. Has a guild hall now and a malt he hasn't opened.",
     "lookingFor": "Someone who stays. Says it's a business partner for a brewery. It isn't.",
     "runningBits": [
       "Quality control (the eyebrows)",
       "It's a brewery",
-      "Another time (Loch Modan)"
+      "Another time (Loch Modan)",
+      "The malt he hasn't opened yet",
+      "Died once, unbothered"
     ],
     "frontRunner": null,
-    "updated": "2026-10-30",
-    "wanted": "WANTED: partner for a brewery that doesn't exist yet. Must tolerate noise, smoke, and questions about where you're from. Dwarves need not apply, probably. Inquire at any loud room.",
+    "updated": "2026-11-04",
+    "wanted": "WANTED: partner for a brewery that doesn't exist yet. Must tolerate noise, smoke, and questions about where you're from. Dwarves need not apply, probably; the valley's full of them and not one asked. Humans under consideration since the guild hall. Inquire at Thunderbrew Distillery, loudest table.",
     "replies": 0,
     "beat": "Doors open at eleven. Clean slate: nobody met, nothing owed. Settle the drink he always orders before the first pint, then find the loudest table in Ironforge and ask whoever isn't a dwarf where they're from.",
     "storySoFar": null,
     "beatDate": "2026-11-04",
-    "audio": null
+    "audio": null,
+    "holidayDone": {}
   },
-  "people": {},
+  "people": {
+    "Emmitt Brown": {
+      "race": "Gnome",
+      "standing": "stranger",
+      "warmth": 2.0,
+      "met": "2026-11-04",
+      "metZone": "Dun Morogh",
+      "lastSeen": "2026-11-04",
+      "lastSaid": "Congratulated a gnome on being named Pongo.",
+      "note": "Gnome. Thinks everyone is tall. Danced at the doors. I like him already."
+    },
+    "Frizzle Cinderspark": {
+      "race": "Gnome",
+      "standing": "stranger",
+      "warmth": 1.6,
+      "met": "2026-11-04",
+      "metZone": "Dun Morogh",
+      "lastSeen": "2026-11-04",
+      "lastSaid": "Suggested everyone was short, not tall.",
+      "note": "Gnome. Called the valley a family reunion. Asked after a Christmas card."
+    },
+    "Fodrin Firebrand": {
+      "race": "Dwarf",
+      "standing": "stranger",
+      "warmth": 1.6,
+      "met": "2026-11-04",
+      "metZone": "Dun Morogh",
+      "lastSeen": "2026-11-04",
+      "lastSaid": "Something in capital letters.",
+      "note": "Dwarf. Danced before he'd finished cheering."
+    },
+    "Bargash Greybeard": {
+      "race": "Dwarf",
+      "standing": "stranger",
+      "warmth": 1.4,
+      "met": "2026-11-04",
+      "metZone": "Dun Morogh",
+      "lastSeen": "2026-11-04",
+      "lastSaid": "Admired the pile of corpses, loudly, for the king.",
+      "note": "Dwarf. Shouts for the forge and king. Likes a corpse pile."
+    },
+    "Brother Borelgore": {
+      "race": "Dwarf",
+      "standing": "stranger",
+      "warmth": 1.4,
+      "met": "2026-11-04",
+      "metZone": "Dun Morogh",
+      "lastSeen": "2026-11-04",
+      "lastSaid": "Still shouting for Phil.",
+      "note": "Dwarf. Looking for Phil. I hope he finds Phil."
+    },
+    "Igneous Stonegarden": {
+      "race": "Dwarf",
+      "standing": "stranger",
+      "warmth": 1.6,
+      "met": "2026-11-04",
+      "metZone": "Dun Morogh",
+      "lastSeen": "2026-11-04",
+      "lastSaid": "Congratulated somebody on something.",
+      "note": "Dwarf. Says hello to everyone. Congratulates strangers."
+    },
+    "Griym Firebeard": {
+      "race": "Dwarf",
+      "standing": "stranger",
+      "warmth": 1.4,
+      "met": "2026-11-04",
+      "metZone": "Dun Morogh",
+      "lastSeen": "2026-11-04",
+      "lastSaid": "Called the wolf business the food chain.",
+      "note": "Dwarf. Has a theory about the food chain."
+    },
+    "Doldrenn Stoneforge": {
+      "race": "Dwarf",
+      "standing": "stranger",
+      "warmth": 1.4,
+      "met": "2026-11-04",
+      "metZone": "Dun Morogh",
+      "lastSeen": "2026-11-04",
+      "lastSaid": "Volunteered for the wolf killing.",
+      "note": "Dwarf. Will join anyone for wolves. My kind of recruit."
+    },
+    "Pus Pus": {
+      "race": "Gnome",
+      "standing": "stranger",
+      "warmth": 1.4,
+      "met": "2026-11-04",
+      "metZone": "Dun Morogh",
+      "lastSeen": "2026-11-04",
+      "lastSaid": "The shop was down, with feeling.",
+      "note": "Gnome. Tells jokes to other gnomes. Reports outages."
+    },
+    "Anthéor Stonehymn": {
+      "race": "Dwarf",
+      "standing": "stranger",
+      "warmth": 1.6,
+      "met": "2026-11-04",
+      "metZone": "Dun Morogh",
+      "lastSeen": "2026-11-04",
+      "lastSaid": "Declined to log out for the quest reward.",
+      "note": "Dwarf. Knows what being a dwarf is about. Waited on a fire that owed him."
+    },
+    "Embertempest Anvilmar": {
+      "race": "Dwarf",
+      "standing": "stranger",
+      "warmth": 1.2,
+      "met": "2026-11-04",
+      "metZone": "Dun Morogh",
+      "lastSeen": "2026-11-04",
+      "lastSaid": "The campfire quest wouldn't pay out.",
+      "note": "Dwarf. Smiled at a campfire that owed them a reward."
+    },
+    "Náin Snowholdt": {
+      "race": "Dwarf",
+      "standing": "stranger",
+      "warmth": 1.2,
+      "met": "2026-11-04",
+      "metZone": "Dun Morogh",
+      "lastSeen": "2026-11-04",
+      "lastSaid": "Suggested logging out and back in, out of character.",
+      "note": "Dwarf. Wanted wolves early. Offers practical advice, out of character."
+    }
+  },
   "stats": {
     "drinks": 0,
     "smashed": 0,
-    "deaths": 0,
+    "tipsy": 0,
+    "drunk": 0,
+    "deaths": 1,
     "dances": 0,
     "toasts": 0,
+    "flirts": 0,
+    "hugs": 0,
     "bangs": 0,
     "crafted": 0,
     "fish": 0,
     "hearths": 0,
     "duelsWon": 0,
     "duelsLost": 0,
-    "people": 0,
-    "races": [],
-    "zones": 0,
-    "restHours": 0,
+    "groups": 0,
+    "trades": 0,
+    "level": 6,
+    "guild": "The Brave of Lordaeron",
+    "people": 12,
+    "races": [
+      "Dwarf",
+      "Gnome"
+    ],
+    "zones": 1,
+    "lastZone": "Dun Morogh",
+    "restHours": 0.0,
     "peak": "sober",
-    "asOf": null
+    "sessions": 9,
+    "asOf": "2026-11-04"
   },
   "posts": [
     {
@@ -52,6 +189,104 @@
       "bangs": 0,
       "people": [],
       "image": null
+    },
+    {
+      "id": "2026-11-04-1814-coldridge-roll-call",
+      "time": "2026-11-04T18:14:05-05:00",
+      "type": "met",
+      "zone": "Dun Morogh",
+      "title": "Coldridge roll call",
+      "text": "Coldridge Valley, wall to wall. Emmitt Brown, a gnome, found everyone tall. Frizzle Cinderspark, also a gnome, found it a family reunion. I asked nobody anything yet.",
+      "detail": "Fodrin Firebrand danced. Bargash Greybeard shouted for the forge and king. Brother Borelgore could not find Phil. Doldrenn Stoneforge went off wolf-killing with Náin Snowholdt. Pus Pus reported the shop down.",
+      "pints": 0,
+      "bangs": 0,
+      "people": [
+        "Emmitt Brown",
+        "Frizzle Cinderspark",
+        "Fodrin Firebrand",
+        "Bargash Greybeard",
+        "Brother Borelgore",
+        "Igneous Stonegarden",
+        "Griym Firebeard",
+        "Doldrenn Stoneforge",
+        "Pus Pus"
+      ],
+      "image": "shots/2026-11-04-1814-coldridge-roll-call.jpg",
+      "alt": "Coldridge Valley on launch night, seen through three setup windows that would not close."
+    },
+    {
+      "id": "2026-11-04-1938-two-to-six",
+      "time": "2026-11-04T19:38:15-05:00",
+      "type": "milestone",
+      "zone": "Dun Morogh",
+      "title": "Two to six",
+      "text": "Level six before the first pint. Wolves, troggs, a troll cave, two mail runs. Picked up skinning and mining because the mountain was offering.",
+      "detail": "The mornbrew went cold on the first delivery and had to go again. The earth sapta wouldn't turn in, twice. I was already carrying one. An engineer's mistake, not a shaman's.",
+      "pints": 0,
+      "bangs": 0,
+      "people": [],
+      "image": "shots/2026-11-04-1938-two-to-six.jpg",
+      "alt": "Level six, in the snow, with a wolf and two troggs waiting their turn."
+    },
+    {
+      "id": "2026-11-04-1957-the-campfire",
+      "time": "2026-11-04T19:57:06-05:00",
+      "type": "met",
+      "zone": "Dun Morogh",
+      "title": "The campfire",
+      "text": "Sat by Eric Brighthammer's fire with three dwarves. Anthéor Stonehymn said this was the whole point of being a dwarf. He's not wrong.",
+      "detail": "The fire paid me and wouldn't pay them. Embertempest Anvilmar and Anthéor were still waiting when I stood up. Náin Snowholdt suggested leaving and coming back. Anthéor declined.",
+      "pints": 0,
+      "bangs": 0,
+      "people": [
+        "Anthéor Stonehymn",
+        "Embertempest Anvilmar",
+        "Náin Snowholdt"
+      ],
+      "image": null,
+      "alt": null
+    },
+    {
+      "id": "2026-11-04-2009-brave-of-lordaeron",
+      "time": "2026-11-04T20:09:15-05:00",
+      "type": "milestone",
+      "zone": "Dun Morogh",
+      "title": "A guild, apparently",
+      "text": "Set my hearth at Thunderbrew Distillery, which tells you my priorities. Six minutes on, a human called Malachi Zerbe asked me into The Brave of Lordaeron. Said yes.",
+      "detail": "Hadn't said a word all night and still got invited. Either a good sign about them or a bad one about the night. The hall was loud within the minute. Humans, mostly, from the sound of it.",
+      "pints": 0,
+      "bangs": 0,
+      "people": [],
+      "image": null,
+      "alt": null
+    },
+    {
+      "id": "2026-11-04-2015-died-once",
+      "time": "2026-11-04T20:15:09-05:00",
+      "type": "death",
+      "zone": "Dun Morogh",
+      "title": "Died once",
+      "text": "Cheered for a lost gnome at fourteen past. Dead by fifteen past. Unrelated, as far as the gnome knows.",
+      "detail": "Ten percent off the gear. Walked back, finished Flintfire's shipment, then learned to cook boar ribs in beer, which is the first sensible thing anyone's taught me here.",
+      "pints": 0,
+      "bangs": 0,
+      "people": [],
+      "image": null,
+      "alt": null
+    },
+    {
+      "id": "2026-11-04-2045-first-night",
+      "time": "2026-11-04T20:45:00-05:00",
+      "type": "letter",
+      "zone": "Dun Morogh",
+      "title": "First night",
+      "text": "First night and I didn't say a word out loud. Twelve people talked near me and I listened, which you'd call progress and I'd call the cold.",
+      "detail": "Nobody asked where I'm from. Nobody will, in a valley this full of dwarves. Set my hearth at a distillery, joined a guild of humans with a brave name, died once in the snow and minded the walk more. The malt they gave me for a delivery is still in the pack. Haven't decided who to open it with.",
+      "pints": 0,
+      "bangs": 0,
+      "people": [],
+      "image": null,
+      "alt": null
     }
   ],
   "threads": [],
@@ -59,7 +294,14 @@
   "ledger": [],
   "recipes": [],
   "warmth": {},
-  "zonesVisited": {},
+  "zonesVisited": {
+    "Dun Morogh": {
+      "hours": 2.4,
+      "first": "2026-11-04",
+      "last": "2026-11-04",
+      "lastPostId": "2026-11-04-2045-first-night"
+    }
+  },
   "review": null,
   "alts": []
 }

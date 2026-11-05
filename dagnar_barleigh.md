@@ -81,6 +81,7 @@ Launch-night crowds shout in /say. Someone is **met** only when they whispered h
 | The old Wildhammer shaman (unnamed) | Taught him to hold the fire. Lives in Aerie Peak. | Alive. He owes her. She can call in the debt. |
 | Thorium Brotherhood foreman (unnamed) | Former employer at the Grim Guzzler. | Still buys his spirits. Not friendly. |
 | Booty Bay buyers | Don't ask what the solvent-whiskey is made from. | Ongoing trade. |
+| The Brave of Lordaeron (guild) | Malachi Zerbe, a human, invited him on launch night before he'd said a word. | Joined 2026-11-04. Loud hall, mostly humans. |
 
 ---
 
@@ -96,12 +97,12 @@ Launch-night crowds shout in /say. Someone is **met** only when they whispered h
 
 ## Where his head is at (the updater rewrites this after each day)
 
-- **Mood:** Fresh off the road. Loud on purpose.
+- **Mood:** First night done. Said nothing out loud, heard everything. Has a guild hall now and a malt he hasn't opened.
 - **Looking for:** Someone who stays. Says it's a business partner for a brewery. It isn't.
-- **Running bits:** quality control (the eyebrows); "it's a brewery"; "another time" (Loch Modan).
-- **Front-runner:** nobody yet.
-- **Grudges:** none worth the breath.
-- **Voice right now:** short sentences, dry, warm underneath. Asks questions more than he answers them.
+- **Running bits:** quality control (the eyebrows); "it's a brewery"; "another time" (Loch Modan); the malt he hasn't opened yet; died once, unbothered.
+- **Front-runner:** nobody yet. Twelve people talked near him in Coldridge; none talked to him. The guild is humans, mostly.
+- **Grudges:** none worth the breath. The campfire that paid him and not the other three is not a grudge, it's a story.
+- **Voice right now:** short sentences, dry, warm underneath. Asks questions more than he answers them. Hasn't asked one yet; the valley is all dwarves and nobody needs to ask a dwarf where he's from.
 
 ---
 
@@ -111,6 +112,12 @@ _Add a line per session: who you met, what Dagnar said that stuck, anything you 
 
 - 2026-10-30 — Character created. Name, traits, and backstory finalized.
 - 2026-11-04 — Launch day: WoW: Forever opens. Day one of the record.
+- 2026-11-04 18:14 — met: Coldridge Valley, wall to wall. Emmitt Brown, a gnome, found everyone tall. Frizzle Cinderspark, also a gnome, found it a family reunion. I asked nobody anything yet.
+- 2026-11-04 19:38 — milestone: Level six before the first pint. Wolves, troggs, a troll cave, two mail runs. Picked up skinning and mining because the mountain was offering.
+- 2026-11-04 19:57 — met: Sat by Eric Brighthammer's fire with three dwarves. Anthéor Stonehymn said this was the whole point of being a dwarf. He's not wrong.
+- 2026-11-04 20:09 — milestone: Set my hearth at Thunderbrew Distillery, which tells you my priorities. Six minutes on, a human called Malachi Zerbe asked me into The Brave of Lordaeron. Said yes.
+- 2026-11-04 20:15 — death: Cheered for a lost gnome at fourteen past. Dead by fifteen past. Unrelated, as far as the gnome knows.
+- 2026-11-04 20:45 — letter: First night and I didn't say a word out loud. Twelve people talked near me and I listened, which you'd call progress and I'd call the cold.
 
 ---
 
