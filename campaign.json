@@ -142,7 +142,7 @@
       "metZone": "Dun Morogh",
       "lastSeen": "2026-11-04",
       "lastSaid": "Suggested logging out and back in, out of character.",
-      "note": "Dwarf. Wanted wolves early. Offers practical advice, out of character."
+      "note": "Dwarf. Wanted wolves early. Gives practical advice to strangers."
     }
   },
   "stats": {
@@ -194,23 +194,18 @@
     {
       "id": "2026-11-04-1814-coldridge-roll-call",
       "time": "2026-11-04T18:14:05-05:00",
-      "type": "met",
+      "type": "dispatch",
       "zone": "Dun Morogh",
-      "title": "Coldridge roll call",
-      "text": "Coldridge Valley, wall to wall. Emmitt Brown, a gnome, found everyone tall. Frizzle Cinderspark, also a gnome, found it a family reunion. I asked nobody anything yet.",
-      "detail": "Fodrin Firebrand danced. Bargash Greybeard shouted for the forge and king. Brother Borelgore could not find Phil. Doldrenn Stoneforge went off wolf-killing with Náin Snowholdt. Pus Pus reported the shop down.",
+      "title": "Coldridge, wall to wall",
+      "text": "Coldridge Valley, wall to wall, every dwarf and gnome on the realm shouting at once. I stood in it and asked nobody anything.",
+      "detail": "A gnome called Emmitt found everyone tall. Another, Frizzle, called it a family reunion. A dwarf named Doldrenn went off wolf-killing with a Náin. Nobody asked where I'm from. Nobody will, in a valley this full of dwarves.",
       "pints": 0,
       "bangs": 0,
       "people": [
         "Emmitt Brown",
         "Frizzle Cinderspark",
-        "Fodrin Firebrand",
-        "Bargash Greybeard",
-        "Brother Borelgore",
-        "Igneous Stonegarden",
-        "Griym Firebeard",
         "Doldrenn Stoneforge",
-        "Pus Pus"
+        "Náin Snowholdt"
       ],
       "image": "shots/2026-11-04-1814-coldridge-roll-call.jpg",
       "alt": "Coldridge Valley on launch night, seen through three setup windows that would not close."
@@ -266,7 +261,7 @@
       "time": "2026-11-04T20:15:09-05:00",
       "type": "death",
       "zone": "Dun Morogh",
-      "title": "Died once",
+      "title": "Died once, so far",
       "text": "Cheered for a lost gnome at fourteen past. Dead by fifteen past. Unrelated, as far as the gnome knows.",
       "detail": "Ten percent off the gear. Walked back, finished Flintfire's shipment, then learned to cook boar ribs in beer, which is the first sensible thing anyone's taught me here.",
       "pints": 0,
@@ -276,22 +271,8 @@
       "alt": null
     },
     {
-      "id": "2026-11-04-2045-first-night",
-      "time": "2026-11-04T20:45:00-05:00",
-      "type": "letter",
-      "zone": "Dun Morogh",
-      "title": "First night",
-      "text": "First night and I didn't say a word out loud. Twelve people talked near me and I listened, which you'd call progress and I'd call the cold.",
-      "detail": "Nobody asked where I'm from. Nobody will, in a valley this full of dwarves. Set my hearth at a distillery, joined a guild of humans with a brave name, died once in the snow and minded the walk more. The malt they gave me for a delivery is still in the pack. Haven't decided who to open it with.",
-      "pints": 0,
-      "bangs": 0,
-      "people": [],
-      "image": null,
-      "alt": null
-    },
-    {
-      "id": "2026-11-04-2036-camp-cooking",
-      "time": "2026-11-04T20:36:15-05:00",
+      "id": "2026-11-04-2030-camp-cooking",
+      "time": "2026-11-04T20:30:00-05:00",
       "type": "dispatch",
       "zone": "Dun Morogh",
       "title": "Camp cooking",
@@ -351,8 +332,22 @@
       "type": "death",
       "zone": "Dun Morogh",
       "title": "The Recombobulator",
-      "text": "Died a second time at six past ten, to a troll at Frostmane Hold, which is what trolls are for. Three minutes later Razzle Sprysprocket fired up the Recombobulator with my gears.",
+      "text": "Died a third time at six past ten, to a troll at Frostmane Hold, which is what trolls are for. Three minutes later Razzle Sprysprocket fired up the Recombobulator with my gears.",
       "detail": "It was meant to save the entire gnomish race. It needed more grease. Got driving gloves for the trouble and a short staff from Bellowfiz for walking back. Someone in Kharanos wants me to meet a visitor. Tomorrow. The malt's still shut.",
+      "pints": 0,
+      "bangs": 0,
+      "people": [],
+      "image": null,
+      "alt": null
+    },
+    {
+      "id": "2026-11-04-2220-first-night",
+      "time": "2026-11-04T22:20:00-05:00",
+      "type": "letter",
+      "zone": "Dun Morogh",
+      "title": "First night",
+      "text": "First night and I didn't say a word out loud. Twelve people talked near me and I listened, which you'd call progress and I'd call the cold.",
+      "detail": "Nobody asked where I'm from. Nobody will, in a valley this full of dwarves. Set my hearth at a distillery, joined a guild of humans with a brave name, died three times in the snow and minded the walks more. The malt they gave me for a delivery is still in the pack. Haven't decided who to open it with.",
       "pints": 0,
       "bangs": 0,
       "people": [],
