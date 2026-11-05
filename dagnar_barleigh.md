@@ -70,6 +70,10 @@ He doesn't want redemption. He thinks it's a Light-worshipper's word for forgett
 
 ---
 
+## Who counts as met
+
+Launch-night crowds shout in /say. Someone is **met** only when they whispered him, shared a party line, aimed an emote at him, he targeted them, or they said two or more things near him. Everyone else is **heard**: remembered for the tooltip, never a standing, never a post.
+
 ## NPCs and connections
 
 | Name | Who | Status |
