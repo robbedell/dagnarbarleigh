@@ -64,3 +64,39 @@
 11/4 22:06:03.474  You died.
 11/4 22:07:33.943  You feel rested.
 11/4 22:12:15.497  Quest accepted: A Visitor to Dun Morogh
+11/4 22:17:26.687  Lime Rickey whispers: Lol Miss miss miss
+11/4 22:17:28.698  You cheer at Lime Rickey.
+11/4 22:17:28.969  Lime Rickey whispers: classic
+11/4 22:18:01.258  To Lime Rickey: I was sitting here trying to eat a cookie and 100% forgot I got that stupid staff lol
+11/4 22:18:34.001  Lime Rickey whispers: Stay safe friend!
+11/4 22:26:05.152  Discovered Shimmer Ridge: 70 experience gained
+11/4 22:41:43.671  The Perfect Stout completed.
+11/4 22:42:04.900  You receive item: Barrel of Shimmer Stout
+11/4 22:42:54.127  You receive item: Bottle of Dalaran Noir
+11/4 22:42:57.477  You feel a little tipsy from the Bottle of Dalaran Noir.
+11/4 22:43:43.343  You feel sober again.
+11/4 22:48:10.250  Guarded Thunderbrew Barrel completed.
+11/4 22:49:41.129  Guarded Thunderbrew Barrel completed.
+11/4 22:53:42.387  You receive item: Musical Gustjumper
+11/4 22:54:38.559  Musical Gustjumper has been added to your pet journal!
+11/4 22:59:12.095  Discovered Misty Pine Refuge: 65 experience gained
+11/4 22:59:41.265  Dawn in the Mountains completed.
+11/4 23:04:12.061  Finding Warmth completed.
+11/4 23:10:51.440  Discovered The Tundrid Hills: 70 experience gained
+11/4 23:13:43.594  Rime's Wrath completed.
+11/4 23:14:02.652  Treacherous Cold completed.
+11/4 23:15:35.292  Rime's Wrath completed.
+11/4 23:15:35.326  You receive item: Avala's Binding
+11/4 23:19:20.891  Discovered Gates of Ironforge: 65 experience gained
+11/4 23:19:56.889  Discovered Ironforge: 85 experience gained
+11/4 23:21:54.985  You have learned how to create a new item: Camp Chair.
+11/4 23:21:55.017  Camping 101: Skinning completed.
+11/4 23:26:23.226  Quest accepted: Call of Fire
+11/4 23:32:30.760  You receive item: Rat Catcher's Flute
+11/4 23:36:17.662  Deeprun Rat Roundup completed.
+11/4 23:38:16.523  You receive item: Carton of Mystery Meat
+11/4 23:44:01.877  Discovered Amberstill Ranch: 65 experience gained
+11/4 23:48:49.049  A Visitor to Dun Morogh completed.
+11/4 23:49:54.517  Farsen's Watch completed.
+11/4 23:51:25.872  Discovered Gol'Bolar Quarry: 85 experience gained
+11/4 23:55:04.373  Quest accepted: Those Blasted Troggs!

@@ -97,12 +97,12 @@ Launch-night crowds shout in /say. Someone is **met** only when they whispered h
 
 ## Where his head is at (the updater rewrites this after each day)
 
-- **Mood:** Day one, second shift. Still hasn't said a word out loud. Found a brewery on a lake (Brewnall Village) and carried another man's barrel of Scalder for him. Three deaths, none of them interesting. Not one pint yet; the malt is still shut.
+- **Mood:** Day one ran past midnight. First drink on the record was a bottle of Dalaran Noir off a quest, forty-six seconds of tipsy; he reports it like weather and insists it didn't count. First words to anyone were a whisper to Lime Rickey, who watched him miss a wolf three times with a staff he'd forgotten he owned. Found Ironforge, piped rats in the Tram, ended in Gol'Bolar Quarry with a quest about stolen blasting powder and a very still face.
 - **Looking for:** Someone who stays. Says it's a business partner for a brewery. It isn't.
-- **Running bits:** quality control (the eyebrows); "it's a brewery"; "another time" (Loch Modan); the malt he hasn't opened yet; Barleybrew, no relation; died three times, unbothered.
-- **Front-runner:** nobody yet. Twelve people talked near him on launch night; none talked to him. Second shift he saw nobody but gnomes with cogs and trolls with spears. The guild is humans, mostly, and talks about bags.
-- **Grudges:** none worth the breath. The campfire that paid him and not the other three is not a grudge, it's a story. The Frostmane troll at Frostmane Hold did what trolls are for.
-- **Voice right now:** short sentences, dry, warm underneath. Asks questions more than he answers them. Hasn't asked one yet. He has a barrel that isn't his, a cask that isn't his, and a malt that is; the question he should ask next is who to open it with.
+- **Running bits:** quality control (the eyebrows); "it's a brewery"; "another time" (Loch Modan); the malt he still hasn't opened (the wine didn't count); Barleybrew, no relation; the staff he forgot he owned; carries other men's barrels.
+- **Front-runner:** nobody yet. Lime Rickey is the only person who has spoken to him directly, and that was out of character, about a cookie. Worth finding again, in character. The guild is humans, mostly, and talks about bags and talent trees.
+- **Grudges:** none worth the breath. Jarven Thunderbrew had him watch the barrels twice and never brought one out; that's a story, not a grudge. The Rockjaw troggs have one word each.
+- **Voice right now:** short sentences, dry, warm underneath. Asks questions more than he answers them. Still hasn't asked one in character. He has a malt that's his and a city that's new; the Call of Fire is waiting and he's in no hurry, because he and fire are already acquainted. The blasting powder in Gol'Bolar is the first explosion waiting to happen.
 
 ---
 
@@ -123,6 +123,12 @@ _Add a line per session: who you met, what Dagnar said that stuck, anything you 
 - 2026-11-04 21:26 — dispatch: Walked into Brewnall Village on the lake and a Barleybrew handed me a barrel of Scalder to carry to his rival. No relation. A brewery, though. A real one.
 - 2026-11-04 21:32 — dispatch: Leper gnomes at the front door of Gnomeregan, eighteen of them, every one promising to cut me. Took their cogs and gears instead. Razzle wants them for a machine.
 - 2026-11-04 22:06 — death: Died a second time at six past ten, to a troll at Frostmane Hold, which is what trolls are for. Three minutes later Razzle Sprysprocket fired up the Recombobulator with my gears.
+- 2026-11-04 22:17 — dispatch: Swung a staff at a winter wolf and missed three times running. I'd forgotten I owned it. Someone called Lime Rickey saw the whole thing and laughed, kindly.
+- 2026-11-04 22:42 — toast: First drink on the record. Carried a barrel of Shimmer Stout up Shimmer Ridge past the Frostmane, and the reward was a bottle of Dalaran Noir. Wine. From a bottle.
+- 2026-11-04 23:15 — dispatch: Watched Jarven Thunderbrew's barrels twice while he drank inside. Then north to the Tundrid Hills for quests called Finding Warmth, Treacherous Cold and Rime's Wrath.
+- 2026-11-04 23:19 — milestone: Through the Gates of Ironforge at twenty past eleven. The great forge, a woman selling bread baked that morning, and a trade channel complaining the city was empty.
+- 2026-11-04 23:36 — dispatch: Under the city a dwarf called Monty handed me a flute and a box and said the rats would walk in one by one. They did. Nine hundred points of experience for piping vermin.
+- 2026-11-05 00:11 — dispatch: Amberstill Ranch, where a girl was chasing a ram named Fluffy, then Gol'Bolar Quarry till past midnight. Rockjaw troggs. One word each. Mostly Destroy.
 
 ---
 

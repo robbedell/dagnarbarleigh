@@ -3,23 +3,23 @@
   "eyebrows_base": 11,
   "eyebrows_lost": 11,
   "arc": {
-    "mood": "Day one, second shift. Still hasn't said a word out loud. Found a brewery on a lake and carried another man's barrel. Three deaths, none of them interesting.",
+    "mood": "Day one ran past midnight. First drink was wine, forty-six seconds of it. First words were a whisper, to a stranger who watched him miss a wolf three times. Found Ironforge. Found a quest about missing blasting powder and kept his face still.",
     "lookingFor": "Someone who stays. Says it's a business partner for a brewery. It isn't.",
     "runningBits": [
       "Quality control (the eyebrows)",
       "It's a brewery",
       "Another time (Loch Modan)",
-      "The malt he hasn't opened yet",
+      "The malt he still hasn't opened; the wine didn't count",
       "Barleybrew, no relation",
-      "Died three times, unbothered"
+      "The staff he forgot he owned"
     ],
     "frontRunner": null,
-    "updated": "2026-11-04",
-    "wanted": "WANTED: partner for a brewery that doesn't exist yet. Must tolerate noise, smoke, and questions about where you're from. Dwarves need not apply, probably; the valley's full of them and not one asked. Barleybrews especially; no relation, and they've got one. Inquire at Thunderbrew Distillery, loudest table.",
+    "updated": "2026-11-05",
+    "wanted": "WANTED: partner for a brewery that doesn't exist yet. Must tolerate noise, smoke, and questions about where you're from. Must laugh when I miss a wolf with a staff, but kindly. Dwarves need not apply, probably; the valley's full of them and not one asked. Inquire at Thunderbrew Distillery, loudest table.",
     "replies": 0,
-    "beat": "Doors open at eleven. Clean slate: nobody met, nothing owed. Settle the drink he always orders before the first pint, then find the loudest table in Ironforge and ask whoever isn't a dwarf where they're from.",
+    "beat": "Someone finally talked to you, and you answered out of character about a cookie. Find Lime Rickey again and answer as Dagnar. Then Gol'Bolar: stolen blasting powder is a sapper's errand, and your first explosion is overdue.",
     "storySoFar": null,
-    "beatDate": "2026-11-04",
+    "beatDate": "2026-11-05",
     "audio": null,
     "holidayDone": {}
   },
@@ -146,9 +146,9 @@
     }
   },
   "stats": {
-    "drinks": 0,
+    "drinks": 1,
     "smashed": 0,
-    "tipsy": 0,
+    "tipsy": 1,
     "drunk": 0,
     "deaths": 3,
     "dances": 0,
@@ -170,12 +170,12 @@
       "Dwarf",
       "Gnome"
     ],
-    "zones": 1,
+    "zones": 2,
     "lastZone": "Dun Morogh",
     "restHours": 0.0,
-    "peak": "sober",
+    "peak": "tipsy",
     "sessions": 9,
-    "asOf": "2026-11-04"
+    "asOf": "2026-11-05"
   },
   "posts": [
     {
@@ -353,6 +353,92 @@
       "people": [],
       "image": null,
       "alt": null
+    },
+    {
+      "id": "2026-11-04-2217-the-forgotten-staff",
+      "time": "2026-11-04T22:17:28-05:00",
+      "type": "dispatch",
+      "zone": "Dun Morogh",
+      "title": "The forgotten staff",
+      "text": "Swung a staff at a winter wolf and missed three times running. I'd forgotten I owned it. Someone called Lime Rickey saw the whole thing and laughed, kindly.",
+      "detail": "First words I've put to anyone here, and they were an excuse. Lime said stay safe, friend. Whispered, not said out loud, so the letter stands.",
+      "pints": 0,
+      "bangs": 0,
+      "people": [
+        "Lime Rickey"
+      ],
+      "image": null,
+      "alt": null
+    },
+    {
+      "id": "2026-11-04-2242-dalaran-noir",
+      "time": "2026-11-04T22:42:57-05:00",
+      "type": "toast",
+      "zone": "Dun Morogh",
+      "title": "Dalaran Noir",
+      "text": "First drink on the record. Carried a barrel of Shimmer Stout up Shimmer Ridge past the Frostmane, and the reward was a bottle of Dalaran Noir. Wine. From a bottle.",
+      "detail": "Tipsy for forty-six seconds, sober by quarter to. The Thunderbrews know what I am and handed me grapes anyway. The malt stays shut; this didn't count.",
+      "pints": 1,
+      "bangs": 0,
+      "people": [],
+      "image": null,
+      "alt": null
+    },
+    {
+      "id": "2026-11-04-2315-finding-warmth",
+      "time": "2026-11-04T23:15:35-05:00",
+      "type": "dispatch",
+      "zone": "Dun Morogh",
+      "title": "Finding Warmth",
+      "text": "Watched Jarven Thunderbrew's barrels twice while he drank inside. Then north to the Tundrid Hills for quests called Finding Warmth, Treacherous Cold and Rime's Wrath.",
+      "detail": "A shaman sent to find warmth. I've been on that errand a while. Came away with a small bird that whistles, two linen bags and a binding called Avala's. Rime's Wrath twice, because once wasn't enough for someone.",
+      "pints": 0,
+      "bangs": 0,
+      "people": [],
+      "image": null,
+      "alt": null
+    },
+    {
+      "id": "2026-11-04-2319-ironforge",
+      "time": "2026-11-04T23:19:56-05:00",
+      "type": "milestone",
+      "zone": "Ironforge",
+      "title": "Ironforge",
+      "text": "Through the Gates of Ironforge at twenty past eleven. The great forge, a woman selling bread baked that morning, and a trade channel complaining the city was empty.",
+      "detail": "Learned to build a camp chair, the first thing I've been taught here that I'd actually sit in. The spirits also left word: a Call of Fire. We're acquainted. I'll go when I'm sober enough to be polite about it.",
+      "pints": 0,
+      "bangs": 0,
+      "people": [],
+      "image": null,
+      "alt": null
+    },
+    {
+      "id": "2026-11-04-2336-rats-in-the-tram",
+      "time": "2026-11-04T23:36:17-05:00",
+      "type": "dispatch",
+      "zone": "Ironforge",
+      "title": "Rats in the Tram",
+      "text": "Under the city a dwarf called Monty handed me a flute and a box and said the rats would walk in one by one. They did. Nine hundred points of experience for piping vermin.",
+      "detail": "Also took a carton of mystery meat for a man's brother Nipsy and asked no questions, because I've carried worse for less. The Deeprun Tram hums like a still about to go.",
+      "pints": 0,
+      "bangs": 0,
+      "people": [],
+      "image": null,
+      "alt": null
+    },
+    {
+      "id": "2026-11-05-0011-golbolar-quarry",
+      "time": "2026-11-05T00:11:36-05:00",
+      "type": "dispatch",
+      "zone": "Dun Morogh",
+      "title": "Gol'Bolar Quarry",
+      "text": "Amberstill Ranch, where a girl was chasing a ram named Fluffy, then Gol'Bolar Quarry till past midnight. Rockjaw troggs. One word each. Mostly Destroy.",
+      "detail": "Someone there has lost blasting powder and wants it found. I said nothing. I'm the only dwarf in the quarry who knows what it's for, and it would be rude to look pleased. Mining up to seven. Bed at eleven past.",
+      "pints": 0,
+      "bangs": 0,
+      "people": [],
+      "image": null,
+      "alt": null
     }
   ],
   "threads": [],
@@ -384,10 +470,16 @@
   "warmth": {},
   "zonesVisited": {
     "Dun Morogh": {
-      "hours": 4.1,
+      "hours": 5.6,
+      "first": "2026-11-04",
+      "last": "2026-11-05",
+      "lastPostId": "2026-11-05-0011-golbolar-quarry"
+    },
+    "Ironforge": {
+      "hours": 0.4,
       "first": "2026-11-04",
       "last": "2026-11-04",
-      "lastPostId": "2026-11-04-2206-recombobulator"
+      "lastPostId": "2026-11-04-2336-rats-in-the-tram"
     }
   },
   "review": null,
