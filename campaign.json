@@ -3,18 +3,19 @@
   "eyebrows_base": 11,
   "eyebrows_lost": 11,
   "arc": {
-    "mood": "First night done. Said nothing, heard everything. Has a guild hall now and a malt he hasn't opened.",
+    "mood": "Day one, second shift. Still hasn't said a word out loud. Found a brewery on a lake and carried another man's barrel. Three deaths, none of them interesting.",
     "lookingFor": "Someone who stays. Says it's a business partner for a brewery. It isn't.",
     "runningBits": [
       "Quality control (the eyebrows)",
       "It's a brewery",
       "Another time (Loch Modan)",
       "The malt he hasn't opened yet",
-      "Died once, unbothered"
+      "Barleybrew, no relation",
+      "Died three times, unbothered"
     ],
     "frontRunner": null,
     "updated": "2026-11-04",
-    "wanted": "WANTED: partner for a brewery that doesn't exist yet. Must tolerate noise, smoke, and questions about where you're from. Dwarves need not apply, probably; the valley's full of them and not one asked. Humans under consideration since the guild hall. Inquire at Thunderbrew Distillery, loudest table.",
+    "wanted": "WANTED: partner for a brewery that doesn't exist yet. Must tolerate noise, smoke, and questions about where you're from. Dwarves need not apply, probably; the valley's full of them and not one asked. Barleybrews especially; no relation, and they've got one. Inquire at Thunderbrew Distillery, loudest table.",
     "replies": 0,
     "beat": "Doors open at eleven. Clean slate: nobody met, nothing owed. Settle the drink he always orders before the first pint, then find the loudest table in Ironforge and ask whoever isn't a dwarf where they're from.",
     "storySoFar": null,
@@ -149,13 +150,13 @@
     "smashed": 0,
     "tipsy": 0,
     "drunk": 0,
-    "deaths": 1,
+    "deaths": 3,
     "dances": 0,
     "toasts": 0,
     "flirts": 0,
     "hugs": 0,
     "bangs": 0,
-    "crafted": 0,
+    "crafted": 9,
     "fish": 0,
     "hearths": 0,
     "duelsWon": 0,
@@ -287,19 +288,111 @@
       "people": [],
       "image": null,
       "alt": null
+    },
+    {
+      "id": "2026-11-04-2036-camp-cooking",
+      "time": "2026-11-04T20:36:15-05:00",
+      "type": "dispatch",
+      "zone": "Dun Morogh",
+      "title": "Camp cooking",
+      "text": "Charred the wolf, roasted the boar, got cooking up to five without burning anything that mattered. Then learned to roll a linen bandage. For other people, mostly.",
+      "detail": "No pint yet. The malt stays shut. The pilots at Steelgrill's wanted wendigo manes next, so that's where the evening went.",
+      "pints": 0,
+      "bangs": 0,
+      "people": [],
+      "image": null,
+      "alt": null
+    },
+    {
+      "id": "2026-11-04-2052-the-grizzled-den",
+      "time": "2026-11-04T20:52:08-05:00",
+      "type": "death",
+      "zone": "Dun Morogh",
+      "title": "The Grizzled Den",
+      "text": "Two dozen wendigo in one cave and I skinned most of them. One of their shamans objected at eight minutes to nine. Ten percent off the gear, again.",
+      "detail": "Died holding a carpenter's mallet I'd picked up six seconds earlier. Walked back. The cave was quiet by nine and skinning sat at seventy.",
+      "pints": 0,
+      "bangs": 0,
+      "people": [],
+      "image": null,
+      "alt": null
+    },
+    {
+      "id": "2026-11-04-2126-brewnall-village",
+      "time": "2026-11-04T21:26:52-05:00",
+      "type": "dispatch",
+      "zone": "Dun Morogh",
+      "title": "Brewnall Village",
+      "text": "Walked into Brewnall Village on the lake and a Barleybrew handed me a barrel of Scalder to carry to his rival. No relation. A brewery, though. A real one.",
+      "detail": "Chill Breeze Valley first, then the lake, then Gnomeregan's front door for scale. Kharanos taught me a stoneclaw and a lightning shield on the way. Still nothing to drink. The Scalder is not mine to open.",
+      "pints": 0,
+      "bangs": 0,
+      "people": [],
+      "image": null,
+      "alt": null
+    },
+    {
+      "id": "2026-11-04-2132-gnomeregan-doorstep",
+      "time": "2026-11-04T21:32:02-05:00",
+      "type": "dispatch",
+      "zone": "Dun Morogh",
+      "title": "Gnomeregan's doorstep",
+      "text": "Leper gnomes at the front door of Gnomeregan, eighteen of them, every one promising to cut me. Took their cogs and gears instead. Razzle wants them for a machine.",
+      "detail": "Then up to Frostmane Hold, which is trolls, and a few leopards and bears on the way that nobody asked for. Rolled five bandages at two minutes to ten. Used none, which is the trick.",
+      "pints": 0,
+      "bangs": 0,
+      "people": [],
+      "image": null,
+      "alt": null
+    },
+    {
+      "id": "2026-11-04-2206-recombobulator",
+      "time": "2026-11-04T22:06:03-05:00",
+      "type": "death",
+      "zone": "Dun Morogh",
+      "title": "The Recombobulator",
+      "text": "Died a second time at six past ten, to a troll at Frostmane Hold, which is what trolls are for. Three minutes later Razzle Sprysprocket fired up the Recombobulator with my gears.",
+      "detail": "It was meant to save the entire gnomish race. It needed more grease. Got driving gloves for the trouble and a short staff from Bellowfiz for walking back. Someone in Kharanos wants me to meet a visitor. Tomorrow. The malt's still shut.",
+      "pints": 0,
+      "bangs": 0,
+      "people": [],
+      "image": null,
+      "alt": null
     }
   ],
   "threads": [],
   "launch": "2026-11-04T13:00:00-05:00",
   "ledger": [],
-  "recipes": [],
+  "recipes": [
+    {
+      "date": "2026-11-04",
+      "item": "Charred Wolf Meat",
+      "count": 2,
+      "exploded": false,
+      "note": "Charred is the recipe, not the result."
+    },
+    {
+      "date": "2026-11-04",
+      "item": "Roasted Boar Meat",
+      "count": 2,
+      "exploded": false,
+      "note": null
+    },
+    {
+      "date": "2026-11-04",
+      "item": "Linen Bandage",
+      "count": 5,
+      "exploded": false,
+      "note": "For other people, mostly."
+    }
+  ],
   "warmth": {},
   "zonesVisited": {
     "Dun Morogh": {
-      "hours": 2.4,
+      "hours": 4.1,
       "first": "2026-11-04",
       "last": "2026-11-04",
-      "lastPostId": "2026-11-04-2045-first-night"
+      "lastPostId": "2026-11-04-2206-recombobulator"
     }
   },
   "review": null,

@@ -97,12 +97,12 @@ Launch-night crowds shout in /say. Someone is **met** only when they whispered h
 
 ## Where his head is at (the updater rewrites this after each day)
 
-- **Mood:** First night done. Said nothing out loud, heard everything. Has a guild hall now and a malt he hasn't opened.
+- **Mood:** Day one, second shift. Still hasn't said a word out loud. Found a brewery on a lake (Brewnall Village) and carried another man's barrel of Scalder for him. Three deaths, none of them interesting. Not one pint yet; the malt is still shut.
 - **Looking for:** Someone who stays. Says it's a business partner for a brewery. It isn't.
-- **Running bits:** quality control (the eyebrows); "it's a brewery"; "another time" (Loch Modan); the malt he hasn't opened yet; died once, unbothered.
-- **Front-runner:** nobody yet. Twelve people talked near him in Coldridge; none talked to him. The guild is humans, mostly.
-- **Grudges:** none worth the breath. The campfire that paid him and not the other three is not a grudge, it's a story.
-- **Voice right now:** short sentences, dry, warm underneath. Asks questions more than he answers them. Hasn't asked one yet; the valley is all dwarves and nobody needs to ask a dwarf where he's from.
+- **Running bits:** quality control (the eyebrows); "it's a brewery"; "another time" (Loch Modan); the malt he hasn't opened yet; Barleybrew, no relation; died three times, unbothered.
+- **Front-runner:** nobody yet. Twelve people talked near him on launch night; none talked to him. Second shift he saw nobody but gnomes with cogs and trolls with spears. The guild is humans, mostly, and talks about bags.
+- **Grudges:** none worth the breath. The campfire that paid him and not the other three is not a grudge, it's a story. The Frostmane troll at Frostmane Hold did what trolls are for.
+- **Voice right now:** short sentences, dry, warm underneath. Asks questions more than he answers them. Hasn't asked one yet. He has a barrel that isn't his, a cask that isn't his, and a malt that is; the question he should ask next is who to open it with.
 
 ---
 
@@ -118,6 +118,11 @@ _Add a line per session: who you met, what Dagnar said that stuck, anything you 
 - 2026-11-04 20:09 — milestone: Set my hearth at Thunderbrew Distillery, which tells you my priorities. Six minutes on, a human called Malachi Zerbe asked me into The Brave of Lordaeron. Said yes.
 - 2026-11-04 20:15 — death: Cheered for a lost gnome at fourteen past. Dead by fifteen past. Unrelated, as far as the gnome knows.
 - 2026-11-04 20:45 — letter: First night and I didn't say a word out loud. Twelve people talked near me and I listened, which you'd call progress and I'd call the cold.
+- 2026-11-04 20:36 — dispatch: Charred the wolf, roasted the boar, got cooking up to five without burning anything that mattered. Then learned to roll a linen bandage. For other people, mostly.
+- 2026-11-04 20:52 — death: Two dozen wendigo in one cave and I skinned most of them. One of their shamans objected at eight minutes to nine. Ten percent off the gear, again.
+- 2026-11-04 21:26 — dispatch: Walked into Brewnall Village on the lake and a Barleybrew handed me a barrel of Scalder to carry to his rival. No relation. A brewery, though. A real one.
+- 2026-11-04 21:32 — dispatch: Leper gnomes at the front door of Gnomeregan, eighteen of them, every one promising to cut me. Took their cogs and gears instead. Razzle wants them for a machine.
+- 2026-11-04 22:06 — death: Died a second time at six past ten, to a troll at Frostmane Hold, which is what trolls are for. Three minutes later Razzle Sprysprocket fired up the Recombobulator with my gears.
 
 ---
 
