@@ -1,0 +1,160 @@
+11/11 14:17:41.852  Kivaka Katalya leaves the party.
+11/11 14:19:30.303  Rosa Luxemborne joins the party.
+11/11 14:19:55.217  Discovered Render's Camp: 175 experience gained
+11/11 14:21:36.101  Discovered Render's Rock: 200 experience gained
+11/11 14:24:41.144  York Okismalle joins the party.
+11/11 14:27:08.171  Dagnar Barleigh says: reload
+11/11 14:27:26.656  [Party] Dagnar Barleigh: {rt1} Questie: 15/15 Blackrock Champion slain for Blackrock Bounty!
+11/11 14:31:54.703  Dagnar Barleigh says: I'd rather be drinkin'
+11/11 14:34:40.225  Quest accepted: Missing In Action
+11/11 14:44:52.930  [Party] Dagnar Barleigh: {rt1} Questie: Escort Corporal Keeshan back to Redridge for Missing In Action!
+11/11 14:45:06.386  York Okismalle leaves the party.
+11/11 14:45:09.245  Rosa Luxemborne leaves the party.
+11/11 14:45:13.387  Gawain Tenebris leaves the party.
+11/11 14:45:18.072  Tharil'zun completed.
+11/11 14:45:18.092  You receive item: Orc Crusher
+11/11 14:45:21.978  Shadow Magic completed.
+11/11 14:45:44.766  Missing In Action completed.
+11/11 14:45:44.866  You receive item: Robe of Solomon
+11/11 14:47:09.283  Solomon's Law completed.
+11/11 14:47:15.483  WANTED: Gath'Ilzogg completed.
+11/11 14:47:19.485  WANTED: Lieutenant Fangore completed.
+11/11 14:48:05.140  Blackrock Bounty completed.
+11/11 14:52:06.799  You receive item: Rose Mantle
+11/11 14:52:06.860  Morganth completed.
+11/11 16:58:44.177  Charm Moonfeather has invited you to join a group.
+11/11 17:06:48.516  You create Heavy Linen Bandage.
+11/11 17:06:48.732  You create: Heavy Linen Bandage.
+11/11 17:06:48.790  Your skill in First Aid has increased to 73.
+11/11 17:06:51.828  You create Heavy Linen Bandage.
+11/11 17:06:51.977  You create: Heavy Linen Bandage.
+11/11 17:06:52.062  Your skill in First Aid has increased to 74.
+11/11 17:06:55.096  You create Heavy Linen Bandage.
+11/11 17:06:55.296  You create: Heavy Linen Bandage.
+11/11 17:06:58.448  You create Heavy Linen Bandage.
+11/11 17:06:58.620  You create: Heavy Linen Bandage.
+11/11 17:07:01.649  You create Heavy Linen Bandage.
+11/11 17:07:01.858  You create: Heavy Linen Bandage.
+11/11 17:07:02.191  Your skill in First Aid has increased to 75.
+11/11 17:16:09.203  The Corruption Abroad completed.
+11/11 17:16:10.475  Quest accepted: Researching the Corruption
+11/11 17:19:33.201  You are now Neutral with Argent Dawn.
+11/11 17:19:40.032  Quest accepted: Twilight Falls
+11/11 17:19:42.800  Quest accepted: In Search of Thaelrid
+11/11 17:20:58.522  Quest accepted: Klockmort's Essentials
+11/11 17:30:33.330  You receive item: Shindrell's Note
+11/11 17:30:33.617  Quest accepted: Kayneth Stillwind
+11/11 17:30:38.745  Havo Shin joins the party.
+11/11 17:31:11.234  Tymir Beldorsson joins the party.
+11/11 17:31:29.859  Loria Liongard joins the party.
+11/11 17:34:16.266  Discovered Thistlefur Village: 185 experience gained
+11/11 17:34:35.552  Your skill in Mining has increased to 73.
+11/11 17:40:59.030  [Party] Dagnar Barleigh: {rt1} Questie: 1/1 Dal Bloodclaw's Skull for Culling the Threat!
+11/11 17:56:30.367  In Search of Thaelrid completed.
+11/11 17:56:31.964  Quest accepted: Blackfathom Villainy
+11/11 18:00:19.941  [Party] Dagnar Barleigh: {rt1} Questie: 1/1 Lorgalis Manuscript for Knowledge in the Deeps!
+11/11 18:13:01.444  You have learned a new spell: Stormstrike.
+11/11 18:18:15.036  [Party] Dagnar Barleigh: Can I need for my healer gear plz?
+11/11 18:24:34.416  [Party] Dagnar Barleigh: {rt1} Questie: 8/8 Corrupted Brain Stem for Researching the Corruption!
+11/11 18:33:20.451  [Party] Dagnar Barleigh: {rt1} Questie: 10/10 Twilight Pendant for Twilight Falls!
+11/11 18:57:03.233  Twilight Falls completed.
+11/11 18:57:03.265  You receive item: Heartwood Girdle
+11/11 18:57:39.204  You receive item: Cultist's Armguards
+11/11 18:57:39.239  Blackfathom Villainy completed.
+11/11 19:07:25.448  You receive item: Restoring Balmx2
+11/11 19:07:25.503  Culling the Threat completed.
+11/11 19:19:32.546  [Party Leader] Dagnar Barleigh: {rt1} Questie: 1/1 Iron Shaft for Raene's Cleansing!
+11/11 19:28:20.602  Raene's Cleansing completed.
+11/11 19:28:22.974  Quest accepted: Raene's Cleansing
+11/11 19:33:38.354  Discovered The Dor'Danil Barrow Den: 245 experience gained
+11/11 19:35:26.733  [Party Leader] Dagnar Barleigh: {rt1} Questie: 1/1 Iron Pommel for Raene's Cleansing!
+11/11 19:37:13.695  Discovered Felfire Hill: 235 experience gained
+11/11 19:41:24.262  Kayneth Stillwind completed.
+11/11 19:41:28.752  Quest accepted: Forsaken Diseases
+11/11 19:41:39.253  Quest accepted: Vengeful Trail
+11/11 19:44:09.728  Discovered Satyrnaar: 230 experience gained
+11/11 19:46:20.797  [Party Leader] Dagnar Barleigh: {rt1} Questie: 1/1 Kurothel's belongings located for Vengeful Trail!
+11/11 19:47:37.159  Vengeful Trail completed.
+11/11 19:47:39.007  Quest accepted: Shared Fury
+11/11 19:55:00.842  [Party Leader] Dagnar Barleigh: {rt1} Questie: 5/5 Xavian Hellcaller slain for Shared Fury!
+11/11 19:56:13.359  [Party Leader] Dagnar Barleigh: {rt1} Questie: 5/5 Xavian Rogue slain for Shared Fury!
+11/11 19:57:32.988  [Party] Dagnar Barleigh: {rt1} Questie: 5/5 Xavian Felsworn slain for Shared Fury!
+11/11 19:58:53.629  You died.
+11/11 20:14:06.830  You died.
+11/11 20:16:36.804  [Party] Dagnar Barleigh: {rt1} Questie: 1/1 Bottle of Disease for Forsaken Diseases!
+11/11 20:17:02.077  You died.
+11/11 20:18:55.248  Discovered Splintertree Post: 200 experience gained
+11/11 20:33:43.094  Raene's Cleansing completed.
+11/11 20:34:04.431  You receive item: Reconstructed Rod
+11/11 20:34:04.812  Quest accepted: Raene's Cleansing
+11/11 20:36:59.860  Raene's Cleansing completed.
+11/11 20:36:59.902  You receive item: Dartol's Rod of Transformation
+11/11 20:37:02.038  Quest accepted: Raene's Cleansing
+11/11 20:38:46.816  Raene's Cleansing completed.
+11/11 20:38:48.914  Quest accepted: Raene's Cleansing
+11/11 20:41:46.021  Raene's Cleansing completed.
+11/11 20:41:47.397  Quest accepted: Raene's Cleansing
+11/11 20:41:54.965  Astranaar is now your home.
+11/11 20:42:14.127  You thank Xai'ander.
+11/11 21:08:49.360  Klockmort's Essentials completed.
+11/11 21:08:50.516  Quest accepted: Essential Artificials
+11/11 21:09:40.949  Knowledge in the Deeps completed.
+11/11 21:09:40.993  You receive item: Sustaining Ring
+11/11 21:38:18.529  You receive item: Disarming Colloid
+11/11 21:38:18.771  Quest accepted: A Dark Threat Looms
+11/11 21:38:19.502  Quest accepted: Bring Back a Bang
+11/11 21:38:23.611  Quest accepted: The Thandol Span
+11/11 21:38:25.647  Quest accepted: A Grim Task
+11/11 21:38:28.079  Quest accepted: The Dark Iron War
+11/11 21:50:55.116  Tecu Faeron joins the party.
+11/11 21:51:07.513  Astronova Starwhisper joins the party.
+11/11 21:51:51.141  Discovered Thandol Span: 245 experience gained
+11/11 21:51:57.628  The Thandol Span completed.
+11/11 21:51:57.710  You are now Honored with Gnomeregan Exiles.
+11/11 21:51:58.992  Quest accepted: The Thandol Span
+11/11 21:51:59.009  You receive item: Deepfury's Orders
+11/11 21:54:03.306  The Thandol Span completed.
+11/11 21:54:04.603  Quest accepted: The Thandol Span
+11/11 21:54:53.906  [Party] Dagnar Barleigh: {rt1} Questie: 5/5 Dark Iron Saboteur slain for The Dark Iron War!
+11/11 21:58:26.195  [Party] Dagnar Barleigh: {rt1} Questie: 1/1 Ear of Balgaras for A Grim Task!
+11/11 22:00:00.732  [Party] Dagnar Barleigh: {rt1} Questie: 5/5 Dark Iron Tunneler slain for The Dark Iron War!
+11/11 22:05:38.115  Quest accepted: Spark of Freedom
+11/11 22:07:53.122  [Party] Dagnar Barleigh: {rt1} Questie: Escort the fire elemental out of Dun Modr for Spark of Freedom!
+11/11 22:09:47.114  Spark of Freedom completed.
+11/11 22:10:02.373  You receive item: Tranquil Ring
+11/11 22:10:02.426  A Grim Task completed.
+11/11 22:10:47.314  Discovered Direforge Hill: 230 experience gained
+11/11 22:13:08.102  [Party] Dagnar Barleigh: {rt1} Questie: 15/15 Dark Iron Dwarf slain for The Dark Iron War!
+11/11 22:14:20.542  All Anon joins the party.
+11/11 22:15:33.111  All Anon leaves the party.
+11/11 22:15:48.752  [Party] Dagnar Barleigh: I need 3
+11/11 22:16:04.163  [Party] Dagnar Barleigh: 1
+11/11 22:16:50.817  [Party] Dagnar Barleigh: {rt1} Questie: 3/3 Stolen Explosives for Bring Back a Bang!
+11/11 22:24:51.980  [Party] Dagnar Barleigh: {rt1} Questie: 5/5 Dark Iron Demolitionist slain for The Dark Iron War!
+11/11 22:25:46.291  [Party] Dagnar Barleigh: same
+11/11 22:26:52.329  You are now Honored with Stormwind.
+11/11 22:26:52.337  You receive item: Ez-Thro Dynamitex5
+11/11 22:26:52.377  Bring Back a Bang completed.
+11/11 22:26:55.751  The Dark Iron War completed.
+11/11 22:26:57.273  Quest accepted: The Fury Runs Deep
+11/11 22:28:03.405  [Party] Dagnar Barleigh: {rt1} Questie: 1/1 Cache of Explosives Destroyed for The Thandol Span!
+11/11 22:28:29.436  [Party] Dagnar Barleigh: yeah
+11/11 22:28:39.532  [Party] Dagnar Barleigh: I got credit
+11/11 22:29:56.809  You receive item: Swampland Trousers
+11/11 22:29:56.844  The Thandol Span completed.
+11/11 22:29:58.571  Quest accepted: Plea to the Alliance
+11/11 22:30:17.411  [Party] Dagnar Barleigh: yay!
+11/11 22:30:31.441  [Party] Dagnar Barleigh: I know... I'm so sad they did this to you guys :(
+11/11 22:30:36.228  Tecu Faeron leaves the party.
+11/11 22:32:57.671  Discovered Refuge Pointe: 245 experience gained
+11/11 22:33:30.539  Plea to the Alliance completed.
+11/11 22:36:09.839  Astronova Starwhisper leaves the party.
+11/11 22:41:50.663  You have learned a new spell: Water Walking.
+11/11 22:41:54.719  You have learned a new spell: Lesser Healing Wave (Rank 2).
+11/11 22:42:19.024  You have learned a new spell: Fire Resistance Totem (Rank 1).
+11/11 22:42:19.443  You have learned a new spell: Flame Shock (Rank 3).
+11/11 22:42:19.865  You have learned a new spell: Flametongue Totem (Rank 1).
+11/11 22:42:19.984  You have learned a new spell: Frostbrand Weapon (Rank 2).
+11/11 22:42:20.073  You have learned a new spell: Stoneclaw Totem (Rank 3).
+
+Talked with: Gawain Tenebris, Charm Moonfeather, Rosa Luxemborne, York Okismalle, Kivaka Katalya, Havo Shin, Tymir Beldorsson, Loria Liongard, Tecu Faeron, Astronova Starwhisper, All Anon

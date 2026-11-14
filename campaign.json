@@ -144,6 +144,196 @@
       "lastSeen": "2026-11-04",
       "lastSaid": "Suggested logging out and back in, out of character.",
       "note": "Dwarf. Wanted wolves early. Gives practical advice to strangers."
+    },
+    "Charm Moonfeather": {
+      "race": null,
+      "standing": "regular",
+      "warmth": 4.2,
+      "met": "2026-11-11",
+      "metZone": "Redridge Mountains",
+      "lastSeen": "2026-11-11",
+      "lastSaid": "Said the Dark Iron bridge was worth one trip and hoped nobody needed an alt.",
+      "note": "Ran the whole day: Redridge, Blackfathom, Ashenvale as a pair, the Thandol Span. Knows every cave. Shared quests and turned one of mine down."
+    },
+    "Gawain Tenebris": {
+      "race": null,
+      "standing": "stranger",
+      "warmth": 2.4,
+      "met": "2026-11-11",
+      "metZone": "Redridge Mountains",
+      "lastSeen": "2026-11-11",
+      "lastSaid": "Thanked everyone after the corporal got home.",
+      "note": "Led the Redridge party. Kind to the mushroom gang. Called us gentlemen and scholars."
+    },
+    "Rosa Luxemborne": {
+      "race": null,
+      "standing": "stranger",
+      "warmth": 1.6,
+      "met": "2026-11-11",
+      "metZone": "Redridge Mountains",
+      "lastSeen": "2026-11-11",
+      "lastSaid": "Admitted to not trusting the mushroom gang.",
+      "note": "Asked to tag along in Redridge and did."
+    },
+    "York Okismalle": {
+      "race": null,
+      "standing": "stranger",
+      "warmth": 1.4,
+      "met": "2026-11-11",
+      "metZone": "Redridge Mountains",
+      "lastSeen": "2026-11-11",
+      "lastSaid": "Laughed that someone said forever.",
+      "note": "Joined for the escort in Redridge."
+    },
+    "Kivaka Katalya": {
+      "race": null,
+      "standing": "stranger",
+      "warmth": 1.0,
+      "met": "2026-11-11",
+      "metZone": "Redridge Mountains",
+      "lastSeen": "2026-11-11",
+      "lastSaid": "Left to do the keep.",
+      "note": "Brief party member in Redridge."
+    },
+    "Osafey Gryphon": {
+      "race": null,
+      "standing": "stranger",
+      "warmth": 1.2,
+      "met": "2026-11-11",
+      "metZone": "Redridge Mountains",
+      "lastSeen": "2026-11-11",
+      "lastSaid": "Warned about the mushrooms.",
+      "note": "Waited outside the Redridge cave."
+    },
+    "Bazalnar Papadakis": {
+      "race": null,
+      "standing": "stranger",
+      "warmth": 1.2,
+      "met": "2026-11-11",
+      "metZone": "Redridge Mountains",
+      "lastSeen": "2026-11-11",
+      "lastSaid": "Sat on his mushroom.",
+      "note": "Waited outside the Redridge cave. Ate the mushrooms."
+    },
+    "Loria Liongard": {
+      "race": null,
+      "standing": "stranger",
+      "warmth": 2.2,
+      "met": "2026-11-11",
+      "metZone": "Ashenvale",
+      "lastSeen": "2026-11-11",
+      "lastSaid": "Explained how to jump onto an invisible ledge.",
+      "note": "Knew Blackfathom by heart. Set up camp for the buffs."
+    },
+    "Tymir Beldorsson": {
+      "race": null,
+      "standing": "stranger",
+      "warmth": 1.8,
+      "met": "2026-11-11",
+      "metZone": "Ashenvale",
+      "lastSeen": "2026-11-11",
+      "lastSaid": "Said yes to my need roll.",
+      "note": "Tenth run of Blackfathom for one eyeball."
+    },
+    "Havo Shin": {
+      "race": null,
+      "standing": "stranger",
+      "warmth": 1.6,
+      "met": "2026-11-11",
+      "metZone": "Ashenvale",
+      "lastSeen": "2026-11-11",
+      "lastSaid": "Asked where the sea boss lives.",
+      "note": "Blackfathom party."
+    },
+    "Tecu Faeron": {
+      "race": null,
+      "standing": "stranger",
+      "warmth": 2.6,
+      "met": "2026-11-11",
+      "metZone": "Wetlands",
+      "lastSeen": "2026-11-11",
+      "lastSaid": "Joked there would be no more dwarves, except me.",
+      "note": "Thandol Span. Hates Dark Irons, cheerfully. Said I have to live with myself. True."
+    },
+    "Astronova Starwhisper": {
+      "race": null,
+      "standing": "stranger",
+      "warmth": 1.4,
+      "met": "2026-11-11",
+      "metZone": "Wetlands",
+      "lastSeen": "2026-11-11",
+      "lastSaid": "Asked for water.",
+      "note": "Thandol Span party."
+    },
+    "All Anon": {
+      "race": null,
+      "standing": "stranger",
+      "warmth": 1.0,
+      "met": "2026-11-11",
+      "metZone": "Wetlands",
+      "lastSeen": "2026-11-11",
+      "lastSaid": "Said hello and passed through.",
+      "note": "Joined the party for a minute on the bridge."
+    },
+    "Arman Hammerfist": {
+      "race": null,
+      "standing": "stranger",
+      "warmth": 1.0,
+      "met": "2026-11-11",
+      "metZone": "Ironforge",
+      "lastSeen": "2026-11-11",
+      "lastSaid": "Counted thumbs.",
+      "note": "Talked near me in Ironforge."
+    },
+    "Missery Business": {
+      "race": null,
+      "standing": "stranger",
+      "warmth": 1.0,
+      "met": "2026-11-11",
+      "metZone": "Ironforge",
+      "lastSeen": "2026-11-11",
+      "lastSaid": "Showed off a new voidwalker.",
+      "note": "Talked near me in Ironforge."
+    },
+    "Pips Pepperpot": {
+      "race": null,
+      "standing": "stranger",
+      "warmth": 1.0,
+      "met": "2026-11-11",
+      "metZone": "Ironforge",
+      "lastSeen": "2026-11-11",
+      "lastSaid": "Called a voidwalker stormy.",
+      "note": "Talked near me in Ironforge."
+    },
+    "Xyrei Daystar": {
+      "race": null,
+      "standing": "stranger",
+      "warmth": 1.0,
+      "met": "2026-11-11",
+      "metZone": "Ironforge",
+      "lastSeen": "2026-11-11",
+      "lastSaid": "Listed some armour.",
+      "note": "Talked near me after the bridge."
+    },
+    "Maxwell Hughes": {
+      "race": null,
+      "standing": "stranger",
+      "warmth": 1.0,
+      "met": "2026-11-11",
+      "metZone": "Ironforge",
+      "lastSeen": "2026-11-11",
+      "lastSaid": "Said thank you, twice.",
+      "note": "Talked near me after the bridge."
+    },
+    "Chudette Biwisi": {
+      "race": null,
+      "standing": "stranger",
+      "warmth": 1.0,
+      "met": "2026-11-11",
+      "metZone": "Ironforge",
+      "lastSeen": "2026-11-11",
+      "lastSaid": "Wanted a rogue for a lockbox.",
+      "note": "Yelled near me in Ironforge."
     }
   },
   "stats": {
@@ -151,32 +341,32 @@
     "smashed": 0,
     "tipsy": 1,
     "drunk": 0,
-    "deaths": 3,
+    "deaths": 6,
     "dances": 0,
     "toasts": 0,
     "flirts": 0,
     "hugs": 0,
     "bangs": 0,
-    "crafted": 9,
+    "crafted": 14,
     "fish": 0,
     "hearths": 0,
     "duelsWon": 0,
     "duelsLost": 0,
-    "groups": 0,
+    "groups": 2,
     "trades": 0,
-    "level": 6,
+    "level": 29,
     "guild": "The Brave of Lordaeron",
-    "people": 12,
+    "people": 31,
     "races": [
       "Dwarf",
       "Gnome"
     ],
-    "zones": 2,
-    "lastZone": "Dun Morogh",
+    "zones": 6,
+    "lastZone": "Ironforge",
     "restHours": 0.0,
     "peak": "tipsy",
-    "sessions": 9,
-    "asOf": "2026-11-05"
+    "sessions": 11,
+    "asOf": "2026-11-11"
   },
   "posts": [
     {
@@ -342,20 +532,6 @@
       "alt": null
     },
     {
-      "id": "2026-11-04-2220-first-night",
-      "time": "2026-11-04T22:20:00-05:00",
-      "type": "letter",
-      "zone": "Dun Morogh",
-      "title": "First night",
-      "text": "First night and I didn't say a word out loud. Twelve people talked near me and I listened, which you'd call progress and I'd call the cold.",
-      "detail": "Nobody asked where I'm from. Nobody will, in a valley this full of dwarves. Set my hearth at a distillery, joined a guild of humans with a brave name, died three times in the snow and minded the walks more. The malt they gave me for a delivery is still in the pack. Haven't decided who to open it with.",
-      "pints": 0,
-      "bangs": 0,
-      "people": [],
-      "image": null,
-      "alt": null
-    },
-    {
       "id": "2026-11-04-2217-the-forgotten-staff",
       "time": "2026-11-04T22:17:28-05:00",
       "type": "dispatch",
@@ -368,6 +544,20 @@
       "people": [
         "Lime Rickey"
       ],
+      "image": null,
+      "alt": null
+    },
+    {
+      "id": "2026-11-04-2220-first-night",
+      "time": "2026-11-04T22:20:00-05:00",
+      "type": "letter",
+      "zone": "Dun Morogh",
+      "title": "First night",
+      "text": "First night and I didn't say a word out loud. Twelve people talked near me and I listened, which you'd call progress and I'd call the cold.",
+      "detail": "Nobody asked where I'm from. Nobody will, in a valley this full of dwarves. Set my hearth at a distillery, joined a guild of humans with a brave name, died three times in the snow and minded the walks more. The malt they gave me for a delivery is still in the pack. Haven't decided who to open it with.",
+      "pints": 0,
+      "bangs": 0,
+      "people": [],
       "image": null,
       "alt": null
     },
@@ -440,6 +630,125 @@
       "people": [],
       "image": null,
       "alt": null
+    },
+    {
+      "id": "2026-11-11-1431-the-mushroom-gang",
+      "time": "2026-11-11T14:31:54-05:00",
+      "type": "dispatch",
+      "zone": "Redridge Mountains",
+      "title": "The mushroom gang",
+      "text": "Back on the record in Redridge, in a party clearing Blackrock orcs out of a cave. Somebody waiting at the mouth of it had eaten several handfuls of the wrong mushrooms.",
+      "detail": "A week went by off the books and I came back a good deal further along than level six; don't ask me where it went. Gawain Tenebris ran the party and Charm Moonfeather knew the cave. I said one thing out loud all afternoon: I'd rather be drinkin'. Then we walked a wounded corporal called Keeshan home, slowly.",
+      "pints": 0,
+      "bangs": 0,
+      "people": [
+        "Gawain Tenebris",
+        "Charm Moonfeather",
+        "Rosa Luxemborne",
+        "York Okismalle"
+      ],
+      "image": null,
+      "alt": null
+    },
+    {
+      "id": "2026-11-11-1731-blackfathom-deeps",
+      "time": "2026-11-11T17:31:11-05:00",
+      "type": "dispatch",
+      "zone": "Ashenvale",
+      "title": "Blackfathom Deeps",
+      "text": "Charm Moonfeather pulled five of us together for Blackfathom Deeps. I went in as the healer and asked, politely, to roll need on healer gear. They said yes.",
+      "detail": "A drowned temple full of naga and cultists who want the Old Gods back. Loria Liongard knew where every chest was hiding; Tymir Beldorsson was on his tenth run for one murloc's eyeball. Came out with a manuscript, a bag of brain stems and new boots. Learned Stormstrike somewhere in the wet.",
+      "pints": 0,
+      "bangs": 0,
+      "people": [
+        "Charm Moonfeather",
+        "Loria Liongard",
+        "Tymir Beldorsson",
+        "Havo Shin"
+      ],
+      "image": null,
+      "alt": null
+    },
+    {
+      "id": "2026-11-11-1958-three-in-twenty-minutes",
+      "time": "2026-11-11T19:58:53-05:00",
+      "type": "death",
+      "zone": "Ashenvale",
+      "title": "Three in twenty minutes",
+      "text": "Charm and I took Ashenvale as a pair, me leading for once. Died at two minutes to eight, again at quarter past, and again three minutes after that.",
+      "detail": "Satyrs at Satyrnaar, then whatever lived between there and Splintertree Post, which turned out to be an orc town. Raene's Cleansing took four turn-ins and a rod that needed fixing twice. Set my hearth at Astranaar after. The trees there don't explode.",
+      "pints": 0,
+      "bangs": 0,
+      "people": [
+        "Charm Moonfeather"
+      ],
+      "image": null,
+      "alt": null
+    },
+    {
+      "id": "2026-11-11-2154-the-dark-iron-war",
+      "time": "2026-11-11T21:54:53-05:00",
+      "type": "dispatch",
+      "zone": "Wetlands",
+      "title": "The Dark Iron War",
+      "text": "Thandol Span, and a quest called The Dark Iron War. Fifteen Dark Iron dwarves, five saboteurs, five tunnelers, five demolitionists. I didn't count out loud.",
+      "detail": "Tecu Faeron and Astronova Starwhisper made us four. The Dark Irons had wired the bridge, and I know how they tie a charge; I said nothing about that either. We destroyed the cache and the bridge is still standing. They paid me in Ez-Thro Dynamite, five sticks, which is only funny if you're me.",
+      "pints": 0,
+      "bangs": 0,
+      "people": [
+        "Charm Moonfeather",
+        "Tecu Faeron",
+        "Astronova Starwhisper"
+      ],
+      "image": null,
+      "alt": null
+    },
+    {
+      "id": "2026-11-11-2207-spark-of-freedom",
+      "time": "2026-11-11T22:07:53-05:00",
+      "type": "dispatch",
+      "zone": "Wetlands",
+      "title": "Spark of Freedom",
+      "text": "The Dark Irons at Dun Modr kept a fire elemental in chains. We walked it out. It said the same word over and over, and the word was fire.",
+      "detail": "Tecu went looking for a captive dwarf to rescue and found this instead. It didn't thank anybody. Fire doesn't. I walked next to it the whole way and kept my hands to myself.",
+      "pints": 0,
+      "bangs": 0,
+      "people": [
+        "Charm Moonfeather",
+        "Tecu Faeron"
+      ],
+      "image": null,
+      "alt": null
+    },
+    {
+      "id": "2026-11-11-2230-except-for-dagnar",
+      "time": "2026-11-11T22:30:14-05:00",
+      "type": "met",
+      "zone": "Wetlands",
+      "title": "Except for Dagnar",
+      "text": "Tecu Faeron left the party cheering that there'd be no more dwarves. Except Dagnar, who has to live with himself.",
+      "detail": "I said I was sorry for what they'd done to everyone. I meant the Dark Irons. Tecu meant it as a joke, and it was one, and I laughed. Then I stood on the bridge a while.",
+      "pints": 0,
+      "bangs": 0,
+      "people": [
+        "Tecu Faeron"
+      ],
+      "image": null,
+      "alt": null
+    },
+    {
+      "id": "2026-11-11-2242-water-walking",
+      "time": "2026-11-11T22:42:19-05:00",
+      "type": "milestone",
+      "zone": "Ironforge",
+      "title": "Water Walking",
+      "text": "Trained up after the bridge. Water Walking, Flametongue Totem, and a totem that keeps fire off people.",
+      "detail": "Loria asked in the Deeps whether anyone could walk on water. Four hours late, I can. The fire one I'll keep in the pack and not think about why.",
+      "pints": 0,
+      "bangs": 0,
+      "people": [],
+      "image": null,
+      "alt": null
     }
   ],
   "threads": [],
@@ -466,9 +775,29 @@
       "count": 5,
       "exploded": false,
       "note": "For other people, mostly."
+    },
+    {
+      "date": "2026-11-11",
+      "item": "Heavy Linen Bandage",
+      "count": 5,
+      "exploded": false,
+      "note": "Five at the start of the day. Used most of them in the Deeps."
     }
   ],
-  "warmth": {},
+  "warmth": {
+    "Charm Moonfeather": [
+      [
+        "2026-11-11",
+        4.2
+      ]
+    ],
+    "Tecu Faeron": [
+      [
+        "2026-11-11",
+        2.6
+      ]
+    ]
+  },
   "zonesVisited": {
     "Dun Morogh": {
       "hours": 5.6,
@@ -477,10 +806,34 @@
       "lastPostId": "2026-11-05-0011-golbolar-quarry"
     },
     "Ironforge": {
-      "hours": 0.4,
+      "hours": 1.2,
       "first": "2026-11-04",
-      "last": "2026-11-04",
-      "lastPostId": "2026-11-04-2336-rats-in-the-tram"
+      "last": "2026-11-11",
+      "lastPostId": "2026-11-11-2242-water-walking"
+    },
+    "Redridge Mountains": {
+      "hours": 0.7,
+      "first": "2026-11-11",
+      "last": "2026-11-11",
+      "lastPostId": "2026-11-11-1431-the-mushroom-gang"
+    },
+    "Ashenvale": {
+      "hours": 4.1,
+      "first": "2026-11-11",
+      "last": "2026-11-11",
+      "lastPostId": "2026-11-11-1958-three-in-twenty-minutes"
+    },
+    "Wetlands": {
+      "hours": 0.9,
+      "first": "2026-11-11",
+      "last": "2026-11-11",
+      "lastPostId": "2026-11-11-2230-except-for-dagnar"
+    },
+    "Arathi Highlands": {
+      "hours": 0.3,
+      "first": "2026-11-11",
+      "last": "2026-11-11",
+      "lastPostId": null
     }
   },
   "review": null,

@@ -129,6 +129,13 @@ _Add a line per session: who you met, what Dagnar said that stuck, anything you 
 - 2026-11-04 23:19 — milestone: Through the Gates of Ironforge at twenty past eleven. The great forge, a woman selling bread baked that morning, and a trade channel complaining the city was empty.
 - 2026-11-04 23:36 — dispatch: Under the city a dwarf called Monty handed me a flute and a box and said the rats would walk in one by one. They did. Nine hundred points of experience for piping vermin.
 - 2026-11-05 00:11 — dispatch: Amberstill Ranch, where a girl was chasing a ram named Fluffy, then Gol'Bolar Quarry till past midnight. Rockjaw troggs. One word each. Mostly Destroy.
+- 2026-11-11 14:31 — dispatch: Back on the record in Redridge, in a party clearing Blackrock orcs out of a cave. Somebody waiting at the mouth of it had eaten several handfuls of the wrong mushrooms.
+- 2026-11-11 17:31 — dispatch: Charm Moonfeather pulled five of us together for Blackfathom Deeps. I went in as the healer and asked, politely, to roll need on healer gear. They said yes.
+- 2026-11-11 19:58 — death: Charm and I took Ashenvale as a pair, me leading for once. Died at two minutes to eight, again at quarter past, and again three minutes after that.
+- 2026-11-11 21:54 — dispatch: Thandol Span, and a quest called The Dark Iron War. Fifteen Dark Iron dwarves, five saboteurs, five tunnelers, five demolitionists. I didn't count out loud.
+- 2026-11-11 22:07 — dispatch: The Dark Irons at Dun Modr kept a fire elemental in chains. We walked it out. It said the same word over and over, and the word was fire.
+- 2026-11-11 22:30 — met: Tecu Faeron left the party cheering that there'd be no more dwarves. Except Dagnar, who has to live with himself.
+- 2026-11-11 22:42 — milestone: Trained up after the bridge. Water Walking, Flametongue Totem, and a totem that keeps fire off people.
 
 ---
 
