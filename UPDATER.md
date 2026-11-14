@@ -8,7 +8,7 @@ Rob plays Dagnar Barleigh on WoW Forever from a Windows PC (`DESKTOP-9C5EP7B`). 
 |---|---|
 | Chat log (auto-enabled by the addon) | `Logs\WoWChatLog.txt` |
 | Addon saved data | `WTF\Account\R00T3D3\SavedVariables\DagnarChatLog.lua` |
-| Addon | `Interface\AddOns\DagnarChatLog\` (expected `loadedVersion` 6) |
+| Addon | `Interface\AddOns\DagnarChatLog\` (saved data should show `version = 6`; addon file is 6.0.1 since Nov 14, which fixed a GetSpellInfo crash on every spell cast) |
 | Addon screenshots | `Screenshots\` (post-worthy moments) |
 
 Every job needs the PC awake with the Claude desktop app open. If the PC can't be reached, stop quietly, because the next run will catch up.
@@ -33,7 +33,7 @@ Every job needs the PC awake with the Claude desktop app open. If the PC can't b
 7. Append one line per post to the **Session log** in `dagnar_barleigh.md` (`- YYYY-MM-DD HH:MM — type: text`).
 8. Write the newest processed line's timestamp to `logs/last_processed.txt`. Update `logs/moments_processed.txt` (unix time) if addon moments were used.
 9. Validate (`python3 -m json.tool campaign.json`), then commit `Dispatches: YYYY-MM-DD (N posts)` and push.
-10. Addon health check: if `DagnarChatLog.lua` has no `loadedVersion = 6`, or it hasn't changed while the chat log has, the addon isn't loading. Check `WTF\Account\R00T3D3\91\Dagnar-Barleigh\AddOns.txt` too: `DagnarChatLog: disabled` means it was switched off in the AddOns menu (it was, from Nov 6 to Nov 14). Note what you find in the commit body. Don't fail the run over it.
+10. Addon health check: if `DagnarChatLog.lua` does not have `version = 6`, or it hasn't changed while the chat log has, the addon isn't loading. Check `WTF\Account\R00T3D3\91\Dagnar-Barleigh\AddOns.txt` too: `DagnarChatLog: disabled` means it was switched off in the AddOns menu (it was, from Nov 6 to Nov 14). Note what you find in the commit body. Don't fail the run over it.
 
 ## Job 2: Daily brief (once a day, early afternoon)
 
