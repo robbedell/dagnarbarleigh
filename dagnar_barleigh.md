@@ -142,6 +142,13 @@ _Add a line per session: who you met, what Dagnar said that stuck, anything you 
 - 2026-11-12 17:56 — dispatch: Six quests in one prison. Targorr, Deepfury, Bazil Thredd, Dextren Ward. Kristian healed, so I hit things.
 - 2026-11-12 18:57 — death: Died in the Stockade at three minutes to seven when the next boss came early. I said I didn't do it. I didn't.
 - 2026-11-12 20:06 — milestone: Trained Windfury and took the Call of Air out to the Circle of East Binding. Came back with an air totem. That makes four.
+- 2026-11-13 10:07 — met: A guildmate, Priscilla Meticcia, whispered that we'd just run the Hall of Thanes together. We hadn't. Another shaman, a name a bit like mine.
+- 2026-11-13 10:42 — milestone: Turned in Deepfury's head at Ironbeard's Tomb, and the Wildhammer Clan started keeping a ledger on me. Neutral.
+- 2026-11-13 10:48 — death: Stopped to mine at Thelgen Rock. Died twice, three minutes apart. The rock won.
+- 2026-11-13 10:58 — toast: A stranger called Galanar Bose raised a drink to me. I didn't have one to raise back.
+- 2026-11-13 12:18 — dispatch: At the dig by Ironbeard's Tomb an archaeologist summoned a spirit called Aman. It warned that digging too deep into your past might bring an abrupt end to your future.
+- 2026-11-13 15:16 — dispatch: Alithia Evengale and Jaxtis Unseen took me out to a wreck full of drowned sailors who still wanted brains. Thirteen sailors, five marines.
+- 2026-11-13 16:23 — dispatch: Pulled down Dragonmaw war banners, thinned the razormaws and cleared the crocs for the Wildhammer. Trying Times, the quest was called. Fair.
 
 ---
 

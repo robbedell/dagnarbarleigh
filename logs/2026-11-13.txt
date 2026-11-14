@@ -1,0 +1,47 @@
+11/13 09:26:46.074  Stonegear's Search completed.
+11/13 10:07:20.840  Priscilla Meticcia whispers: i just realized we were in the same guild
+11/13 10:07:44.868  To Priscilla Meticcia: Nice! What's up?
+11/13 10:08:06.041  Priscilla Meticcia whispers: unless i just ran another HoT with a shaman named Dagnar barleigh
+11/13 10:08:28.748  Priscilla Meticcia whispers: o wait
+11/13 10:08:35.587  Priscilla Meticcia whispers: WOW ok no i made a mistake
+11/13 10:08:54.024  To Priscilla Meticcia: lol, it's all good
+11/13 10:08:59.745  Priscilla Meticcia whispers: his name was Bragun and your name is Dagnar and my mind twisted it up
+11/13 10:14:37.060  Discovered Theramore Isle: 275 experience gained
+11/13 10:33:44.891  Discovered Ironbeard's Tomb: 185 experience gained
+11/13 10:34:53.806  The Fury Runs Deep completed.
+11/13 10:34:53.863  You receive item: Magistrate's Pantaloons
+11/13 10:41:13.026  Tramping Paws completed.
+11/13 10:42:04.976  You are now Neutral with Wildhammer Clan.
+11/13 10:42:08.895  Quest accepted: Razormaw Needling
+11/13 10:42:11.317  Quest accepted: Trying Times
+11/13 10:44:29.823  Your skill in Mining has increased to 74.
+11/13 10:45:29.513  Discovered Thelgen Rock: 148 experience gained
+11/13 10:46:45.127  Your skill in Mining has increased to 75.
+11/13 10:48:19.849  You died.
+11/13 10:51:49.194  You died.
+11/13 11:11:39.034  Quest accepted: The Cursed Crew
+11/13 11:17:09.842  Quest accepted: Fiora Longears
+11/13 11:17:22.745  Quest accepted: War Banners
+11/13 11:17:24.733  Quest accepted: From the Ashes
+11/13 11:17:53.880  Quest accepted: Crocs of the Sky
+11/13 11:18:12.541  Quest accepted: Bloom of the Heavens
+11/13 11:19:44.786  Quest accepted: James Hyal
+11/13 15:07:28.021  Bloom of the Heavens completed.
+11/13 15:07:28.111  You receive item: Bouquet of Auberdine Flowers
+11/13 15:07:29.845  You receive item: Nord'el
+11/13 15:07:30.038  Quest accepted: Bloom of the Heavens
+11/13 15:12:30.532  You have learned a new passive effect: Improved Stormstrike.
+11/13 15:15:11.300  Alithia Evengale has invited you to join a group.
+11/13 15:16:16.648  [Party] Dagnar Barleigh: {rt1} Questie: 13/13 Cursed Sailor slain for The Cursed Crew!
+11/13 15:17:28.660  [Party] Dagnar Barleigh: {rt1} Questie: 5/5 Cursed Marine slain for The Cursed Crew!
+11/13 15:17:41.096  Alithia Evengale leaves the party.
+11/13 15:19:14.883  You died.
+11/13 15:24:40.930  Discovered Saltspray Glen: 200 experience gained
+11/13 15:43:09.664  You are now Neutral with Wildhammer Clan.
+11/13 15:43:12.968  Trying Times completed.
+11/13 15:43:15.269  Razormaw Needling completed.
+11/13 16:04:40.184  You cheer at Cynara Stagblood.
+11/13 16:23:15.003  War Banners completed.
+11/13 16:23:50.242  Crocs of the Sky completed.
+
+Talked with: Priscilla Meticcia, Alithia Evengale, Jaxtis Unseen

@@ -434,6 +434,66 @@
       "lastSeen": "2026-11-12",
       "lastSaid": "Complained the crafting was loud.",
       "note": "Talked near me in Stormwind."
+    },
+    "Priscilla Meticcia": {
+      "race": null,
+      "standing": "stranger",
+      "warmth": 1.6,
+      "met": "2026-11-13",
+      "metZone": "Wetlands",
+      "lastSeen": "2026-11-13",
+      "lastSaid": "Realised I was the wrong shaman.",
+      "note": "Guild. Whispered me thinking we had run the Hall of Thanes together. We hadn't."
+    },
+    "Galanar Bose": {
+      "race": null,
+      "standing": "stranger",
+      "warmth": 1.4,
+      "met": "2026-11-13",
+      "metZone": "Wetlands",
+      "lastSeen": "2026-11-13",
+      "lastSaid": "Raised a drink to me.",
+      "note": "Raised a drink to me in the Wetlands. No idea why."
+    },
+    "Alithia Evengale": {
+      "race": null,
+      "standing": "stranger",
+      "warmth": 1.6,
+      "met": "2026-11-13",
+      "metZone": "Wetlands",
+      "lastSeen": "2026-11-13",
+      "lastSaid": "Thanked us.",
+      "note": "Invited me out to the cursed wreck."
+    },
+    "Jaxtis Unseen": {
+      "race": null,
+      "standing": "stranger",
+      "warmth": 1.4,
+      "met": "2026-11-13",
+      "metZone": "Wetlands",
+      "lastSeen": "2026-11-13",
+      "lastSaid": "Said GG.",
+      "note": "Cursed wreck party."
+    },
+    "Thunidor Thunderkeg": {
+      "race": null,
+      "standing": "stranger",
+      "warmth": 1.0,
+      "met": "2026-11-13",
+      "metZone": "Wetlands",
+      "lastSeen": "2026-11-13",
+      "lastSaid": "Counted his linen.",
+      "note": "Talked near me in the Wetlands."
+    },
+    "Khaotikus Silvermoon": {
+      "race": null,
+      "standing": "stranger",
+      "warmth": 1.0,
+      "met": "2026-11-13",
+      "metZone": "Wetlands",
+      "lastSeen": "2026-11-13",
+      "lastSaid": "Counted his miles.",
+      "note": "Talked near me in the Wetlands."
     }
   },
   "stats": {
@@ -441,7 +501,7 @@
     "smashed": 0,
     "tipsy": 1,
     "drunk": 0,
-    "deaths": 7,
+    "deaths": 10,
     "dances": 0,
     "toasts": 0,
     "flirts": 1,
@@ -452,22 +512,22 @@
     "hearths": 0,
     "duelsWon": 0,
     "duelsLost": 0,
-    "groups": 3,
+    "groups": 4,
     "trades": 0,
-    "level": 30,
+    "level": 31,
     "guild": "The Brave of Lordaeron",
-    "people": 41,
+    "people": 47,
     "races": [
       "Dwarf",
       "Gnome",
       "Human"
     ],
-    "zones": 7,
-    "lastZone": "Arathi Highlands",
+    "zones": 8,
+    "lastZone": "Wetlands",
     "restHours": 0.0,
     "peak": "tipsy",
-    "sessions": 14,
-    "asOf": "2026-11-12"
+    "sessions": 16,
+    "asOf": "2026-11-13"
   },
   "posts": [
     {
@@ -956,6 +1016,111 @@
       ],
       "image": null,
       "alt": null
+    },
+    {
+      "id": "2026-11-13-1007-wrong-shaman",
+      "time": "2026-11-13T10:07:20-05:00",
+      "type": "met",
+      "zone": "Wetlands",
+      "title": "Wrong shaman",
+      "text": "A guildmate, Priscilla Meticcia, whispered that we'd just run the Hall of Thanes together. We hadn't. Another shaman, a name a bit like mine.",
+      "detail": "I said it was all good, and it was. Nice to be mistaken for someone who goes places. Rode the boat to Theramore first thing that morning and came straight back.",
+      "pints": 0,
+      "bangs": 0,
+      "people": [
+        "Priscilla Meticcia"
+      ],
+      "image": null,
+      "alt": null
+    },
+    {
+      "id": "2026-11-13-1042-the-wildhammer-are-counting",
+      "time": "2026-11-13T10:42:04-05:00",
+      "type": "milestone",
+      "zone": "Wetlands",
+      "title": "The Wildhammer are counting",
+      "text": "Turned in Deepfury's head at Ironbeard's Tomb, and the Wildhammer Clan started keeping a ledger on me. Neutral.",
+      "detail": "They taught me to hold the fire. Neutral sounds about right. Took two of their jobs on the spot, one called Trying Times.",
+      "pints": 0,
+      "bangs": 0,
+      "people": [],
+      "image": null,
+      "alt": null
+    },
+    {
+      "id": "2026-11-13-1048-thelgen-rock",
+      "time": "2026-11-13T10:48:19-05:00",
+      "type": "death",
+      "zone": "Wetlands",
+      "title": "Thelgen Rock",
+      "text": "Stopped to mine at Thelgen Rock. Died twice, three minutes apart. The rock won.",
+      "detail": "Mining went up to seventy-five on the way, so call it a trade. Nobody saw. That's the main thing.",
+      "pints": 0,
+      "bangs": 0,
+      "people": [],
+      "image": null,
+      "alt": null
+    },
+    {
+      "id": "2026-11-13-1058-galanar-bose",
+      "time": "2026-11-13T10:58:36-05:00",
+      "type": "toast",
+      "zone": "Wetlands",
+      "title": "Galanar Bose",
+      "text": "A stranger called Galanar Bose raised a drink to me. I didn't have one to raise back.",
+      "detail": "No idea what it was for. I'll take it. The malt's still shut, which is starting to look like a decision.",
+      "pints": 0,
+      "bangs": 0,
+      "people": [
+        "Galanar Bose"
+      ],
+      "image": null,
+      "alt": null
+    },
+    {
+      "id": "2026-11-13-1218-aman",
+      "time": "2026-11-13T12:18:05-05:00",
+      "type": "dispatch",
+      "zone": "Wetlands",
+      "title": "Aman",
+      "text": "At the dig by Ironbeard's Tomb an archaeologist summoned a spirit called Aman. It warned that digging too deep into your past might bring an abrupt end to your future.",
+      "detail": "The archaeologist called it a mystery of the past and a key to the future. He called it up four times while I was there. I didn't ask it anything.",
+      "pints": 0,
+      "bangs": 0,
+      "people": [],
+      "image": null,
+      "alt": null
+    },
+    {
+      "id": "2026-11-13-1516-the-cursed-crew",
+      "time": "2026-11-13T15:16:16-05:00",
+      "type": "dispatch",
+      "zone": "Wetlands",
+      "title": "The Cursed Crew",
+      "text": "Alithia Evengale and Jaxtis Unseen took me out to a wreck full of drowned sailors who still wanted brains. Thirteen sailors, five marines.",
+      "detail": "Alithia said thank you and left. I died on the same ship at nineteen past, on my own, which is how ships go. Learned Improved Stormstrike that afternoon.",
+      "pints": 0,
+      "bangs": 0,
+      "people": [
+        "Alithia Evengale",
+        "Jaxtis Unseen"
+      ],
+      "image": null,
+      "alt": null
+    },
+    {
+      "id": "2026-11-13-1623-trying-times",
+      "time": "2026-11-13T16:23:15-05:00",
+      "type": "dispatch",
+      "zone": "Wetlands",
+      "title": "Trying Times",
+      "text": "Pulled down Dragonmaw war banners, thinned the razormaws and cleared the crocs for the Wildhammer. Trying Times, the quest was called. Fair.",
+      "detail": "Saltspray Glen smells like a still with the lid off. The orcs said a lot in Orcish and none of it was hello. Spent the whole day in one swamp and didn't mind.",
+      "pints": 0,
+      "bangs": 0,
+      "people": [],
+      "image": null,
+      "alt": null
     }
   ],
   "threads": [],
@@ -1043,10 +1208,10 @@
       "lastPostId": "2026-11-11-1958-three-in-twenty-minutes"
     },
     "Wetlands": {
-      "hours": 1.9,
+      "hours": 7.7,
       "first": "2026-11-11",
-      "last": "2026-11-12",
-      "lastPostId": "2026-11-12-1649-dun-modr-again"
+      "last": "2026-11-13",
+      "lastPostId": "2026-11-13-1623-trying-times"
     },
     "Arathi Highlands": {
       "hours": 0.8,
@@ -1059,6 +1224,12 @@
       "first": "2026-11-12",
       "last": "2026-11-12",
       "lastPostId": "2026-11-12-1857-i-didnt-do-it"
+    },
+    "Dustwallow Marsh": {
+      "hours": 0.3,
+      "first": "2026-11-13",
+      "last": "2026-11-13",
+      "lastPostId": null
     }
   },
   "review": null,
