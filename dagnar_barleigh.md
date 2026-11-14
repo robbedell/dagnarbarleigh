@@ -136,6 +136,12 @@ _Add a line per session: who you met, what Dagnar said that stuck, anything you 
 - 2026-11-11 22:07 — dispatch: The Dark Irons at Dun Modr kept a fire elemental in chains. We walked it out. It said the same word over and over, and the word was fire.
 - 2026-11-11 22:30 — met: Tecu Faeron left the party cheering that there'd be no more dwarves. Except Dagnar, who has to live with himself.
 - 2026-11-11 22:42 — milestone: Trained up after the bridge. Water Walking, Flametongue Totem, and a totem that keeps fire off people.
+- 2026-11-12 16:13 — met: Asked Volundr Embercast into a group. A dwarf and a tank, and his first words were that I was levelling like a madman.
+- 2026-11-12 16:49 — dispatch: Back to Dun Modr with a guild crew who still needed it. I'd done it the night before, so I came to help and told them the fire elemental was an escort.
+- 2026-11-12 17:46 — met: Niko Ikory laid out a sleeping bag before the Stockade, for the experience. I said Niko just wanted someone in the bag.
+- 2026-11-12 17:56 — dispatch: Six quests in one prison. Targorr, Deepfury, Bazil Thredd, Dextren Ward. Kristian healed, so I hit things.
+- 2026-11-12 18:57 — death: Died in the Stockade at three minutes to seven when the next boss came early. I said I didn't do it. I didn't.
+- 2026-11-12 20:06 — milestone: Trained Windfury and took the Call of Air out to the Circle of East Binding. Came back with an air totem. That makes four.
 
 ---
 

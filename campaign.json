@@ -334,6 +334,106 @@
       "lastSeen": "2026-11-11",
       "lastSaid": "Wanted a rogue for a lockbox.",
       "note": "Yelled near me in Ironforge."
+    },
+    "Volundr Embercast": {
+      "race": "Dwarf",
+      "standing": "friend",
+      "warmth": 5.2,
+      "met": "2026-11-12",
+      "metZone": "Ironforge",
+      "lastSeen": "2026-11-12",
+      "lastSaid": "Said he'd find me tomorrow.",
+      "note": "Dwarf, tank. I invited him; we've run things before, off the record. Says I level like a madman. Cheered at me in the Stockade. Gets lost."
+    },
+    "Niko Ikory": {
+      "race": null,
+      "standing": "regular",
+      "warmth": 3.8,
+      "met": "2026-11-12",
+      "metZone": "Ironforge",
+      "lastSeen": "2026-11-12",
+      "lastSaid": "Said dwarven men are very attractive.",
+      "note": "Hunter, guild. Brought the quests and the sleeping bag. Pulled a boss early to beat my damage, and said so."
+    },
+    "Kristian Sparklewits": {
+      "race": "Gnome",
+      "standing": "stranger",
+      "warmth": 2.2,
+      "met": "2026-11-12",
+      "metZone": "Wetlands",
+      "lastSeen": "2026-11-12",
+      "lastSaid": "Blamed the human.",
+      "note": "Gnome. Healed the Stockade so I could hit things. Gave Femto back as good as Femto gave."
+    },
+    "Femto Eclipse": {
+      "race": "Human",
+      "standing": "stranger",
+      "warmth": 2.0,
+      "met": "2026-11-12",
+      "metZone": "Stormwind City",
+      "lastSeen": "2026-11-12",
+      "lastSaid": "Blamed the gnome, on principle.",
+      "note": "Human. Claims exile from the Scarlet Crusade. Insults gnomes in character, and is good at it."
+    },
+    "Eldrin Belmont": {
+      "race": null,
+      "standing": "stranger",
+      "warmth": 1.6,
+      "met": "2026-11-12",
+      "metZone": "Wetlands",
+      "lastSeen": "2026-11-12",
+      "lastSaid": "Wished the Light on all of us.",
+      "note": "Guild. Came for Dun Modr, left at the bridge."
+    },
+    "Siligrun Stourheart": {
+      "race": null,
+      "standing": "stranger",
+      "warmth": 1.2,
+      "met": "2026-11-12",
+      "metZone": "Ironforge",
+      "lastSeen": "2026-11-12",
+      "lastSaid": "Waved at me.",
+      "note": "Guild. Waved at me in Ironforge."
+    },
+    "Finwick Thaumwaver": {
+      "race": null,
+      "standing": "stranger",
+      "warmth": 1.0,
+      "met": "2026-11-12",
+      "metZone": "Wetlands",
+      "lastSeen": "2026-11-12",
+      "lastSaid": "Wished us a fantastic adventure.",
+      "note": "Left us his explosives in Dun Modr."
+    },
+    "Dergan Steelclad": {
+      "race": null,
+      "standing": "stranger",
+      "warmth": 1.0,
+      "met": "2026-11-12",
+      "metZone": "Wetlands",
+      "lastSeen": "2026-11-12",
+      "lastSaid": "Asked if we were full.",
+      "note": "Wanted into the group at Dun Modr."
+    },
+    "Cubbson Stoneside": {
+      "race": null,
+      "standing": "stranger",
+      "warmth": 1.0,
+      "met": "2026-11-12",
+      "metZone": "Stormwind City",
+      "lastSeen": "2026-11-12",
+      "lastSaid": "Accused someone of sneaking.",
+      "note": "Talked near me in Stormwind."
+    },
+    "Vuxilla Thornheart": {
+      "race": null,
+      "standing": "stranger",
+      "warmth": 1.0,
+      "met": "2026-11-12",
+      "metZone": "Stormwind City",
+      "lastSeen": "2026-11-12",
+      "lastSaid": "Complained the crafting was loud.",
+      "note": "Talked near me in Stormwind."
     }
   },
   "stats": {
@@ -341,10 +441,10 @@
     "smashed": 0,
     "tipsy": 1,
     "drunk": 0,
-    "deaths": 6,
+    "deaths": 7,
     "dances": 0,
     "toasts": 0,
-    "flirts": 0,
+    "flirts": 1,
     "hugs": 0,
     "bangs": 0,
     "crafted": 14,
@@ -352,21 +452,22 @@
     "hearths": 0,
     "duelsWon": 0,
     "duelsLost": 0,
-    "groups": 2,
+    "groups": 3,
     "trades": 0,
-    "level": 29,
+    "level": 30,
     "guild": "The Brave of Lordaeron",
-    "people": 31,
+    "people": 41,
     "races": [
       "Dwarf",
-      "Gnome"
+      "Gnome",
+      "Human"
     ],
-    "zones": 6,
-    "lastZone": "Ironforge",
+    "zones": 7,
+    "lastZone": "Arathi Highlands",
     "restHours": 0.0,
     "peak": "tipsy",
-    "sessions": 11,
-    "asOf": "2026-11-11"
+    "sessions": 14,
+    "asOf": "2026-11-12"
   },
   "posts": [
     {
@@ -749,6 +850,112 @@
       "people": [],
       "image": null,
       "alt": null
+    },
+    {
+      "id": "2026-11-12-1613-volundr",
+      "time": "2026-11-12T16:13:04-05:00",
+      "type": "met",
+      "zone": "Ironforge",
+      "title": "Volundr",
+      "text": "Asked Volundr Embercast into a group. A dwarf and a tank, and his first words were that I was levelling like a madman.",
+      "detail": "I didn't argue. Niko Ikory turned up with three quests for the Stockade and a plan to go through the Wetlands first. I said I hate Stormwind. Niko said the dwarf city's better. Nobody disagreed.",
+      "pints": 0,
+      "bangs": 0,
+      "people": [
+        "Volundr Embercast",
+        "Niko Ikory"
+      ],
+      "image": null,
+      "alt": null
+    },
+    {
+      "id": "2026-11-12-1649-dun-modr-again",
+      "time": "2026-11-12T16:49:17-05:00",
+      "type": "dispatch",
+      "zone": "Wetlands",
+      "title": "Dun Modr, again",
+      "text": "Back to Dun Modr with a guild crew who still needed it. I'd done it the night before, so I came to help and told them the fire elemental was an escort.",
+      "detail": "Walked it out a second time. It still said fire. Niko said that's what you get for helping elementals, and claimed to know. Eldrin Belmont and Kristian Sparklewits made five; Eldrin left at the bridge, blessing everyone in the Light, which was kind of him.",
+      "pints": 0,
+      "bangs": 0,
+      "people": [
+        "Volundr Embercast",
+        "Niko Ikory",
+        "Kristian Sparklewits",
+        "Eldrin Belmont"
+      ],
+      "image": null,
+      "alt": null
+    },
+    {
+      "id": "2026-11-12-1746-someone-in-the-bag",
+      "time": "2026-11-12T17:46:04-05:00",
+      "type": "met",
+      "zone": "Stormwind City",
+      "title": "Someone in the bag",
+      "text": "Niko Ikory laid out a sleeping bag before the Stockade, for the experience. I said Niko just wanted someone in the bag.",
+      "detail": "Niko said dwarven men are very attractive. Volundr said thank you before I could. Three of us in a little bag, five by the end, and that's all anyone's getting about it.",
+      "pints": 0,
+      "bangs": 0,
+      "people": [
+        "Niko Ikory",
+        "Volundr Embercast"
+      ],
+      "image": null,
+      "alt": null
+    },
+    {
+      "id": "2026-11-12-1756-the-stockade",
+      "time": "2026-11-12T17:56:33-05:00",
+      "type": "dispatch",
+      "zone": "Stormwind City",
+      "title": "The Stockade",
+      "text": "Six quests in one prison. Targorr, Deepfury, Bazil Thredd, Dextren Ward. Kristian healed, so I hit things.",
+      "detail": "Femto Eclipse spent the walk in insulting the gnome, in character, and was good at it. They love their harnesses in there; I said so. Deepfury's head was for a man in the Wetlands, which is the kind of errand I understand.",
+      "pints": 0,
+      "bangs": 0,
+      "people": [
+        "Volundr Embercast",
+        "Niko Ikory",
+        "Kristian Sparklewits",
+        "Femto Eclipse"
+      ],
+      "image": null,
+      "alt": null
+    },
+    {
+      "id": "2026-11-12-1857-i-didnt-do-it",
+      "time": "2026-11-12T18:57:11-05:00",
+      "type": "death",
+      "zone": "Stormwind City",
+      "title": "I didn't do it",
+      "text": "Died in the Stockade at three minutes to seven when the next boss came early. I said I didn't do it. I didn't.",
+      "detail": "Niko owned up: wanted to beat my damage and needed more targets. Femto blamed the gnome on principle. On the way out I flexed at Volundr, for no reason, and he took it well.",
+      "pints": 0,
+      "bangs": 0,
+      "people": [
+        "Niko Ikory",
+        "Femto Eclipse",
+        "Volundr Embercast"
+      ],
+      "image": null,
+      "alt": null
+    },
+    {
+      "id": "2026-11-12-2006-four-totems",
+      "time": "2026-11-12T20:06:21-05:00",
+      "type": "milestone",
+      "zone": "Arathi Highlands",
+      "title": "Four totems",
+      "text": "Trained Windfury and took the Call of Air out to the Circle of East Binding. Came back with an air totem. That makes four.",
+      "detail": "Also learned Reincarnation, which means the spirits will stand me back up now and then, and two engineering plans: a target dummy and a silver contact. Nothing's exploded. Volundr went home early and said he'd find me tomorrow.",
+      "pints": 0,
+      "bangs": 0,
+      "people": [
+        "Volundr Embercast"
+      ],
+      "image": null,
+      "alt": null
     }
   ],
   "threads": [],
@@ -796,6 +1003,18 @@
         "2026-11-11",
         2.6
       ]
+    ],
+    "Volundr Embercast": [
+      [
+        "2026-11-12",
+        5.2
+      ]
+    ],
+    "Niko Ikory": [
+      [
+        "2026-11-12",
+        3.8
+      ]
     ]
   },
   "zonesVisited": {
@@ -806,10 +1025,10 @@
       "lastPostId": "2026-11-05-0011-golbolar-quarry"
     },
     "Ironforge": {
-      "hours": 1.2,
+      "hours": 5.0,
       "first": "2026-11-04",
-      "last": "2026-11-11",
-      "lastPostId": "2026-11-11-2242-water-walking"
+      "last": "2026-11-12",
+      "lastPostId": "2026-11-12-1613-volundr"
     },
     "Redridge Mountains": {
       "hours": 0.7,
@@ -824,16 +1043,22 @@
       "lastPostId": "2026-11-11-1958-three-in-twenty-minutes"
     },
     "Wetlands": {
-      "hours": 0.9,
+      "hours": 1.9,
       "first": "2026-11-11",
-      "last": "2026-11-11",
-      "lastPostId": "2026-11-11-2230-except-for-dagnar"
+      "last": "2026-11-12",
+      "lastPostId": "2026-11-12-1649-dun-modr-again"
     },
     "Arathi Highlands": {
-      "hours": 0.3,
+      "hours": 0.8,
       "first": "2026-11-11",
-      "last": "2026-11-11",
-      "lastPostId": null
+      "last": "2026-11-12",
+      "lastPostId": "2026-11-12-2006-four-totems"
+    },
+    "Stormwind City": {
+      "hours": 2.2,
+      "first": "2026-11-12",
+      "last": "2026-11-12",
+      "lastPostId": "2026-11-12-1857-i-didnt-do-it"
     }
   },
   "review": null,

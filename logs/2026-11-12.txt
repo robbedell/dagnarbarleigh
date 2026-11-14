@@ -1,0 +1,78 @@
+11/12 16:13:04.352  You have invited Volundr Embercast to join your group.
+11/12 16:13:07.169  Volundr Embercast joins the party.
+11/12 16:13:41.513  [Party] Dagnar Barleigh: Yeah, I don't really do much at work lol
+11/12 16:14:43.454  Niko Ikory joins the party.
+11/12 16:21:04.722  [Party] Dagnar Barleigh: Do I need to go to wetlands?
+11/12 16:21:42.835  [Party] Dagnar Barleigh: This is the Stockades right?
+11/12 16:22:55.329  [Party] Dagnar Barleigh: The Stockade RiotsThe Fury Runs DeepThe Color of Blood These 3 I have that I can't share with you guys
+11/12 16:23:53.815  [Party] Dagnar Barleigh: Im omw to Wetlands once I find the flight guy. I hate Stormwinds
+11/12 16:24:33.968  Kristian Sparklewits joins the party.
+11/12 16:24:44.879  Eldrin Belmont joins the party.
+11/12 16:29:17.323  [Party] Dagnar Barleigh: Sorry, I'm flying Spirit Airlines right now. There was a layover in Ironforge and a connecting flight in Brill.
+11/12 16:29:29.779  [Party] Dagnar Barleigh: This takes sooooo long
+11/12 16:29:47.591  [Party] Dagnar Barleigh: They would bring me back lol
+11/12 16:45:38.566  [Party] Dagnar Barleigh: You can take that person in your group. I already did this I was just here to help :)
+11/12 16:49:17.118  [Party] Dagnar Barleigh: The fire guy is an escort quyest
+11/12 16:58:14.972  [Party] Dagnar Barleigh: brb getting a drink
+11/12 17:26:36.838  Eldrin Belmont leaves the party.
+11/12 17:27:01.025  [Party] Dagnar Barleigh: Doesn't matter to me
+11/12 17:31:31.328  Femto Eclipse joins the party.
+11/12 17:32:16.142  [Party] Dagnar Barleigh: Cool I will DPS then :)
+11/12 17:35:18.204  [Party] Dagnar Barleigh: That;s what I got
+11/12 17:43:10.291  [Party] Dagnar Barleigh: Getting something to drink brb
+11/12 17:45:19.128  [Party] Dagnar Barleigh: Back
+11/12 17:46:04.222  [Party] Dagnar Barleigh: You just want someone in the bag with you :)
+11/12 17:47:29.055  [Party] Dagnar Barleigh: 3 dudes in a little bag...
+11/12 17:51:01.875  [Party] Dagnar Barleigh: I'm just a degenerate hacker..
+11/12 17:56:33.765  [Party] Dagnar Barleigh: {rt1} Questie: 1/1 Head of Targorr for What Comes Around...!
+11/12 17:56:57.708  [Party] Dagnar Barleigh: They love their harnesses in here
+11/12 18:00:39.163  [Party] Dagnar Barleigh: {rt1} Questie: 10/10 Defias Prisoner slain for Quell the Uprising!
+11/12 18:05:10.472  [Party] Dagnar Barleigh: {rt1} Questie: 1/1 Head of Deepfury for The Fury Runs Deep!
+11/12 18:07:52.128  [Party] Dagnar Barleigh: {rt1} Questie: 8/8 Defias Insurgent slain for Quell the Uprising!
+11/12 18:08:18.112  [Party] Dagnar Barleigh: {rt1} Questie: 8/8 Defias Convict slain for Quell the Uprising!
+11/12 18:12:16.302  [Party] Dagnar Barleigh: Food buff
+11/12 18:13:40.428  [Party] Dagnar Barleigh: {rt1} Questie: 1/1 Head of Bazil Thredd for The Stockade Riots!
+11/12 18:24:02.224  [Party] Dagnar Barleigh: {rt1} Questie: 1/1 Hand of Dextren Ward for Crime and Punishment!
+11/12 18:25:31.258  Quell the Uprising completed.
+11/12 18:25:34.884  The Stockade Riots completed.
+11/12 18:25:38.510  You receive item: Sealed Description of Thredd's Visitor
+11/12 18:25:38.707  Quest accepted: The Curious Visitor
+11/12 18:25:48.452  You cheer at Warden Thelwater.
+11/12 18:27:08.235  [Party] Dagnar Barleigh: I have to pee... brb
+11/12 18:28:29.076  [Party] Dagnar Barleigh: back
+11/12 18:46:23.328  [Party] Dagnar Barleigh: yay
+11/12 18:50:28.575  [Party] Dagnar Barleigh: {rt1} Questie: 10/10 Red Wool Bandana for The Color of Blood!
+11/12 18:52:40.792  [Party] Dagnar Barleigh: 100%
+11/12 18:57:11.736  You died.
+11/12 18:57:29.666  [Party] Dagnar Barleigh: I didn't do it
+11/12 18:58:13.321  [Party] Dagnar Barleigh: lol
+11/12 19:00:59.116  [Party] Dagnar Barleigh: Vol always out here getting lost..
+11/12 19:01:38.865  [Party] Dagnar Barleigh: yep
+11/12 19:04:15.559  You flex at Volundr Embercast.  Oooooh so strong!
+11/12 19:06:13.106  Kristian Sparklewits leaves the party.
+11/12 19:07:36.550  The Curious Visitor completed.
+11/12 19:09:27.702  The Color of Blood completed.
+11/12 19:18:10.968  Niko Ikory leaves the party.
+11/12 19:21:21.575  Femto Eclipse leaves the party.
+11/12 19:23:33.954  You are now Neutral with Darkmoon Faire.
+11/12 19:23:38.763  The Darkmoon Faire completed.
+11/12 19:29:58.830  You receive item: Hardened Root Staff
+11/12 19:29:58.885  What Comes Around... completed.
+11/12 19:41:55.638  Quest accepted: Call of Air
+11/12 19:42:21.140  You have learned a new spell: Windfury Weapon (Rank 1).
+11/12 19:42:51.579  You have learned a new spell: Searing Totem (Rank 3).
+11/12 19:42:51.589  You have learned a new passive effect: Reincarnation (Passive).
+11/12 19:42:51.589  You have learned a new spell: Nature Resistance Totem (Rank 1).
+11/12 19:42:51.607  You have learned a new spell: Healing Stream Totem (Rank 2).
+11/12 19:42:51.616  You have learned a new spell: Grounding Totem.
+11/12 19:42:51.616  You have learned a new spell: Call of the Ancestors.
+11/12 19:42:51.632  You have learned a new spell: Astral Recall.
+11/12 19:56:49.335  You have learned how to create a new item: Target Dummy.
+11/12 19:56:49.540  You have learned how to create a new item: Silver Contact.
+11/12 20:03:53.954  Discovered Dabyrie's Farmstead: 250 experience gained
+11/12 20:04:54.689  Discovered Circle of East Binding: 275 experience gained
+11/12 20:06:21.195  You receive item: Air Totem
+11/12 20:06:21.238  Call of Air completed.
+11/12 20:06:24.040  Quest accepted: Elemental Aid
+
+Talked with: Volundr Embercast, Niko Ikory, Kristian Sparklewits, Eldrin Belmont, Femto Eclipse
