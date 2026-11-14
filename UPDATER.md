@@ -19,7 +19,7 @@ Every job needs the PC awake with the Claude desktop app open. If the PC can't b
 
 1. Clone or pull `robbedell/dagnarbarleigh` (main branch).
 2. Stage `WoWChatLog.txt` and `DagnarChatLog.lua` from the PC.
-3. Read `logs/last_processed.txt` (format `M/D HH:MM:SS.mmm`, local Eastern time). Take only the log lines after it. If there are none, or the newest line is under 45 minutes old (he's still playing), stop without committing.
+3. Read `logs/last_processed.txt` (format `M/D HH:MM:SS.mmm`, local Eastern time). Take only the log lines after it. A session ends at the first gap of 45+ minutes between lines, or at logout. Publish every finished session (one commit per play day). If the newest lines are under 45 minutes old, he's still playing: hold back only that last unfinished session and publish everything before it. If nothing is finished, stop without committing.
 4. Write a per-day excerpt to `logs/YYYY-MM-DD.txt`. Include **only Dagnar's own lines** (says, yells, party, guild, whispers to and from, emotes), his quest, level, death and profession events, and the *names* of the people he talked to. Never copy other players' chat.
 5. Turn the session into posts in `campaign.json` `posts[]`, appended in time order. Use the same shape as the existing posts: `id` (`YYYY-MM-DD-HHMM-slug`), `time` (ISO with -05:00), `type` (`dispatch|milestone|met|death|toast|letter`), `zone`, `title`, `text` (1–2 sentences), `detail` (2–4 sentences), `pints`, `bangs`, `people`, `image`, `alt`.
    - Aim for 3–8 posts per evening, one per real beat, not one per quest.
