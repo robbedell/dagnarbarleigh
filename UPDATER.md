@@ -50,8 +50,8 @@ At midnight Eastern, post a status message of at most 4 lines in the chat: posts
 
 ## Task prompts (for recreating them)
 
-**Dagnar dispatches** (hourly, requires the PC, folder `D:\Blizzard\World of Warcraft\_forever_`):
-> Run Job 1 (Dispatches) from UPDATER.md in the GitHub repo robbedell/dagnarbarleigh. Attach the repo with add_repo (push access) and clone it, read UPDATER.md and dagnar_barleigh.md, then follow Job 1 exactly. Work quietly. If there's nothing new, stop without committing.
+**Dagnar dispatches** (hourly at :25 UTC, folder `D:\Blizzard\World of Warcraft\_forever_`). Create it with `requires_local_device: true` **and** the folder in `folders`. Without the device binding the folder is listed on the task but never actually connected to its runs, so every run silently fails to reach the logs (this happened Nov 14–15; fixed Nov 15 by recreating the task bound to `DESKTOP-9C5EP7B`):
+> Run Job 1 (Dispatches) from UPDATER.md in the GitHub repo robbedell/dagnarbarleigh. Attach the repo with add_repo (push access) and clone it, read UPDATER.md and dagnar_barleigh.md, then follow Job 1 exactly. The game folder is D:\Blizzard\World of Warcraft\_forever_ on this computer. Work quietly. If there's nothing new, or the PC files can't be reached, stop without committing.
 
 **Dagnar brief** (daily 12:24 PM ET, requires the PC):
 > Run Job 2 (Daily brief) from UPDATER.md in the GitHub repo robbedell/dagnarbarleigh. Attach the repo with add_repo (push access) and clone it, read UPDATER.md and dagnar_barleigh.md, then follow Job 2 exactly. Work quietly.

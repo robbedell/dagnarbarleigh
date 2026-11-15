@@ -1,0 +1,18 @@
+11/14 12:28:53.125  Logged in at Menethil Harbor, Wetlands (session 1 of 2).
+11/14 12:42:26.712  You are now Away: AFK
+11/14 12:45:59.213  You are no longer Away.
+11/14 13:00:21.722  You are now Away: AFK
+11/14 13:01:03.896  You are no longer Away.
+11/14 13:06:54.128  You are now Away: AFK
+11/14 13:13:44.542  You are no longer Away.
+11/14 13:23:18.463  Niko Ikory pets you.
+11/14 13:31:45.620  Quest accepted: Reclaimers' Business in Desolace
+11/14 13:31:56.105  Quest accepted: Mythology of the Titans
+11/14 13:31:58.165  Quest accepted: Ironband Wants You!
+11/14 14:00:38.340  You are now Away: AFK
+11/14 14:01:59.242  You are no longer Away.
+11/14 22:06:42.472  Logged in at Ironforge (session 2 of 2).
+11/14 22:22:00.512  You are now Away: AFK
+11/14 22:44:18.065  You are now Away: AFK
+11/14 22:47:00.504  You have been inactive for some time and will be logged out of the game. If you wish to remain logged in, hit the cancel button.
+11/14 22:47:20.738  Logged out (inactive). Dagnar said nothing aloud today. Talked to: Niko Ikory (emote).

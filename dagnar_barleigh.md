@@ -149,6 +149,11 @@ _Add a line per session: who you met, what Dagnar said that stuck, anything you 
 - 2026-11-13 12:18 — dispatch: At the dig by Ironbeard's Tomb an archaeologist summoned a spirit called Aman. It warned that digging too deep into your past might bring an abrupt end to your future.
 - 2026-11-13 15:16 — dispatch: Alithia Evengale and Jaxtis Unseen took me out to a wreck full of drowned sailors who still wanted brains. Thirteen sailors, five marines.
 - 2026-11-13 16:23 — dispatch: Pulled down Dragonmaw war banners, thinned the razormaws and cleared the crocs for the Wildhammer. Trying Times, the quest was called. Fair.
+- 2026-11-14 12:51 — dispatch: Started the day in the tavern at Menethil Harbor. An old sailor called Hargin Mundar told the room about a sea giant he saw once, and hiccuped between sentences.
+- 2026-11-14 13:23 — dispatch: Back in Ironforge. Niko Ikory walked past and patted me on the head, like a dog that had done well.
+- 2026-11-14 13:31 — dispatch: The Explorers' League handed me three jobs at once: titan mythology, some Reclaimers out in Desolace, and a prospector called Ironband who wants me.
+- 2026-11-14 14:09 — dispatch: Walked into the Hall of Thanes twice and walked out twice. Bronzebeard kings sit there.
+- 2026-11-14 22:45 — letter: Came back to Ironforge after dark and stood by the forge for forty minutes without a word. The city sent me home for being too quiet.
 
 ---
 
