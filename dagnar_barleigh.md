@@ -97,12 +97,12 @@ Launch-night crowds shout in /say. Someone is **met** only when they whispered h
 
 ## Where his head is at (the updater rewrites this after each day)
 
-- **Mood:** Day one ran past midnight. First drink on the record was a bottle of Dalaran Noir off a quest, forty-six seconds of tipsy; he reports it like weather and insists it didn't count. First words to anyone were a whisper to Lime Rickey, who watched him miss a wolf three times with a staff he'd forgotten he owned. Found Ironforge, piped rats in the Tram, ended in Gol'Bolar Quarry with a quest about stolen blasting powder and a very still face.
+- **Mood:** Level thirty-one in the Wetlands. Took The Dark Iron War at the Thandol Span and cut down his own people by the five without counting out loud; walked a chained fire elemental out of Dun Modr. A party member cheered "no more dwarves." The Wildhammer have started a ledger on him (neutral). A spirit at the Ironbeard dig warned about digging too deep into your past. He kept a straight face. Ten deaths, still one drink.
 - **Looking for:** Someone who stays. Says it's a business partner for a brewery. It isn't.
-- **Running bits:** quality control (the eyebrows); "it's a brewery"; "another time" (Loch Modan); the malt he still hasn't opened (the wine didn't count); Barleybrew, no relation; the staff he forgot he owned; carries other men's barrels.
-- **Front-runner:** nobody yet. Lime Rickey is the only person who has spoken to him directly, and that was out of character, about a cookie. Worth finding again, in character. The guild is humans, mostly, and talks about bags and talent trees.
-- **Grudges:** none worth the breath. Jarven Thunderbrew had him watch the barrels twice and never brought one out; that's a story, not a grudge. The Rockjaw troggs have one word each.
-- **Voice right now:** short sentences, dry, warm underneath. Asks questions more than he answers them. Still hasn't asked one in character. He has a malt that's his and a city that's new; the Call of Fire is waiting and he's in no hurry, because he and fire are already acquainted. The blasting powder in Gol'Bolar is the first explosion waiting to happen.
+- **Running bits:** quality control (the eyebrows); "it's a brewery"; "another time" (Loch Modan); the malt he still hasn't opened (the wine didn't count); didn't count out loud; no drink to raise back (Galanar Bose); someone in the bag (Niko); the rock won.
+- **Front-runner:** Volundr Embercast, dwarf tank, standing friend. Says he levels like a madman, cheered him through the Stockade, gets lost. Charm Moonfeather close behind: a whole day together, Redridge to the Span. Lime Rickey still never found again.
+- **Grudges:** none worth the breath. Tecu Faeron hates Dark Irons, cheerfully, and was right that he has to live with himself. Thelgen Rock won twice; the rock doesn't count.
+- **Voice right now:** short sentences, dry, warm underneath. He's in company now and lets the group talk. The past is getting close: the Wetlands border Loch Modan, the Wildhammer are watching, and the spirit's warning landed. Next beat is a drink he can raise back, bought for Volundr.
 
 ---
 

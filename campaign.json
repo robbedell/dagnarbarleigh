@@ -3,26 +3,28 @@
   "eyebrows_base": 11,
   "eyebrows_lost": 11,
   "arc": {
-    "mood": "Day one ran past midnight. First drink was wine, forty-six seconds of it. First words were a whisper, to a stranger who watched him miss a wolf three times. Found Ironforge. Found a quest about missing blasting powder and kept his face still.",
+    "mood": "Level thirty-one in the Wetlands, and the Wildhammer have started keeping a ledger on him. He walked fifteen Dark Irons off the Thandol Span without counting out loud, freed a fire elemental that only knew one word, and heard a spirit at a dig warn about digging too deep into your past. Ten deaths, one drink, eleven days.",
     "lookingFor": "Someone who stays. Says it's a business partner for a brewery. It isn't.",
     "runningBits": [
       "Quality control (the eyebrows)",
       "It's a brewery",
       "Another time (Loch Modan)",
       "The malt he still hasn't opened; the wine didn't count",
-      "Barleybrew, no relation",
-      "The staff he forgot he owned"
+      "Didn't count out loud",
+      "No drink to raise back",
+      "Someone in the bag",
+      "The rock won"
     ],
-    "frontRunner": null,
-    "updated": "2026-11-08",
+    "frontRunner": "Volundr Embercast. A dwarf tank who says he levels like a madman, cheered him through the Stockade, and keeps getting lost. Charm Moonfeather is close behind: ran a whole day with him and knows every cave.",
+    "updated": "2026-11-15",
     "wanted": "WANTED: partner for a brewery that doesn't exist yet. Must tolerate noise, smoke, and questions about where you're from. Must laugh when I miss a wolf with a staff, but kindly. Dwarves need not apply, probably; the valley's full of them and not one asked. Inquire at Thunderbrew Distillery, loudest table.",
     "replies": 0,
-    "beat": "Dagnar was logged in this morning with the addon still disabled and the chat log unmoved since Wednesday. Turn both on first. Then it is four days since anyone heard him: open the malt, and ask one gnome what Gnomeregan smelled like.",
-    "storySoFar": "Dagnar Barleigh was a Dark Iron demolitions engineer who walked away from a job in Loch Modan and never said why. He drifted to the Wildhammer in the Hinterlands, where an old shaman taught him to hold the fire in him instead of being held by it. He took a new name, learned to heal fast and ugly, and kept his engineering, which exploded past the fourth pint. He called the missing eyebrows quality control and said he wanted a partner for a brewery. It was not a brewery.\n\nOn the fourth of November 2026 he stepped into Coldridge Valley and found it wall to wall with dwarves and gnomes. He sat at a campfire with three dwarves, reached level six before his first drink, and said yes when a human named Malachi Zerbe pulled him into The Brave of Lordaeron. He died three times, unbothered. His first drink was a bottle of Dalaran Noir, which he insisted did not count. He missed a wolf three times with a staff he had forgotten he owned, and a stranger called Lime Rickey laughed, kindly. He reached Ironforge after eleven, piped rats in the Tram, and ended the night in Gol'Bolar Quarry with a quest about stolen blasting powder and a very still face. Then the record went dark.",
-    "beatDate": "2026-11-08",
+    "beat": "Saturday's session is played but not on the record yet; the addon is back on, so the dispatches should catch it up. For today: the Wetlands are next door to Loch Modan, and the Wildhammer are watching. Find Volundr, buy the first round, and finally have a drink to raise back.",
+    "storySoFar": "Dagnar Barleigh was a Dark Iron demolitions engineer who walked away from a job in Loch Modan and never said why. He drifted to the Wildhammer in the Hinterlands, where an old shaman taught him to hold the fire in him instead of being held by it. He took a new name, learned to heal fast and ugly, and kept his engineering, which exploded past the fourth pint. He called the missing eyebrows quality control and said he wanted a partner for a brewery. It was not a brewery.\n\nOn the fourth of November 2026 he stepped into Coldridge Valley and found it wall to wall with dwarves and gnomes. A human named Malachi Zerbe pulled him into The Brave of Lordaeron. His first drink was a bottle of Dalaran Noir, which he insisted did not count. He missed a wolf three times with a staff he had forgotten he owned, reached Ironforge after eleven, and ended the night in Gol'Bolar Quarry with a quest about stolen blasting powder and a very still face. Then the record went dark for a week.\n\nIt came back on the eleventh with him past twenty and in company. Charm Moonfeather ran him through Redridge, Blackfathom Deeps and Ashenvale, where he led for once and died three times for it. At the Thandol Span he took a quest called The Dark Iron War and cut down his own people by the five, then walked a chained fire elemental out of Dun Modr. A party member cheered that there'd be no more dwarves, except Dagnar, who has to live with himself. He found a tank in Volundr Embercast, ran the Stockade with the guild, and earned his fourth totem. In the Wetlands the Wildhammer Clan started counting what he does, a stranger raised a drink he couldn't return, and a spirit at an old dig warned him about digging too deep into his past. He is thirty-one, still on one drink, and closer to Loch Modan than he has been in years.",
+    "beatDate": "2026-11-15",
     "audio": null,
     "holidayDone": {},
-    "summaryDate": "2026-11-08"
+    "summaryDate": "2026-11-15"
   },
   "people": {
     "Emmitt Brown": {
