@@ -154,6 +154,13 @@ _Add a line per session: who you met, what Dagnar said that stuck, anything you 
 - 2026-11-14 13:31 — dispatch: The Explorers' League handed me three jobs at once: titan mythology, some Reclaimers out in Desolace, and a prospector called Ironband who wants me.
 - 2026-11-14 14:09 — dispatch: Walked into the Hall of Thanes twice and walked out twice. Bronzebeard kings sit there.
 - 2026-11-14 22:45 — letter: Came back to Ironforge after dark and stood by the forge for forty minutes without a word. The city sent me home for being too quiet.
+- 2026-11-15 11:31 — dispatch: Sat at the water in Ironforge with a rod I'd never held. An hour and a hundred-odd fish later, I was a journeyman.
+- 2026-11-15 12:31 — met: Tolmin Ironwhisper yelled across the room that I could use the braziers. This wasn't Stormwind. Here we use our fires.
+- 2026-11-15 12:53 — dispatch: Thirty-six wolf steaks, six spiced, then thirty-nine of the snapper I'd pulled out of the canal. Cooking went from ten to ninety in fifteen minutes.
+- 2026-11-15 13:30 — milestone: Rolled thirty-four bandages, then smelted copper and made bolts and eight modulators. First aid past a hundred, engineering at ninety-eight.
+- 2026-11-15 13:48 — met: Walked into Menethil Harbor and two strangers handed me cards inside a minute. Brak Durnad gave me a boarding axe. Brahnmar gave me a marine's helm.
+- 2026-11-15 14:45 — letter: Spent the afternoon in Menethil. Out at the dig the archaeologist kept calling up the spirit, and five times it said the same thing about digging too deep into your past.
+- 2026-11-15 17:34 — milestone: Went north through Arathi at a run. A circle of standing stones, an orc farm, a troll village. Then over the border into Hillsbrad, which I'd never seen.
 
 ---
 
