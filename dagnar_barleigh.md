@@ -168,6 +168,13 @@ _Add a line per session: who you met, what Dagnar said that stuck, anything you 
 - 2026-11-16 15:02 — dispatch: Bazil Thredd had a visitor in the Stockade. I followed the description up to the castle, to a lord called Lescovar meeting a Defias man in his own garden.
 - 2026-11-16 15:10 — milestone: Carried the report on the Defias Brotherhood to the king. They gave me the Seal of Wrynn for it.
 - 2026-11-16 15:52 — milestone: Took the boat to Theramore and dropped off two errands. Then south through the Barrens, down the Great Lift, across the Shimmering Flats. Gadgetzan.
+- 2026-11-16 18:14 — dispatch: Charm Moonfeather asked me into a group while I was still in Gadgetzan. First time since the eleventh. I went back north.
+- 2026-11-16 19:03 — met: Three more came to the dig in the Wetlands: Wymer Silverwood, Surathis Bladefire and Marie Annette. We hunted raptors for their hides.
+- 2026-11-16 19:41 — milestone: Found out what happened to Ardin Grassman, and somewhere in the finding out I turned thirty-two.
+- 2026-11-16 19:58 — death: Died three times at the dig: twenty past seven, twelve to eight, a minute to eight. All three in the grass.
+- 2026-11-16 21:18 — dispatch: Charm put together a second group and took us into Razorfen Kraul. Quilboar, thorns, and a death speaker.
+- 2026-11-16 22:17 — dispatch: In the Kraul you dig up tubers with a gopher on a stick. Two of the group had words over whose tuber was whose. I kept my head down and my gopher busy.
+- 2026-11-16 22:52 — met: Licked a stranger called Ragnar Deepstorm on the road home through Dustwallow. Sober. Not a pint to blame.
 
 ---
 

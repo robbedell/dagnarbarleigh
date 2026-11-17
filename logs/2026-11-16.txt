@@ -28,3 +28,76 @@
 11/16 15:52:00.000  Entered Tanaris.
 11/16 15:52:29.140  Discovered Gadgetzan: 280 experience gained
 11/16 16:36:40.046  Session ends.
+11/16 17:53:29.404  Charm Moonfeather has invited you to join a group. (Tanaris.)
+11/16 18:02:45.000  Entered Wetlands.
+11/16 18:09:24.330  Quest accepted: Fire Taboo
+11/16 18:29:54.303  [Party] Dagnar Barleigh: {rt1} Questie: 9/9 Crude Flint for Fire Taboo!
+11/16 18:33:08.886  Fire Taboo completed.
+11/16 18:33:14.712  Quest accepted: Blisters on the Land
+11/16 18:42:09.730  [Party] Dagnar Barleigh: {rt1} Questie: 12/12 Fen Creeper slain for Blisters on the Land!
+11/16 18:51:03.000  Entered Redridge Mountains.
+11/16 18:53:07.509  Quest accepted: Messenger to Stormwind
+11/16 18:53:53.668  Dagnar Barleigh was gifted [Forever CCG: Lakeshire Guard's Coif #ARMR11] by Dorin Songblade!
+11/16 19:01:26.563  Party: Surathis Bladefire, Marie Annette, Wymer Silverwood join.
+11/16 19:05:56.795  [Guild] Dagnar Barleigh: 14 hours at this level lol
+11/16 19:08:08.901  Dagnar Barleigh was gifted [Forever CCG: Menethil Dark Hearth #PRY24] by Innkeeper Helbrek!
+11/16 19:09:06.000  Entered Excavation Site: Wetlands.
+11/16 19:09:45.032  Your skill in Staves has increased to 61. (117 by 19:57.)
+11/16 19:12:21.620  Loot: You won: Schematic: Bright-Eye Goggles (Need 90)
+11/16 19:21:50.375  You died.
+11/16 19:34:13.668  Songblade Search completed.
+11/16 19:34:15.224  Quest accepted: Fallen in the Fen
+11/16 19:41:52.760  Lost in the Thicket Things completed. Level 32.
+11/16 19:41:54.600  Quest accepted: Heartwoven
+11/16 19:43:05.128  [Party] Dagnar Barleigh: {rt1} Questie: Picked up Titan Relic which starts [[31] Lost Relic Carry (95810)]!
+11/16 19:48:02.753  You died.
+11/16 19:50:08.398  [Party] Dagnar Barleigh: I cant find the hunter
+11/16 19:57:40.171  [Party] Dagnar Barleigh: Ugh
+11/16 19:58:49.886  You died.
+11/16 20:03:02.516  [Party] Dagnar Barleigh: {rt1} Questie: 4/4 Thicket Raptor Hide for Highland Hides!
+11/16 20:03:05.551  [Party] Dagnar Barleigh: Thx :)
+11/16 20:06:11.748  Blisters on the Land completed.
+11/16 20:06:15.326  Quest accepted: Carnage
+11/16 20:06:22.155  Quest accepted: Horrors in the Highland
+11/16 20:06:48.559  Surathis Bladefire, Marie Annette, Wymer Silverwood leave the party.
+11/16 20:10:11.322  Quest accepted: Power Overwhelming
+11/16 20:10:26.793  Highland Hides completed.
+11/16 20:11:06.679  Heartwoven completed.
+11/16 20:11:13.553  Quest accepted: Alchemical Hazards
+11/16 20:14:47.000  Reloaded.
+11/16 20:24:37.765  Fallen in the Fen completed.
+11/16 20:31:00.989  You are now Away: AFK
+11/16 20:36:48.136  You are no longer Away.
+11/16 20:47:38.000  Entered The Barrens.
+11/16 20:48:57.827  Quest accepted: Blueleaf Tubers
+11/16 20:55:24.063  Lolyna Blackheart joins the party.
+11/16 21:05:05.258  Outrunner Nayus, Allys Trueshot join the party.
+11/16 21:05:35.010  Quest accepted: Lonebrow's Journal
+11/16 21:07:51.245  Lonebrow's Journal completed.
+11/16 21:07:53.563  Quest accepted: The Crone of the Kraul
+11/16 21:17:13.061  [Party] Dagnar Barleigh: They need musical stuff for this
+11/16 21:18:16.000  Entered Razorfen Kraul.
+11/16 21:29:41.571  Loot: You won: Thorncursed Grips (Need 45)
+11/16 21:41:25.264  Loot: You won: Whisperwind Headdress (Need 79)
+11/16 21:43:49.080  Loot: You won: Headhunter's Bands of the Prophet (Need 7)
+11/16 21:55:29.925  Loot: You won: Heart of Agamaggan (Need 92)
+11/16 21:55:37.223  [Party] Dagnar Barleigh: {rt1} Questie: 1/1 Razorflank's Medallion for The Crone of the Kraul!
+11/16 22:00:26.278  Quest accepted: Willix the Importer
+11/16 22:00:39.278  Quest accepted: Mortality Wanes
+11/16 22:01:47.518  [Party] Dagnar Barleigh: They make you do it again
+11/16 22:03:35.756  Quest accepted: Lost Relic Carry
+11/16 22:05:48.538  [Party] Dagnar Barleigh: Need to bring back personal loot
+11/16 22:07:11.433  Loot: You won: Sanguine Cuffs (Greed 91)
+11/16 22:11:55.082  Willix the Importer completed.
+11/16 22:17:05.822  You receive item: Death Speaker Scepter (from Outrunner Nayus)
+11/16 22:17:13.695  [Party] Dagnar Barleigh: Thx :)
+11/16 22:18:18.829  [Party] Dagnar Barleigh: {rt1} Questie: 6/6 Blueleaf Tuber for Blueleaf Tubers!
+11/16 22:21:32.572  Outrunner Nayus leaves the party. (Lolyna Blackheart and Allys Trueshot left at 22:18.)
+11/16 22:22:01.192  Dagnar Barleigh was gifted [Forever CCG: Astranaar Dark Hearth #PRY25] by Innkeeper Kimlya!
+11/16 22:38:56.181  You are now Away: AFK
+11/16 22:41:13.497  You are no longer Away.
+11/16 22:42:47.937  Whisper from Anara Wildwater.
+11/16 22:47:15.903  The Crone of the Kraul completed. Received Quilboar Blaster.
+11/16 22:52:37.777  You lick Ragnar Deepstorm.
+11/16 22:58:40.000  Entered Wetlands.
+11/16 23:00:04.000  Session ends.

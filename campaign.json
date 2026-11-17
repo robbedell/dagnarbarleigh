@@ -151,14 +151,14 @@
       "note": "Dwarf. Wanted wolves early. Gives practical advice to strangers."
     },
     "Charm Moonfeather": {
-      "race": null,
-      "standing": "regular",
-      "warmth": 4.2,
+      "race": "High Order Skyborne",
+      "standing": "friend",
+      "warmth": 5.0,
       "met": "2026-11-11",
       "metZone": "Redridge Mountains",
-      "lastSeen": "2026-11-11",
-      "lastSaid": "Said the Dark Iron bridge was worth one trip and hoped nobody needed an alt.",
-      "note": "Ran the whole day: Redridge, Blackfathom, Ashenvale as a pair, the Thandol Span. Knows every cave. Shared quests and turned one of mine down."
+      "lastSeen": "2026-11-16",
+      "lastSaid": "Thanked the Kraul group for being chill.",
+      "note": "Ran the whole day: Redridge, Blackfathom, Ashenvale as a pair, the Thandol Span. Knows every cave. Shared quests and turned one of mine down. Came and found me in Gadgetzan on the sixteenth. Five hours: the Wetlands dig, then the Kraul."
     },
     "Gawain Tenebris": {
       "race": null,
@@ -639,6 +639,86 @@
       "lastSeen": "2026-11-16",
       "lastSaid": "Led the group for the Lescovar fight, then left.",
       "note": "Led for a minute. Handed it to me on the way out."
+    },
+    "Wymer Silverwood": {
+      "race": "Human",
+      "standing": "stranger",
+      "warmth": 2.2,
+      "met": "2026-11-16",
+      "metZone": "Wetlands",
+      "lastSeen": "2026-11-16",
+      "lastSaid": "Thanked everyone and left once the hides were in.",
+      "note": "Human. Needed one more hide, same as everyone. Ran through the grass for it."
+    },
+    "Surathis Bladefire": {
+      "race": "Night Elf",
+      "standing": "stranger",
+      "warmth": 2.4,
+      "met": "2026-11-16",
+      "metZone": "Wetlands",
+      "lastSeen": "2026-11-16",
+      "lastSaid": "Said thanks as the dig group broke up.",
+      "note": "Night elf. Ran the pulls at the dig. Warned us off the tall grass. Was right."
+    },
+    "Marie Annette": {
+      "race": "Human",
+      "standing": "stranger",
+      "warmth": 2.0,
+      "met": "2026-11-16",
+      "metZone": "Wetlands",
+      "lastSeen": "2026-11-16",
+      "lastSaid": "Cheered when the last hide dropped.",
+      "note": "Human. Warlock, wishes soul shards came from a shop. Said you're welcome when I thanked an innkeeper."
+    },
+    "Lolyna Blackheart": {
+      "race": "Human",
+      "standing": "stranger",
+      "warmth": 2.4,
+      "met": "2026-11-16",
+      "metZone": "The Barrens",
+      "lastSeen": "2026-11-16",
+      "lastSaid": "Left to run the Kraul again for a drop she needs.",
+      "note": "Human. Said hey first and meant it. Found the boss on her map. Got her upgrade."
+    },
+    "Outrunner Nayus": {
+      "race": "Night Elf",
+      "standing": "stranger",
+      "warmth": 2.8,
+      "met": "2026-11-16",
+      "metZone": "Thousand Needles",
+      "lastSeen": "2026-11-16",
+      "lastSaid": "Said cya.",
+      "note": "Night elf. Hadn't been in the Kraul in years. Won the death speaker's scepter and gave it to me."
+    },
+    "Allys Trueshot": {
+      "race": "Night Elf",
+      "standing": "stranger",
+      "warmth": 1.8,
+      "met": "2026-11-16",
+      "metZone": "Thousand Needles",
+      "lastSeen": "2026-11-16",
+      "lastSaid": "Laughed at the useless gophers by the end.",
+      "note": "Night elf. Lost two tubers in the Kraul and said so, loudly. Laughed by the end."
+    },
+    "Anara Wildwater": {
+      "race": "Night Elf",
+      "standing": "stranger",
+      "warmth": 1.0,
+      "met": "2026-11-16",
+      "metZone": "The Barrens",
+      "lastSeen": "2026-11-16",
+      "lastSaid": "Whispered asking about the Kraul.",
+      "note": "Night elf. Asked about the Kraul half an hour after we'd left it."
+    },
+    "Ragnar Deepstorm": {
+      "race": null,
+      "standing": "stranger",
+      "warmth": 1.2,
+      "met": "2026-11-16",
+      "metZone": "Dustwallow Marsh",
+      "lastSeen": "2026-11-16",
+      "lastSaid": "Nothing. I licked him.",
+      "note": "Got licked on the road through Dustwallow. By me. Sober."
     }
   },
   "stats": {
@@ -646,7 +726,7 @@
     "smashed": 0,
     "tipsy": 1,
     "drunk": 0,
-    "deaths": 10,
+    "deaths": 13,
     "dances": 0,
     "toasts": 0,
     "flirts": 1,
@@ -657,11 +737,11 @@
     "hearths": 0,
     "duelsWon": 0,
     "duelsLost": 0,
-    "groups": 5,
+    "groups": 6,
     "trades": 0,
-    "level": 31,
+    "level": 32,
     "guild": "The Brave of Lordaeron",
-    "people": 61,
+    "people": 69,
     "races": [
       "Dwarf",
       "Gnome",
@@ -669,11 +749,11 @@
       "High Order Skyborne",
       "Night Elf"
     ],
-    "zones": 12,
-    "lastZone": "Tanaris",
+    "zones": 14,
+    "lastZone": "Wetlands",
     "restHours": 2.4,
     "peak": "tipsy",
-    "sessions": 23,
+    "sessions": 24,
     "asOf": "2026-11-16"
   },
   "posts": [
@@ -1553,6 +1633,131 @@
       "people": [],
       "image": null,
       "alt": null
+    },
+    {
+      "id": "2026-11-16-1814-back-to-the-wetlands",
+      "time": "2026-11-16T18:14:30-05:00",
+      "type": "dispatch",
+      "zone": "Wetlands",
+      "title": "Back to the Wetlands",
+      "text": "Charm Moonfeather asked me into a group while I was still in Gadgetzan. First time since the eleventh. I went back north.",
+      "detail": "Mosshide gnolls, nine lumps of flint for a quest called Fire Taboo, a dozen fen creepers. She kept the count in the party line. I carried the flint, which is the closest I get to fire taboo.",
+      "pints": 0,
+      "bangs": 0,
+      "people": [
+        "Charm Moonfeather"
+      ],
+      "image": "shots/2026-11-16-1814-back-to-the-wetlands.jpg",
+      "alt": "Dagnar and Charm Moonfeather in the grey swamp grass of the Wetlands, a gnoll fight just finished."
+    },
+    {
+      "id": "2026-11-16-1903-three-at-the-dig",
+      "time": "2026-11-16T19:03:00-05:00",
+      "type": "met",
+      "zone": "Wetlands",
+      "title": "Three at the dig",
+      "text": "Three more came to the dig in the Wetlands: Wymer Silverwood, Surathis Bladefire and Marie Annette. We hunted raptors for their hides.",
+      "detail": "Surathis warned us off the tall grass early. The raptors lived in the tall grass. Marie said you're welcome when I thanked an innkeeper, which I'm counting as the first conversation.",
+      "pints": 0,
+      "bangs": 0,
+      "people": [
+        "Wymer Silverwood",
+        "Surathis Bladefire",
+        "Marie Annette",
+        "Charm Moonfeather"
+      ],
+      "image": null,
+      "alt": null
+    },
+    {
+      "id": "2026-11-16-1941-thirty-two",
+      "time": "2026-11-16T19:41:52-05:00",
+      "type": "milestone",
+      "zone": "Wetlands",
+      "title": "Thirty-two",
+      "text": "Found out what happened to Ardin Grassman, and somewhere in the finding out I turned thirty-two.",
+      "detail": "The staff I forgot I owned on launch night, I swung all evening, and by the end I mostly hit things with it. Won a schematic for goggles on a need roll too. Nobody else in the group builds anything.",
+      "pints": 0,
+      "bangs": 0,
+      "people": [
+        "Surathis Bladefire",
+        "Marie Annette"
+      ],
+      "image": "shots/2026-11-16-1941-thirty-two.jpg",
+      "alt": "Night at the Wetlands excavation: Dagnar turning in a quest by the scaffolding, Surathis Bladefire beside him and Marie Annette below."
+    },
+    {
+      "id": "2026-11-16-1958-the-tall-grass",
+      "time": "2026-11-16T19:58:49-05:00",
+      "type": "death",
+      "zone": "Wetlands",
+      "title": "The tall grass",
+      "text": "Died three times at the dig: twenty past seven, twelve to eight, a minute to eight. All three in the grass.",
+      "detail": "Lost the hunter in it once and said so. The last time I said ugh first, which is as close to a speech as I got. The final hide dropped four minutes later and I said thanks.",
+      "pints": 0,
+      "bangs": 0,
+      "people": [
+        "Surathis Bladefire",
+        "Wymer Silverwood",
+        "Marie Annette",
+        "Charm Moonfeather"
+      ],
+      "image": "shots/2026-11-16-1958-the-tall-grass.jpg",
+      "alt": "Dagnar's spirit view in tall swamp grass at the Wetlands dig, the party fighting a raptor in the clearing ahead."
+    },
+    {
+      "id": "2026-11-16-2118-razorfen-kraul",
+      "time": "2026-11-16T21:18:16-05:00",
+      "type": "dispatch",
+      "zone": "Razorfen Kraul",
+      "title": "Razorfen Kraul",
+      "text": "Charm put together a second group and took us into Razorfen Kraul. Quilboar, thorns, and a death speaker.",
+      "detail": "Lolyna Blackheart, Outrunner Nayus and Allys Trueshot. Won a heart of Agamaggan on a need roll and a feathered headdress. Walked Willix the Importer out alive. Goblins pay their debts in rings.",
+      "pints": 0,
+      "bangs": 0,
+      "people": [
+        "Charm Moonfeather",
+        "Lolyna Blackheart",
+        "Outrunner Nayus",
+        "Allys Trueshot"
+      ],
+      "image": null,
+      "alt": null
+    },
+    {
+      "id": "2026-11-16-2217-the-gopher",
+      "time": "2026-11-16T22:17:13-05:00",
+      "type": "dispatch",
+      "zone": "Razorfen Kraul",
+      "title": "The gopher",
+      "text": "In the Kraul you dig up tubers with a gopher on a stick. Two of the group had words over whose tuber was whose. I kept my head down and my gopher busy.",
+      "detail": "It kept wiggling its whiskers at me. Best company in the place. On the way out Nayus handed me the death speaker's scepter he'd won, said it went with a shield. Charm thanked us for being chill.",
+      "pints": 0,
+      "bangs": 0,
+      "people": [
+        "Charm Moonfeather",
+        "Outrunner Nayus",
+        "Allys Trueshot",
+        "Lolyna Blackheart"
+      ],
+      "image": null,
+      "alt": null
+    },
+    {
+      "id": "2026-11-16-2252-sober",
+      "time": "2026-11-16T22:52:37-05:00",
+      "type": "met",
+      "zone": "Dustwallow Marsh",
+      "title": "Sober",
+      "text": "Licked a stranger called Ragnar Deepstorm on the road home through Dustwallow. Sober. Not a pint to blame.",
+      "detail": "Before that, turned in the Crone of the Kraul and got a quilboar blaster for it, which is a gun, which I'll be taking apart. Ended the night in Menethil. Hargin Mundar was still telling the room about the sea giant.",
+      "pints": 0,
+      "bangs": 0,
+      "people": [
+        "Ragnar Deepstorm"
+      ],
+      "image": null,
+      "alt": null
     }
   ],
   "threads": [],
@@ -1656,6 +1861,10 @@
       [
         "2026-11-11",
         4.2
+      ],
+      [
+        "2026-11-16",
+        5.0
       ]
     ],
     "Tecu Faeron": [
@@ -1759,6 +1968,54 @@
         "2026-11-16",
         1.6
       ]
+    ],
+    "Wymer Silverwood": [
+      [
+        "2026-11-16",
+        2.2
+      ]
+    ],
+    "Surathis Bladefire": [
+      [
+        "2026-11-16",
+        2.4
+      ]
+    ],
+    "Marie Annette": [
+      [
+        "2026-11-16",
+        2.0
+      ]
+    ],
+    "Lolyna Blackheart": [
+      [
+        "2026-11-16",
+        2.4
+      ]
+    ],
+    "Outrunner Nayus": [
+      [
+        "2026-11-16",
+        2.8
+      ]
+    ],
+    "Allys Trueshot": [
+      [
+        "2026-11-16",
+        1.8
+      ]
+    ],
+    "Anara Wildwater": [
+      [
+        "2026-11-16",
+        1.0
+      ]
+    ],
+    "Ragnar Deepstorm": [
+      [
+        "2026-11-16",
+        1.2
+      ]
     ]
   },
   "zonesVisited": {
@@ -1775,9 +2032,9 @@
       "lastPostId": "2026-11-15-1330-ninety-eight-no-bangs"
     },
     "Redridge Mountains": {
-      "hours": 0.7,
+      "hours": 1.1,
       "first": "2026-11-11",
-      "last": "2026-11-11",
+      "last": "2026-11-16",
       "lastPostId": "2026-11-11-1431-the-mushroom-gang"
     },
     "Ashenvale": {
@@ -1787,10 +2044,10 @@
       "lastPostId": "2026-11-11-1958-three-in-twenty-minutes"
     },
     "Wetlands": {
-      "hours": 9.7,
+      "hours": 11.7,
       "first": "2026-11-11",
-      "last": "2026-11-15",
-      "lastPostId": "2026-11-15-1445-the-warning-again"
+      "last": "2026-11-16",
+      "lastPostId": "2026-11-16-1958-the-tall-grass"
     },
     "Arathi Highlands": {
       "hours": 1.0,
@@ -1805,10 +2062,10 @@
       "lastPostId": "2026-11-16-1510-seal-of-wrynn"
     },
     "Dustwallow Marsh": {
-      "hours": 0.5,
+      "hours": 0.7,
       "first": "2026-11-13",
       "last": "2026-11-16",
-      "lastPostId": null
+      "lastPostId": "2026-11-16-2252-sober"
     },
     "Hillsbrad Foothills": {
       "hours": 1.6,
@@ -1823,16 +2080,28 @@
       "lastPostId": "2026-11-16-0045-tin-by-night"
     },
     "Thousand Needles": {
-      "hours": 0.3,
+      "hours": 0.5,
       "first": "2026-11-16",
       "last": "2026-11-16",
       "lastPostId": null
     },
     "Tanaris": {
-      "hours": 0.7,
+      "hours": 0.8,
       "first": "2026-11-16",
       "last": "2026-11-16",
       "lastPostId": "2026-11-16-1552-gadgetzan"
+    },
+    "Razorfen Kraul": {
+      "hours": 1.1,
+      "first": "2026-11-16",
+      "last": "2026-11-16",
+      "lastPostId": "2026-11-16-2217-the-gopher"
+    },
+    "The Barrens": {
+      "hours": 0.4,
+      "first": "2026-11-16",
+      "last": "2026-11-16",
+      "lastPostId": null
     }
   },
   "review": null,
