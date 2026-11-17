@@ -587,6 +587,56 @@
       "lastSeen": "2026-11-16",
       "lastSaid": "Offered free bracer enchants to anyone who would trade.",
       "note": "Human enchanter. Giving it away in the square at one in the morning."
+    },
+    "Sapp Achino": {
+      "race": "High Order Skyborne",
+      "standing": "stranger",
+      "warmth": 1.0,
+      "met": "2026-11-16",
+      "metZone": "Stormwind City",
+      "lastSeen": "2026-11-16",
+      "lastSaid": "Gave last call on lockpicking before logging off.",
+      "note": "Skyborne. Opens locks for a living. Went to find one."
+    },
+    "Eol Anglachel": {
+      "race": "Night Elf",
+      "standing": "stranger",
+      "warmth": 2.4,
+      "met": "2026-11-16",
+      "metZone": "Stormwind City",
+      "lastSeen": "2026-11-16",
+      "lastSaid": "Had me invited into the group for Lescovar.",
+      "note": "Night elf. Saw me waiting by the hedges and asked for me to be let in."
+    },
+    "Theoden Lightstone": {
+      "race": "Dwarf",
+      "standing": "stranger",
+      "warmth": 2.0,
+      "met": "2026-11-16",
+      "metZone": "Stormwind City",
+      "lastSeen": "2026-11-16",
+      "lastSaid": "Said thanks after Lescovar.",
+      "note": "Dwarf. Fought in the lord's garden. Said thanks and left."
+    },
+    "Akarui Hoshi": {
+      "race": "Human",
+      "standing": "stranger",
+      "warmth": 1.8,
+      "met": "2026-11-16",
+      "metZone": "Stormwind City",
+      "lastSeen": "2026-11-16",
+      "lastSaid": "Asked to be let in, then said thanks.",
+      "note": "Human. Late to the group, glad to be in it."
+    },
+    "Tonkrin Brassbolt": {
+      "race": null,
+      "standing": "stranger",
+      "warmth": 1.6,
+      "met": "2026-11-16",
+      "metZone": "Stormwind City",
+      "lastSeen": "2026-11-16",
+      "lastSaid": "Led the group for the Lescovar fight, then left.",
+      "note": "Led for a minute. Handed it to me on the way out."
     }
   },
   "stats": {
@@ -605,23 +655,24 @@
     "hearths": 0,
     "duelsWon": 0,
     "duelsLost": 0,
-    "groups": 4,
+    "groups": 5,
     "trades": 0,
     "level": 31,
     "guild": "The Brave of Lordaeron",
-    "people": 56,
+    "people": 61,
     "races": [
       "Dwarf",
       "Gnome",
       "Human",
-      "High Order Skyborne"
+      "High Order Skyborne",
+      "Night Elf"
     ],
-    "zones": 10,
-    "lastZone": "Ironforge",
+    "zones": 12,
+    "lastZone": "Tanaris",
     "restHours": 2.4,
     "peak": "tipsy",
-    "sessions": 22,
-    "asOf": "2026-11-15"
+    "sessions": 23,
+    "asOf": "2026-11-16"
   },
   "posts": [
     {
@@ -1453,6 +1504,53 @@
       "people": [],
       "image": null,
       "alt": null
+    },
+    {
+      "id": "2026-11-16-1502-the-lords-garden",
+      "time": "2026-11-16T15:02:45-05:00",
+      "type": "dispatch",
+      "zone": "Stormwind City",
+      "title": "The lord's garden",
+      "text": "Bazil Thredd had a visitor in the Stockade. I followed the description up to the castle, to a lord called Lescovar meeting a Defias man in his own garden.",
+      "detail": "Four strangers and I waited by the hedges for them to finish talking. Eol Anglachel had me pulled into the group. It was quick. Theoden Lightstone said thanks, and the group was gone inside a minute.",
+      "pints": 0,
+      "bangs": 0,
+      "people": [
+        "Eol Anglachel",
+        "Theoden Lightstone",
+        "Akarui Hoshi",
+        "Tonkrin Brassbolt"
+      ],
+      "image": "shots/2026-11-16-1502-the-lords-garden.jpg",
+      "alt": "Dagnar's totems glowing in the garden of Stormwind Keep during the fight with Lord Lescovar."
+    },
+    {
+      "id": "2026-11-16-1510-seal-of-wrynn",
+      "time": "2026-11-16T15:10:28-05:00",
+      "type": "milestone",
+      "zone": "Stormwind City",
+      "title": "Seal of Wrynn",
+      "text": "Carried the report on the Defias Brotherhood to the king. They gave me the Seal of Wrynn for it.",
+      "detail": "Kings make me want to check the exits. I checked them. Then I left with the seal.",
+      "pints": 0,
+      "bangs": 0,
+      "people": [],
+      "image": null,
+      "alt": null
+    },
+    {
+      "id": "2026-11-16-1552-gadgetzan",
+      "time": "2026-11-16T15:52:29-05:00",
+      "type": "milestone",
+      "zone": "Tanaris",
+      "title": "Gadgetzan",
+      "text": "Took the boat to Theramore and dropped off two errands. Then south through the Barrens, down the Great Lift, across the Shimmering Flats. Gadgetzan.",
+      "detail": "A goblin town full of engineers, in a desert, with a bruiser on every corner. Nobody here asks where a dwarf learned to build things. I could get used to that.",
+      "pints": 0,
+      "bangs": 0,
+      "people": [],
+      "image": null,
+      "alt": null
     }
   ],
   "threads": [],
@@ -1629,6 +1727,36 @@
         "2026-11-16",
         1.0
       ]
+    ],
+    "Sapp Achino": [
+      [
+        "2026-11-16",
+        1.0
+      ]
+    ],
+    "Eol Anglachel": [
+      [
+        "2026-11-16",
+        2.4
+      ]
+    ],
+    "Theoden Lightstone": [
+      [
+        "2026-11-16",
+        2.0
+      ]
+    ],
+    "Akarui Hoshi": [
+      [
+        "2026-11-16",
+        1.8
+      ]
+    ],
+    "Tonkrin Brassbolt": [
+      [
+        "2026-11-16",
+        1.6
+      ]
     ]
   },
   "zonesVisited": {
@@ -1669,15 +1797,15 @@
       "lastPostId": "2026-11-15-1734-over-the-hills"
     },
     "Stormwind City": {
-      "hours": 2.2,
+      "hours": 2.9,
       "first": "2026-11-12",
-      "last": "2026-11-12",
-      "lastPostId": "2026-11-12-1857-i-didnt-do-it"
+      "last": "2026-11-16",
+      "lastPostId": "2026-11-16-1510-seal-of-wrynn"
     },
     "Dustwallow Marsh": {
-      "hours": 0.3,
+      "hours": 0.5,
       "first": "2026-11-13",
-      "last": "2026-11-13",
+      "last": "2026-11-16",
       "lastPostId": null
     },
     "Hillsbrad Foothills": {
@@ -1691,6 +1819,18 @@
       "first": "2026-11-15",
       "last": "2026-11-16",
       "lastPostId": "2026-11-16-0045-tin-by-night"
+    },
+    "Thousand Needles": {
+      "hours": 0.3,
+      "first": "2026-11-16",
+      "last": "2026-11-16",
+      "lastPostId": null
+    },
+    "Tanaris": {
+      "hours": 0.7,
+      "first": "2026-11-16",
+      "last": "2026-11-16",
+      "lastPostId": "2026-11-16-1552-gadgetzan"
     }
   },
   "review": null,

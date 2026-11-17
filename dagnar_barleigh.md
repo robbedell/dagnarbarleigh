@@ -165,6 +165,9 @@ _Add a line per session: who you met, what Dagnar said that stuck, anything you 
 - 2026-11-15 23:33 — dispatch: Flew the long way round to Duskwood, where it's always night. Took a job called Crime and Punishment into Darkshire and came out with a town clerk's mittens.
 - 2026-11-15 23:34 — met: By the fire in Darkshire, Artemis Star talked Garrick Prowess through the road to a sleeping bag. Barrens, Stonetalon, Loch Modan, Hillsbrad.
 - 2026-11-16 00:45 — milestone: Mined Duskwood in the dark till a quarter to one. Tin and silver, mostly. Mining went from seventy-seven to ninety-five.
+- 2026-11-16 15:02 — dispatch: Bazil Thredd had a visitor in the Stockade. I followed the description up to the castle, to a lord called Lescovar meeting a Defias man in his own garden.
+- 2026-11-16 15:10 — milestone: Carried the report on the Defias Brotherhood to the king. They gave me the Seal of Wrynn for it.
+- 2026-11-16 15:52 — milestone: Took the boat to Theramore and dropped off two errands. Then south through the Barrens, down the Great Lift, across the Shimmering Flats. Gadgetzan.
 
 ---
 

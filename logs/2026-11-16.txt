@@ -1,0 +1,30 @@
+11/16 14:24:20.000  Logged in at Ironforge.
+11/16 14:34:06.000  Entered Stormwind City.
+11/16 14:36:02.179  Quest accepted: Shadow of the Past
+11/16 14:36:11.889  Quest accepted: Humble Beginnings
+11/16 14:47:54.925  Shadow of the Past completed.
+11/16 14:49:06.090  Look to an Old Friend completed.
+11/16 14:50:50.483  Infiltrating the Castle completed.
+11/16 14:58:08.518  Items of Some Consequence completed.
+11/16 15:01:48.539  Myrillian Greenleaf has invited you to join a group. (Eol Anglachel suggested it.)
+11/16 15:01:51.816  Party: Theoden Lightstone, Tonkrin Brassbolt, Akarui Hoshi, Eol Anglachel.
+11/16 15:02:45.812  [Party] Dagnar Barleigh: Questie: 1/1 Marzon the Silent Blade slain for The Attack!
+11/16 15:02:48.392  [Party] Dagnar Barleigh: Questie: 1/1 Lord Gregor Lescovar slain for The Attack!
+11/16 15:03:02.583  Your group has been disbanded.
+11/16 15:04:16.709  The Attack! completed.
+11/16 15:07:32.252  The Head of the Beast completed.
+11/16 15:09:02.154  Brotherhood's End completed.
+11/16 15:10:28.974  An Audience with the King completed.
+11/16 15:10:28.991  You receive item: Seal of Wrynn
+11/16 15:17:17.000  Entered Wetlands. Took the boat south.
+11/16 15:26:18.000  Entered Dustwallow Marsh.
+11/16 15:28:06.060  James Hyal completed.
+11/16 15:28:47.268  Fiora Longears completed.
+11/16 15:30:34.697  Discovered Witch Hill: 280 experience gained
+11/16 15:34:31.000  Entered The Barrens.
+11/16 15:36:58.000  Entered Thousand Needles.
+11/16 15:37:00.708  Discovered The Great Lift: 190 experience gained
+11/16 15:48:33.203  Discovered The Shimmering Flats: 275 experience gained
+11/16 15:52:00.000  Entered Tanaris.
+11/16 15:52:29.140  Discovered Gadgetzan: 280 experience gained
+11/16 16:36:40.046  Session ends.
