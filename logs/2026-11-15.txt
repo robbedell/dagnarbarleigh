@@ -47,3 +47,29 @@
 11/15 17:29:48.000  Your skill in Mining has increased to 76. You receive loot: Silver Ore x2
 11/15 17:34:12.000  Entered Hillsbrad Foothills.
 11/15 17:44:20.144  Session ends. Dagnar said nothing aloud today. Talked to: Brak Durnad, Brahnmar (thanks); Dwalin Toadenheim (emote). Near him: Minerva Moss, Tolmin Ironwhisper.
+11/15 20:20:16.615  Logged in at Hillsbrad Foothills (session 3).
+11/15 20:26:41.333  Your skill in Fishing has increased to 100. (13 fish caught this session: Raw Rainbow Fin Albacore, Oily Blackmouth.)
+11/15 20:26:41.588  You receive loot: Message in a Bottle
+11/15 20:36:16.761  Your skill in Fishing has increased to 105.
+11/15 20:37:08.590  Discovered Azurelode Mine: 220 experience gained
+11/15 20:40:09.000  Session ends.
+11/15 22:01:22.000  Logged in at Hillsbrad Foothills (session 4).
+11/15 22:20:29.156  You are now Away: AFK
+11/15 22:48:28.377  You are no longer Away.
+11/15 23:06:03.439  Near him in Southshore: Lim Jayhee.
+11/15 23:14:47.000  Entered Wetlands. Flew south by Dun Morogh, Searing Gorge, Burning Steppes, Elwynn Forest.
+11/15 23:25:12.000  Entered Duskwood.
+11/15 23:33:14.822  Crime and Punishment completed.
+11/15 23:33:14.863  You receive item: Town Clerk's Mittens
+11/15 23:33:31.405  Near him in Darkshire: Garrick Prowess, Artemis Star (talking routes to the sleeping bag).
+11/15 23:46:21.914  Your skill in Mining has increased to 77.
+11/15 23:48:54.843  Discovered Raven Hill Cemetery: 210 experience gained
+11/15 23:53:50.347  Discovered Brightwood Grove: 230 experience gained
+11/16 00:07:58.375  Discovered Twilight Grove: 94 experience gained
+11/16 00:35:30.784  Discovered Vul'Gol Ogre Mound: 230 experience gained
+11/16 00:39:01.492  Discovered The Yorgen Farmstead: 190 experience gained
+11/16 00:45:55.648  Your skill in Mining has increased to 95.
+11/16 00:57:12.000  Entered Stormwind City. Heard Jane Snowe offering free enchants.
+11/16 01:05:35.000  Entered Ironforge.
+11/16 01:06:22.599  You create Copper Bar.
+11/16 01:06:28.645  Session ends.

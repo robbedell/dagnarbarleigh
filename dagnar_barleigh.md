@@ -161,6 +161,10 @@ _Add a line per session: who you met, what Dagnar said that stuck, anything you 
 - 2026-11-15 13:48 — met: Walked into Menethil Harbor and two strangers handed me cards inside a minute. Brak Durnad gave me a boarding axe. Brahnmar gave me a marine's helm.
 - 2026-11-15 14:45 — letter: Spent the afternoon in Menethil. Out at the dig the archaeologist kept calling up the spirit, and five times it said the same thing about digging too deep into your past.
 - 2026-11-15 17:34 — milestone: Went north through Arathi at a run. A circle of standing stones, an orc farm, a troll village. Then over the border into Hillsbrad, which I'd never seen.
+- 2026-11-15 20:26 — dispatch: Fished the shore below Hillsbrad for twenty minutes. Rainbow fin, a few blackmouth, and a bottle with a message in it.
+- 2026-11-15 23:33 — dispatch: Flew the long way round to Duskwood, where it's always night. Took a job called Crime and Punishment into Darkshire and came out with a town clerk's mittens.
+- 2026-11-15 23:34 — met: By the fire in Darkshire, Artemis Star talked Garrick Prowess through the road to a sleeping bag. Barrens, Stonetalon, Loch Modan, Hillsbrad.
+- 2026-11-16 00:45 — milestone: Mined Duskwood in the dark till a quarter to one. Tin and silver, mostly. Mining went from seventy-seven to ninety-five.
 
 ---
 
