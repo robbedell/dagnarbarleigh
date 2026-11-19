@@ -1,0 +1,31 @@
+Session 2026-11-17 15:51–20:11 (Hillsbrad Foothills, Alterac Mountains, Dalaran). Party: Charm Moonfeather, Volundr Embercast, Niko Ikory, Abock Glorymace, Kelynessa Springsteel.
+11/17 16:11:17.585  Charm Moonfeather has invited you to join a group.
+11/17 16:12:00.548  Volundr Embercast joins the party.
+11/17 16:19:19.059  Lost Relic Carry completed.
+11/17 16:19:31.220  Quest accepted: Prehistoric Prism
+11/17 16:19:38.362  Quest accepted: Uncovering the Past
+11/17 16:22:29.468  Niko Ikory joins the party.
+11/17 16:22:42.010  Quest accepted: A Green Sample
+11/17 16:28:25.175  Abock Glorymace joins the party.
+11/17 16:33:42.734  Quest accepted: An Alarming Request
+11/17 16:42:58.325  Discovered Darrow Hill: 250 experience gained
+11/17 16:49:38.238  Discovered Lordamere Internment Camp: 255 experience gained
+11/17 16:50:41.035  An Alarming Request completed.
+11/17 16:50:43.079  Quest accepted: Heart of Disruption
+11/17 16:50:45.683  Quest accepted: Starving Arcane
+11/17 16:55:39.192  |Hchannel:PARTY|h[Party]|h Dagnar Barleigh: 3% EXP if you sleep
+11/17 17:31:38.727  You died.
+11/17 17:44:06.389  You died.
+11/17 18:09:46.611  Abock Glorymace leaves the party.
+11/17 18:11:53.599  Kelynessa Springsteel joins the party.
+11/17 18:31:38.393  Niko Ikory leaves the party.
+11/17 18:34:45.464  Niko Ikory joins the party.
+11/17 19:48:16.398  Starving Arcane completed.
+11/17 19:49:03.606  Heart of Disruption completed.
+11/17 19:49:06.848  Quest accepted: Friend of the Kirin Tor
+11/17 20:03:22.153  Quest accepted: The Grand Betrayal
+11/17 20:04:20.974  Quest accepted: Data Rescue
+11/17 20:05:29.766  Kelynessa Springsteel leaves the party.
+11/17 20:05:47.069  Volundr Embercast leaves the party.
+11/17 20:05:48.407  Niko Ikory leaves the party.
+11/17 20:10:07.194  Friend of the Kirin Tor completed.

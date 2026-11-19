@@ -175,6 +175,10 @@ _Add a line per session: who you met, what Dagnar said that stuck, anything you 
 - 2026-11-16 21:18 — dispatch: Charm put together a second group and took us into Razorfen Kraul. Quilboar, thorns, and a death speaker.
 - 2026-11-16 22:17 — dispatch: In the Kraul you dig up tubers with a gopher on a stick. Two of the group had words over whose tuber was whose. I kept my head down and my gopher busy.
 - 2026-11-16 22:52 — met: Licked a stranger called Ragnar Deepstorm on the road home through Dustwallow. Sober. Not a pint to blame.
+- 2026-11-17 16:12 — met: Charm put a party together in Hillsbrad and Volundr Embercast walked into it. Five days gone. Didn't say where. I didn't ask.
+- 2026-11-17 16:55 — dispatch: Charm whispered me the way, then admitted her map was wrong and mine was right. We ended up outside Dalaran in somebody's sleeping bag.
+- 2026-11-17 17:31 — death: Under Dalaran there's a boss with a beam. Abock said stay out of it. Volundr said watch out for it. I died in it at half past five, and again at quarter to six.
+- 2026-11-17 20:10 — milestone: Four hours in the ruins: green samples, starving arcana, a heart of disruption. The Kirin Tor called me a friend for it, and I came out thirty-three.
 
 ---
 

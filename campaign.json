@@ -155,11 +155,11 @@
     "Charm Moonfeather": {
       "race": "High Order Skyborne",
       "standing": "friend",
-      "warmth": 5.0,
+      "warmth": 5.2,
       "met": "2026-11-11",
       "metZone": "Redridge Mountains",
-      "lastSeen": "2026-11-16",
-      "lastSaid": "Thanked the Kraul group for being chill.",
+      "lastSeen": "2026-11-17",
+      "lastSaid": "Whispered that her map was wrong and mine was right.",
       "note": "Ran the whole day: Redridge, Blackfathom, Ashenvale as a pair, the Thandol Span. Knows every cave. Shared quests and turned one of mine down. Came and found me in Gadgetzan on the sixteenth. Five hours: the Wetlands dig, then the Kraul."
     },
     "Gawain Tenebris": {
@@ -345,11 +345,11 @@
     "Volundr Embercast": {
       "race": "Dwarf",
       "standing": "friend",
-      "warmth": 5.2,
+      "warmth": 5.5,
       "met": "2026-11-12",
       "metZone": "Ironforge",
-      "lastSeen": "2026-11-12",
-      "lastSaid": "Said he'd find me tomorrow.",
+      "lastSeen": "2026-11-17",
+      "lastSaid": "Warned the party about the beam. Then said rip.",
       "note": "Dwarf, tank. I invited him; we've run things before, off the record. Says I level like a madman. Cheered at me in the Stockade. Gets lost."
     },
     "Niko Ikory": {
@@ -358,8 +358,8 @@
       "warmth": 4.0,
       "met": "2026-11-12",
       "metZone": "Ironforge",
-      "lastSeen": "2026-11-14",
-      "lastSaid": "Said dwarven men are very attractive.",
+      "lastSeen": "2026-11-17",
+      "lastSaid": "Asked whether stealing a mage's mana in a mage city should be a crime.",
       "note": "Hunter, guild. Brought the quests and the sleeping bag. Pulled a boss early to beat my damage, and said so. Pats me on the head when passing."
     },
     "Kristian Sparklewits": {
@@ -721,6 +721,16 @@
       "lastSeen": "2026-11-16",
       "lastSaid": "Nothing. I licked him.",
       "note": "Got licked on the road through Dustwallow. By me. Sober."
+    },
+    "Abock Glorymace": {
+      "race": null,
+      "standing": "stranger",
+      "warmth": 2.0,
+      "met": "2026-11-17",
+      "metZone": "Hillsbrad Foothills",
+      "lastSeen": "2026-11-17",
+      "lastSaid": "Warned us to stay away from the boss beam.",
+      "note": "Joined Charm's party in Hillsbrad. Figured out a Dalaran book, asked for a decurse and said thank you for it."
     }
   },
   "stats": {
@@ -728,7 +738,7 @@
     "smashed": 0,
     "tipsy": 1,
     "drunk": 0,
-    "deaths": 13,
+    "deaths": 15,
     "dances": 0,
     "toasts": 0,
     "flirts": 1,
@@ -739,11 +749,11 @@
     "hearths": 0,
     "duelsWon": 0,
     "duelsLost": 0,
-    "groups": 6,
+    "groups": 7,
     "trades": 0,
-    "level": 32,
+    "level": 33,
     "guild": "The Brave of Lordaeron",
-    "people": 69,
+    "people": 70,
     "races": [
       "Dwarf",
       "Gnome",
@@ -751,12 +761,12 @@
       "High Order Skyborne",
       "Night Elf"
     ],
-    "zones": 14,
-    "lastZone": "Wetlands",
+    "zones": 16,
+    "lastZone": "Dalaran",
     "restHours": 2.4,
     "peak": "tipsy",
-    "sessions": 24,
-    "asOf": "2026-11-16"
+    "sessions": 25,
+    "asOf": "2026-11-17"
   },
   "posts": [
     {
@@ -1760,6 +1770,77 @@
       ],
       "image": null,
       "alt": null
+    },
+    {
+      "id": "2026-11-17-1612-volundr-again",
+      "time": "2026-11-17T16:12:00-05:00",
+      "type": "met",
+      "zone": "Hillsbrad Foothills",
+      "title": "Volundr, again",
+      "text": "Charm put a party together in Hillsbrad and Volundr Embercast walked into it. Five days gone. Didn't say where. I didn't ask.",
+      "detail": "Niko came too, and a newcomer called Abock Glorymace who'd just worked out a Dalaran book and wanted to know where the drowned city was. Charm said Stranglethorn, probably. Nobody argued with her.",
+      "pints": 0,
+      "bangs": 0,
+      "people": [
+        "Charm Moonfeather",
+        "Volundr Embercast",
+        "Niko Ikory",
+        "Abock Glorymace"
+      ],
+      "image": null,
+      "alt": null
+    },
+    {
+      "id": "2026-11-17-1655-the-sleeping-bag",
+      "time": "2026-11-17T16:55:39-05:00",
+      "type": "dispatch",
+      "zone": "Alterac Mountains",
+      "title": "The sleeping bag",
+      "text": "Charm whispered me the way, then admitted her map was wrong and mine was right. We ended up outside Dalaran in somebody's sleeping bag.",
+      "detail": "The one thing I said all afternoon, I said to the party: three percent experience if you sleep. Practical. Then the mace skill climbed forty points in the sewers and I stopped counting.",
+      "pints": 0,
+      "bangs": 0,
+      "people": [
+        "Charm Moonfeather"
+      ],
+      "image": null,
+      "alt": null
+    },
+    {
+      "id": "2026-11-17-1731-the-beam",
+      "time": "2026-11-17T17:31:38-05:00",
+      "type": "death",
+      "zone": "Dalaran",
+      "title": "The beam",
+      "text": "Under Dalaran there's a boss with a beam. Abock said stay out of it. Volundr said watch out for it. I died in it at half past five, and again at quarter to six.",
+      "detail": "Volundr said rip, which from a tank is a eulogy. Niko asked whether stealing a mage's mana in a mage city ought to be a crime. I'd have answered, but I was dead.",
+      "pints": 0,
+      "bangs": 0,
+      "people": [
+        "Volundr Embercast",
+        "Abock Glorymace",
+        "Niko Ikory"
+      ],
+      "image": null,
+      "alt": null
+    },
+    {
+      "id": "2026-11-17-2010-friend-of-the-kirin-tor",
+      "time": "2026-11-17T20:10:07-05:00",
+      "type": "milestone",
+      "zone": "Dalaran",
+      "title": "Friend of the Kirin Tor",
+      "text": "Four hours in the ruins: green samples, starving arcana, a heart of disruption. The Kirin Tor called me a friend for it, and I came out thirty-three.",
+      "detail": "The party broke up at five past eight, everyone at once, the way good nights end. Still no round bought. Volundr's back, though, and he knows where the beam is now. So do I.",
+      "pints": 0,
+      "bangs": 0,
+      "people": [
+        "Volundr Embercast",
+        "Charm Moonfeather",
+        "Niko Ikory"
+      ],
+      "image": null,
+      "alt": null
     }
   ],
   "threads": [],
@@ -2070,10 +2151,10 @@
       "lastPostId": "2026-11-16-2252-sober"
     },
     "Hillsbrad Foothills": {
-      "hours": 1.6,
+      "hours": 2.3,
       "first": "2026-11-15",
-      "last": "2026-11-15",
-      "lastPostId": "2026-11-15-2026-a-bottle-in-the-catch"
+      "last": "2026-11-17",
+      "lastPostId": "2026-11-17-1612-volundr-again"
     },
     "Duskwood": {
       "hours": 1.5,
@@ -2104,6 +2185,18 @@
       "first": "2026-11-16",
       "last": "2026-11-16",
       "lastPostId": null
+    },
+    "Alterac Mountains": {
+      "hours": 0.3,
+      "first": "2026-11-17",
+      "last": "2026-11-17",
+      "lastPostId": "2026-11-17-1655-the-sleeping-bag"
+    },
+    "Dalaran": {
+      "hours": 3.0,
+      "first": "2026-11-17",
+      "last": "2026-11-17",
+      "lastPostId": "2026-11-17-2010-friend-of-the-kirin-tor"
     }
   },
   "review": null,
