@@ -102,7 +102,7 @@ Launch-night crowds shout in /say. Someone is **met** only when they whispered h
 - **Running bits:** quality control (the eyebrows); "it's a brewery"; "another time" (Loch Modan); two bottles unopened, the malt and the message (the wine didn't count); didn't count out loud; no drink to raise back (Galanar Bose); patted on the head, twice in two days; kings make him check the exits; nobody in Gadgetzan asks; head down, gopher busy; licked a stranger sober, not a pint to blame; didn't say where, I didn't ask; her map was wrong and mine was right; the rock won, the grass won three times, the beam twice.
 - **Front-runner:** Charm Moonfeather, still. Built the party, whispered him the way, owned up that his map was better. Volundr Embercast back from five days gone, a friend in practice again. Nobody new has stuck; Abock Glorymace said thank you for a decurse.
 - **Grudges:** none worth the breath. Tecu Faeron hates Dark Irons, cheerfully, and was right that he has to live with himself. Thelgen Rock, the Wetlands grass and the Dalaran beam all won; none of them counts.
-- **Voice right now:** short sentences, dry, warm underneath, a little easier in company. Next beat: finish the Dalaran chain with Charm and Volundr, then buy the round and say one thing to her out loud. Build the Bright-Eye Goggles sober. The bottle stays corked. Ironband can wait.
+- **Voice right now:** short sentences, dry, warm underneath, a little easier in company. Next beat (Friday): finish the Dalaran chain with Charm and Volundr, then buy the round and say one thing to her out loud. Build the Bright-Eye Goggles sober. The bottle stays corked. Ironband can wait. The record still stops Tuesday night.
 
 ---
 
